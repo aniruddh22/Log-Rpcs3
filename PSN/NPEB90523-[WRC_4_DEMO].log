@@ -1,15 +1,15 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB90523\USRDIR\BOOT.BIN'...
+[!]: Loading 'C:\Users\venu\Downloads\rpcs3-2f65e84-windows-x86-32\rpcs3-2f65e84-windows-x86-32\dev_hdd0\game\NPEB90523\USRDIR\BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\
-[!]: /dev_hdd1/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd1\
-[!]: /dev_flash/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_flash\
-[!]: /dev_usb000/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_usb000\
-[!]: /dev_usb/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_usb000\
-[!]: /app_home/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB90523\
-[!]: /dev_bdvd/ -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB90523\\..\
+[!]: /dev_hdd0/ -> C:\Users\venu\Downloads\rpcs3-2f65e84-windows-x86-32\rpcs3-2f65e84-windows-x86-32\dev_hdd0\
+[!]: /dev_hdd1/ -> C:\Users\venu\Downloads\rpcs3-2f65e84-windows-x86-32\rpcs3-2f65e84-windows-x86-32\dev_hdd1\
+[!]: /dev_flash/ -> C:\Users\venu\Downloads\rpcs3-2f65e84-windows-x86-32\rpcs3-2f65e84-windows-x86-32\dev_flash\
+[!]: /dev_usb000/ -> C:\Users\venu\Downloads\rpcs3-2f65e84-windows-x86-32\rpcs3-2f65e84-windows-x86-32\dev_usb000\
+[!]: /dev_usb/ -> C:\Users\venu\Downloads\rpcs3-2f65e84-windows-x86-32\rpcs3-2f65e84-windows-x86-32\dev_usb000\
+[!]: /app_home/ -> C:\Users\venu\Downloads\rpcs3-2f65e84-windows-x86-32\rpcs3-2f65e84-windows-x86-32\dev_hdd0\game\NPEB90523\
+[!]: /dev_bdvd/ -> C:\Users\venu\Downloads\rpcs3-2f65e84-windows-x86-32\rpcs3-2f65e84-windows-x86-32\dev_hdd0\game\NPEB90523\\..\
 [!]: /host_root/ -> 
-[!]: / -> C:\Users\venu\Downloads\EmuCR-rpcs3-git-20140303-x86\EmuCR-rpcs3-git-20140303-x86\dev_hdd0\game\NPEB90523\
+[!]: / -> C:\Users\venu\Downloads\rpcs3-2f65e84-windows-x86-32\rpcs3-2f65e84-windows-x86-32\dev_hdd0\game\NPEB90523\
 [!]: Initing memory...
 [!]: Memory initialized.
 [W]: Unknown function 0x01fbbc9b in 'sceNp' module
@@ -258,8 +258,6 @@
 [E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
-[W]: Unknown function 0x95180230 in 'cellSpurs' module
-[E]: TODO: _cellSpursAttributeInitialize
 [W]: Unknown function 0x9f72add3 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0x9fef70c2 in 'cellSpurs' module
@@ -276,16 +274,10 @@
 [E]: TODO: _cellSpursTaskAttributeInitialize
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0xca4c4600 in 'cellSpurs' module
-[E]: TODO: cellSpursFinalize
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardNotify
 [W]: Unknown function 0xf31731bb in 'cellSpurs' module
 [E]: TODO: cellSpursRunJobChain
-[W]: Unknown function 0x4e66d483 in 'cellSpurs' module
-[E]: TODO: cellSpursDetachLv2EventQueue
-[W]: Unknown function 0xb9bc6207 in 'cellSpurs' module
-[E]: TODO: cellSpursAttachLv2EventQueue
 [W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
 [E]: TODO: _cellSpursSendSignal
 [W]: Unknown module 'cellRec'
@@ -417,16 +409,6 @@
 [E]: TODO: send
 [W]: Unknown function 0xfba04f37 in 'sys_net' module
 [E]: TODO: recv
-[W]: Unknown function 0x04459230 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogLoadAsync
-[W]: Unknown function 0x0f1f13d3 in 'cellNetCtl' module
-[E]: TODO: cellNetCtlNetStartDialogUnloadAsync
-[W]: Unknown function 0x105ee2cb in 'cellNetCtl' module
-[E]: TODO: cellNetCtlTerm
-[W]: Unknown function 0x1e585b5d in 'cellNetCtl' module
-[E]: TODO: cellNetCtlGetInfo
-[W]: Unknown function 0xbd5a59fc in 'cellNetCtl' module
-[E]: TODO: cellNetCtlInit
 [W]: Unknown function 0x01379fd7 in 'sceNp2' module
 [E]: TODO: sceNpMatching2DestroyContext
 [W]: Unknown function 0x03a2f42a in 'sceNp2' module
@@ -671,4 +653,3 @@
 [! : PPU[1] Thread (CPUThread)[0x01810900]]: CTR = 0x4
 [! : PPU[1] Thread (CPUThread)[0x01810900]]: XER = 0x0 [CA=0 | OV=0 | SO=0]
 [! : PPU[1] Thread (CPUThread)[0x01810900]]: FPSCR = 0x82004000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=4 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
-[!]: Closing memory...
