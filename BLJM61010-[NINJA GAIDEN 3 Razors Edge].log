@@ -111,8 +111,6 @@
 [E]: TODO: cellSpursJobQueuePort2Sync
 [W]: Unknown function 0xfc526b72 in 'cellSpursJq' module
 [E]: TODO: cellSpursJobQueuePort2PushSync
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
 [W]: Unknown function 0x011ee38b in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueueInitialize
 [W]: Unknown function 0x16394a4e in 'cellSpurs' module
@@ -121,22 +119,16 @@
 [E]: TODO: cellSpursLFQueueAttachLv2EventQueue
 [W]: Unknown function 0x1d46fedf in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
 [W]: Unknown function 0x303c19cd in 'cellSpurs' module
 [E]: TODO: cellSpursCreateJobChainWithAttribute
 [W]: Unknown function 0x34552fa6 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskExitCodeInitialize
 [W]: Unknown function 0x3548f483 in 'cellSpurs' module
 [E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
 [W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTaskset2
 [W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
 [E]: TODO: cellSpursEventFlagClear
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
 [W]: Unknown function 0x5ef96465 in 'cellSpurs' module
 [E]: TODO: _cellSpursEventFlagInitialize
 [W]: Unknown function 0x652b70e2 in 'cellSpurs' module
@@ -149,36 +141,26 @@
 [E]: TODO: cellSpursShutdownJobChain
 [W]: Unknown function 0x73e06f91 in 'cellSpurs' module
 [E]: TODO: cellSpursLFQueueDetachLv2EventQueue
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
 [W]: Unknown function 0x8a85674d in 'cellSpurs' module
 [E]: TODO: _cellSpursLFQueuePushBody
 [W]: Unknown function 0x8adadf65 in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttribute2Initialize
 [W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
 [E]: TODO: cellSpursTasksetAttributeSetTasksetSize
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
 [W]: Unknown function 0xa121a224 in 'cellSpurs' module
 [E]: TODO: cellSpursTaskAttributeSetExitCodeContainer
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
 [W]: Unknown function 0xa7a94892 in 'cellSpurs' module
 [E]: TODO: cellSpursJoinTask2
 [W]: Unknown function 0xa7c066de in 'cellSpurs' module
 [E]: TODO: cellSpursJoinJobChain
 [W]: Unknown function 0xb8474eff in 'cellSpurs' module
 [E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
 [W]: Unknown function 0xc10931cb in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTasksetWithAttribute
 [W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
 [E]: TODO: _cellSpursTasksetAttribute2Initialize
 [W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
 [E]: TODO: cellSpursJobGuardNotify
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
 [W]: Unknown function 0xe14ca62d in 'cellSpurs' module
 [E]: TODO: cellSpursCreateTask2
 [W]: Unknown function 0xe717ac73 in 'cellSpurs' module
@@ -198,8 +180,6 @@
 [E]: TODO: sceNpManagerGetAccountRegion
 [W]: Unknown function 0xeb7a3d84 in 'sceNp' module
 [E]: TODO: sceNpManagerGetChatRestrictionFlag
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
 [W]: Unknown function 0x01fbbc9b in 'sceNp' module
 [E]: TODO: sceNpBasicSendMessageGui
 [W]: Unknown function 0x04372385 in 'sceNp' module
@@ -557,12 +537,12 @@
 [E : PPU[1] Thread (CPUThread)[0x02bd607c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x144eda0)
 [E : PPU[1] Thread (CPUThread)[0x02bd607c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x144edbc)
 [E : PPU[1] Thread (CPUThread)[0x02bd607c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x144edd8)
-[E : PPU[1] Thread (CPUThread)[0x02bb0148]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00108e8, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=32)
-[E : PPU[1] Thread (CPUThread)[0x02bb0028]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108e8, prefix_addr=0x14520c0, size=0x4)
-[E : PPU[1] Thread (CPUThread)[0x02bb0070]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x186fa80, spurs_addr=0xd00108e8)
-[E : PPU[1] Thread (CPUThread)[0x02bb0148]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00108e8, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=251)
-[E : PPU[1] Thread (CPUThread)[0x02bb0028]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108e8, prefix_addr=0x14520c8, size=0x6)
-[E : PPU[1] Thread (CPUThread)[0x02bb0070]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x1871b00, spurs_addr=0xd00108e8)
+[W : PPU[1] Thread (CPUThread)[0x02bb0148]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00108e8, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=32)
+[W : PPU[1] Thread (CPUThread)[0x02bb0028]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108e8, prefix_addr=0x14520c0, size=0x4)
+[W : PPU[1] Thread (CPUThread)[0x02bb0070]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x186fa80, spurs_addr=0xd00108e8)
+[W : PPU[1] Thread (CPUThread)[0x02bb0148]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00108e8, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=251)
+[W : PPU[1] Thread (CPUThread)[0x02bb0028]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108e8, prefix_addr=0x14520c8, size=0x6)
+[W : PPU[1] Thread (CPUThread)[0x02bb0070]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x1871b00, spurs_addr=0xd00108e8)
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 27
 [W : PPU[1] Thread (CPUThread)[0x02bd210c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=2, func_addr=0x168fc20, userdata=0x0)
@@ -573,6 +553,7 @@
 [W : PPU[1] Thread (CPUThread)[0x02ba6004]]: cellGcmSys warning: cellGcmInit(context_addr=0x255dbc0,cmdSize=0x10000,ioSize=0x9000000,ioAddress=0x30400000)
 [W : PPU[1] Thread (CPUThread)[0x02ba6004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x02ba6004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30400000, io=0x0, size=0x9000000)
+[! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x02bb401c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_AVCONF_EXT)
 [W : PPU[1] Thread (CPUThread)[0x02bb4010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
@@ -584,7 +565,6 @@
 [E : PPU[1] Thread (CPUThread)[0x02ba6070]]: TODO: cellGcmSetQueueHandler
 [E : PPU[1] Thread (CPUThread)[0x02ba6130]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [E : PPU[1] Thread (CPUThread)[0x02ba6154]]: TODO: cellGcmSetSecondVHandler
-[! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x02ba6064]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x168f990)
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x21): sq_id = 29
 [! : PPU[1] Thread (CPUThread)[0x02bd6028]]: *** New PPU Thread [callback_drop_prepare_thread] (): id = 30
@@ -620,7 +600,7 @@
 [E : PPU[1] Thread (CPUThread)[0x02bb001c]]: TODO: _cellSpursLFQueueInitialize
 [E : PPU[1] Thread (CPUThread)[0x02bb0040]]: TODO: cellSpursLFQueueAttachLv2EventQueue
 [E : PPU[1] Thread (CPUThread)[0x02bb00d0]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x02bb0118]]: TODO: cellSpursEventFlagAttachLv2EventQueue
+[E : PPU[1] Thread (CPUThread)[0x02bb0118]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(event_flag_addr=0x2686c80)
 [E : PPU[1] Thread (CPUThread)[0x02bb0088]]: TODO: _cellSpursJobChainAttributeInitialize
 [E : PPU[1] Thread (CPUThread)[0x02bb0064]]: TODO: cellSpursCreateJobChainWithAttribute
 [E : PPU[1] Thread (CPUThread)[0x02bb00e8]]: TODO: cellSpursJobGuardInitialize
@@ -722,83 +702,3 @@
 [W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=2)
 [! : PPU[1] Thread (CPUThread)[0x02bd6028]]: *** New PPU Thread [] (): id = 33
 [W : PPU[33] Thread[0x02bb6070]]: cellGame warning: cellGameBootCheck(type_addr=0x2683eb4, attributes_addr=0x2683eb8, size_addr=0x2684828, dirName_addr=0x2684840)
-[E : PPU[1] Thread (CPUThread)[0x02bb0130]]: TODO: _cellSpursTaskAttribute2Initialize
-[E : PPU[1] Thread (CPUThread)[0x02bb01f0]]: TODO: cellSpursCreateTask2
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=1, index=1)
-[E : PPU[1] Thread (CPUThread)[0x0140ad58]]: Write32 to null block: [0000000c]: 1
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=2, index=1)
-[E : PPU[1] Thread (CPUThread)[0x0140ae20]]: Write32 to null block: [0000000c]: 1
-[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
-[E : RSXThread]: TODO: cellGcmSetControl0(0x101000)
-[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
-[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
-[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
-[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
-[E : RSXThread]: TODO: cellGcmWaitForIdle(0x0)
-[E : RSXThread]: TODO: cellGcmSetControl0(0x101000)
-[E : RSXThread]: TODO: unknown/illegal method [0x0000eb00](0x2)
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=0, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac580]]: Read32 from null block: [0000000c]
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=1, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac5a0]]: Read32 from null block: [0000000c]
-[E : PPU[1] Thread (CPUThread)[0x02ba60a0]]: TODO: cellGcmGetTimeStampLocation
-[E : PPU[1] Thread (CPUThread)[0x02ba60a0]]: TODO: cellGcmGetTimeStampLocation
-[E : RSXThread]: TODO: cellGcmSetControl0(0x100000)
-[W : RSXThread]: FP not found in buffer!
-[W : RSXThread]: VP not found in buffer!
-[! : RSXThread]: Add program (0):
-[! : RSXThread]: *** prog id = 3
-[! : RSXThread]: *** vp id = 2
-[! : RSXThread]: *** fp id = 1
-[! : RSXThread]: *** vp data size = 32
-[! : RSXThread]: *** fp data size = 112
-[! : RSXThread]: *** vp shader = 
-#version 330
-
-uniform mat4 scaleOffsetMat = mat4(1.0);
-layout (location = 0) in vec4 in_pos;
-layout (location = 8) in vec4 in_tc0;
-out vec4 tc0;
-
-void func0();
-
-void main()
-{
-	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-	func0();
-	gl_Position = gl_Position * scaleOffsetMat;
-}
-
-void func0()
-{
-	gl_Position = in_pos;
-	tc0.xy = in_tc0.xyxx.xy;
-}
-
-[! : RSXThread]: *** fp shader = 
-#version 330
-
-in vec4 tc0;
-uniform sampler2D tex0;
-uniform sampler2D tex1;
-vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
-vec4 h1 = vec4(0.0, 0.0, 0.0, 0.0);
-layout (location = 0) out vec4 ocol;
-
-void main()
-{
-	h0.xyz = texture(tex0, tc0.xy).xyz;
-	h1.y = texture(tex1, h0.zzzz.xy).y;
-	h0.z = h1.yyyy.z;
-	h0.y = texture(tex1, h0.yyyy.xy).y;
-	h0.y = h0.y;
-	h1.y = texture(tex1, h0.xy).y;
-	h0.x = h1.yyyy.x;
-	ocol = h0;
-}
-
-[W : RSXThread]: New FBO (720x480)
-[W : RSXThread]: m_set_restart_index requires glPrimitiveRestartIndex()
-[E : RSXThread]: TODO: unknown/illegal method [0x0000eb00](0x10004)
-[! : RSXThread]: RSX thread exit...
-[!]: Closing memory...
