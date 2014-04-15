@@ -15,6 +15,14 @@
 [!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\New folder\New folder\dev_hdd0\game\BLJM61010/\USRDIR\Data\
 [!]: Initing memory...
 [!]: Memory initialized.
+[S]: Function 'cellAANAddData' hooked
+[S]: Function 'cellSurMixerGetAANHandle' hooked
+[S]: Function 'cellSurMixerSetNotifyCallback' hooked
+[S]: Function 'cellSurMixerChStripGetAANPortNo' hooked
+[S]: Function 'cellSurMixerSetParameter' hooked
+[S]: Function 'cellSurMixerStart' hooked
+[S]: Function 'cellSurMixerFinalize' hooked
+[S]: Function 'cellSurMixerCreate' hooked
 [W]: Unknown function 0x21fc151f in 'cellCamera' module
 [E]: TODO: cellCameraReadEx
 [W]: Unknown function 0x456dc4aa in 'cellCamera' module
@@ -573,6 +581,7 @@
 [W : PPU[1] Thread (CPUThread)[0x02ba6004]]: cellGcmSys warning: cellGcmInit(context_addr=0x255dbc0,cmdSize=0x10000,ioSize=0x9000000,ioAddress=0x30400000)
 [W : PPU[1] Thread (CPUThread)[0x02ba6004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
 [W : PPU[1] Thread (CPUThread)[0x02ba6004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30400000, io=0x0, size=0x9000000)
+[! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x02bb401c]]: cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_AVCONF_EXT)
 [W : PPU[1] Thread (CPUThread)[0x02bb4010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
@@ -584,7 +593,6 @@
 [E : PPU[1] Thread (CPUThread)[0x02ba6070]]: TODO: cellGcmSetQueueHandler
 [E : PPU[1] Thread (CPUThread)[0x02ba6130]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
 [E : PPU[1] Thread (CPUThread)[0x02ba6154]]: TODO: cellGcmSetSecondVHandler
-[! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x02ba6064]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x168f990)
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x21): sq_id = 29
 [! : PPU[1] Thread (CPUThread)[0x02bd6028]]: *** New PPU Thread [callback_drop_prepare_thread] (): id = 30
@@ -800,5 +808,3 @@ void main()
 [W : RSXThread]: New FBO (720x480)
 [W : RSXThread]: m_set_restart_index requires glPrimitiveRestartIndex()
 [E : RSXThread]: TODO: unknown/illegal method [0x0000eb00](0x10004)
-[! : RSXThread]: RSX thread exit...
-[!]: Closing memory...
