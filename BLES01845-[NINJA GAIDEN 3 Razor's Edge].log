@@ -700,3 +700,83 @@
 [W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=2)
 [! : PPU[1] Thread (CPUThread)[0x02bd6028]]: *** New PPU Thread [] (): id = 33
 [W : PPU[33] Thread[0x02bb6070]]: cellGame warning: cellGameBootCheck(type_addr=0x2683eb4, attributes_addr=0x2683eb8, size_addr=0x2684828, dirName_addr=0x2684840)
+[E : PPU[1] Thread (CPUThread)[0x02bb0130]]: TODO: _cellSpursTaskAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x02bb01f0]]: TODO: cellSpursCreateTask2
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=1, index=1)
+[E : PPU[1] Thread (CPUThread)[0x0140ad58]]: Write32 to null block: [0000000c]: 1
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=2, index=1)
+[E : PPU[1] Thread (CPUThread)[0x0140ae20]]: Write32 to null block: [0000000c]: 1
+[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
+[E : RSXThread]: TODO: cellGcmSetControl0(0x101000)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
+[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
+[E : RSXThread]: TODO: cellGcmWaitForIdle(0x0)
+[E : RSXThread]: TODO: cellGcmSetControl0(0x101000)
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 1
+[E : RSXThread]: TODO: unknown/illegal method [0x0000eb00](0x2)
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=0, index=1)
+[E : PPU[1] Thread (CPUThread)[0x00aac580]]: Read32 from null block: [0000000c]
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=1, index=1)
+[E : PPU[1] Thread (CPUThread)[0x00aac5a0]]: Read32 from null block: [0000000c]
+[E : PPU[1] Thread (CPUThread)[0x02ba60a0]]: TODO: cellGcmGetTimeStampLocation
+[E : PPU[1] Thread (CPUThread)[0x02ba60a0]]: TODO: cellGcmGetTimeStampLocation
+[W : RSXThread]: NV4097_GET_REPORT: Unimplemented type 1
+[E : RSXThread]: TODO: cellGcmSetControl0(0x100000)
+[W : RSXThread]: FP not found in buffer!
+[W : RSXThread]: VP not found in buffer!
+[! : RSXThread]: Add program (0):
+[! : RSXThread]: *** prog id = 3
+[! : RSXThread]: *** vp id = 2
+[! : RSXThread]: *** fp id = 1
+[! : RSXThread]: *** vp data size = 32
+[! : RSXThread]: *** fp data size = 112
+[! : RSXThread]: *** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+layout (location = 0) in vec4 in_pos;
+layout (location = 8) in vec4 in_tc0;
+out vec4 tc0;
+
+void func0();
+
+void main()
+{
+	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+	func0();
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	gl_Position = in_pos;
+	tc0.xy = in_tc0.xyxx.xy;
+}
+
+[! : RSXThread]: *** fp shader = 
+#version 330
+
+in vec4 tc0;
+uniform sampler2D tex0;
+uniform sampler2D tex1;
+vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h1 = vec4(0.0, 0.0, 0.0, 0.0);
+layout (location = 0) out vec4 ocol;
+
+void main()
+{
+	h0.xyz = texture(tex0, tc0.xy).xyz;
+	h1.y = texture(tex1, h0.zzzz.xy).y;
+	h0.z = h1.yyyy.z;
+	h0.y = texture(tex1, h0.yyyy.xy).y;
+	h0.y = h0.y;
+	h1.y = texture(tex1, h0.xy).y;
+	h0.x = h1.yyyy.x;
+	ocol = h0;
+}
+
+[W : RSXThread]: New FBO (720x480)
+[W : RSXThread]: m_set_restart_index requires glPrimitiveRestartIndex()
+[E : RSXThread]: TODO: unknown/illegal method [0x0000eb00](0x10004)
