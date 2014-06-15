@@ -1,519 +1,225 @@
 [!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\New folder\New folder\dev_hdd0\game\BLJM61010/USRDIR/BOOT.BIN'...
+[!]: (S)ELF: booting...
+[W]: SELF: No NPDRM control info found!
+[!]: Loading 'E:\RPCS3\New folder\BLJM61010-[NINJA GAIDEN 3 Razors Edge]\PS3_GAME\USRDIR/BOOT.BIN'...
 [!]: Mount info:
-[!]: /dev_hdd0/ -> D:\New folder\New folder/dev_hdd0/
-[!]: /dev_hdd1/ -> D:\New folder\New folder/dev_hdd1/
-[!]: /dev_flash/ -> D:\New folder\New folder/dev_flash/
-[!]: /dev_usb000/ -> D:\New folder\New folder/dev_usb000/
-[!]: /dev_usb/ -> D:\New folder\New folder/dev_usb000/
-[!]: /app_home/ -> D:\New folder\New folder\dev_hdd0\game\BLJM61010/\USRDIR\
-[!]: /dev_bdvd/ -> D:\New folder\New folder\dev_hdd0\game\BLJM61010//../
+[!]: /dev_hdd0/ -> E:\RPCS3\rpcs3-52a1860-windows-x86-64/dev_hdd0/
+[!]: /dev_hdd1/ -> E:\RPCS3\rpcs3-52a1860-windows-x86-64/dev_hdd1/
+[!]: /dev_flash/ -> E:\RPCS3\rpcs3-52a1860-windows-x86-64/dev_flash/
+[!]: /dev_usb000/ -> E:\RPCS3\rpcs3-52a1860-windows-x86-64/dev_usb000/
+[!]: /dev_usb/ -> E:\RPCS3\rpcs3-52a1860-windows-x86-64/dev_usb000/
+[!]: /app_home/ -> E:\RPCS3\New folder\BLJM61010-[NINJA GAIDEN 3 Razors Edge]\PS3_GAME\
+[!]: /dev_bdvd/ -> E:\RPCS3\New folder\BLJM61010-[NINJA GAIDEN 3 Razors Edge]\PS3_GAME\/../
 [!]: /host_root/ -> 
-[!]: ///resource/ -> D:\New folder\New folder\dev_hdd0\game\BLJM61010/\USRDIR\resource\
-[!]: /Data/ -> D:\New folder\New folder\dev_hdd0\game\BLJM61010/\USRDIR\Data\
-[!]: / -> D:\New folder\New folder\dev_hdd0\game\BLJM61010/\USRDIR\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\New folder\New folder\dev_hdd0\game\BLJM61010/\USRDIR\Data\
+[!]: / -> E:\RPCS3\New folder\BLJM61010-[NINJA GAIDEN 3 Razors Edge]\PS3_GAME\
 [!]: Initing memory...
 [!]: Memory initialized.
-[W]: Unknown function 0x21fc151f in 'cellCamera' module
-[E]: TODO: cellCameraReadEx
-[W]: Unknown function 0x456dc4aa in 'cellCamera' module
-[E]: TODO: cellCameraStart
-[W]: Unknown function 0x58bc5870 in 'cellCamera' module
-[E]: TODO: cellCameraGetType
-[W]: Unknown function 0x5ad46570 in 'cellCamera' module
-[E]: TODO: cellCameraEnd
-[W]: Unknown function 0x5d25f866 in 'cellCamera' module
-[E]: TODO: cellCameraOpenEx
-[W]: Unknown function 0x81f83db9 in 'cellCamera' module
-[E]: TODO: cellCameraReset
-[W]: Unknown function 0x8cd56eee in 'cellCamera' module
-[E]: TODO: cellCameraSetAttribute
-[W]: Unknown function 0xbf47c5dd in 'cellCamera' module
-[E]: TODO: cellCameraInit
-[W]: Unknown function 0x01036193 in 'cellFiber' module
-[E]: TODO: cellFiberPpuContextReturnToThread
-[W]: Unknown function 0x31252ec3 in 'cellFiber' module
-[E]: TODO: _cellFiberPpuContextAttributeInitialize
-[W]: Unknown function 0x34a81091 in 'cellFiber' module
-[E]: TODO: cellFiberPpuContextSelf
-[W]: Unknown function 0x72086315 in 'cellFiber' module
-[E]: TODO: cellFiberPpuContextInitialize
-[W]: Unknown function 0xaba1c563 in 'cellFiber' module
-[E]: TODO: cellFiberPpuContextRun
-[W]: Unknown function 0xb3a48079 in 'cellFiber' module
-[E]: TODO: cellFiberPpuContextFinalize
-[W]: Unknown function 0xb90c871b in 'cellFiber' module
-[E]: TODO: cellFiberPpuContextCheckStackLimit
-[W]: Unknown function 0xd0066b17 in 'cellFiber' module
-[E]: TODO: cellFiberPpuContextSwitch
-[W]: Unknown function 0x55870804 in 'cellFiber' module
-[E]: TODO: _cellFiberPpuInitialize
-[W]: Unknown function 0x0a862772 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetQueueHandler
-[W]: Unknown function 0x23ae55a3 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastSecondVTime
-[W]: Unknown function 0x2ad4951b in 'cellGcmSys' module
-[E]: TODO: cellGcmGetTimeStampLocation
-[W]: Unknown function 0x63387071 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastFlipTime
-[W]: Unknown function 0xa6b180ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReportDataLocation
-[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetFlipImmediate
-[W]: Unknown function 0xdc494430 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetSecondVHandler
+[W]: Unimplemented function 'cellCameraReadEx' in 'cellCamera' module
+[W]: Unimplemented function 'cellCameraStart' in 'cellCamera' module
+[W]: Unimplemented function 'cellCameraGetType' in 'cellCamera' module
+[W]: Unimplemented function 'cellCameraEnd' in 'cellCamera' module
+[W]: Unimplemented function 'cellCameraOpenEx' in 'cellCamera' module
+[W]: Unimplemented function 'cellCameraReset' in 'cellCamera' module
+[W]: Unimplemented function 'cellCameraSetAttribute' in 'cellCamera' module
+[W]: Unimplemented function 'cellCameraInit' in 'cellCamera' module
+[W]: Unimplemented function 'cellFiberPpuContextReturnToThread' in 'cellFiber' module
+[W]: Unimplemented function '_cellFiberPpuContextAttributeInitialize' in 'cellFiber' module
+[W]: Unimplemented function 'cellFiberPpuContextSelf' in 'cellFiber' module
+[W]: Unimplemented function 'cellFiberPpuContextInitialize' in 'cellFiber' module
+[W]: Unimplemented function 'cellFiberPpuContextRun' in 'cellFiber' module
+[W]: Unimplemented function 'cellFiberPpuContextFinalize' in 'cellFiber' module
+[W]: Unimplemented function 'cellFiberPpuContextCheckStackLimit' in 'cellFiber' module
+[W]: Unimplemented function 'cellFiberPpuContextSwitch' in 'cellFiber' module
+[W]: Unimplemented function '_cellFiberPpuInitialize' in 'cellFiber' module
 [W]: Unknown module 'libgem'
 [W]: Unknown module 'cellHttp'
-[W]: Unknown function 0x0582338a in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueueAttributeSetDoBusyWaiting
-[W]: Unknown function 0x0f03f712 in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueueAttributeSetSubmitWithEntryLock
-[W]: Unknown function 0x1686957e in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueueAttributeSetMaxSizeJobDescriptor
-[W]: Unknown function 0x26fa81b4 in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueuePortFinalize
-[W]: Unknown function 0x3d1294fc in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueuePortInitialize
-[W]: Unknown function 0x43ddab4f in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueueAttributeInitialize
-[W]: Unknown function 0x4e1a17a6 in 'cellSpursJq' module
-[E]: TODO: _cellSpursJobQueuePortPushBody
-[W]: Unknown function 0x634b1502 in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueuePortSync
-[W]: Unknown function 0x742cec0d in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueueAttributeSetIsJobTypeMemoryCheck
-[W]: Unknown function 0x8c97a96c in 'cellSpursJq' module
-[E]: TODO: cellSpursShutdownJobQueue
-[W]: Unknown function 0x8ce4cffa in 'cellSpursJq' module
-[E]: TODO: cellSpursJoinJobQueue
-[W]: Unknown function 0xbd1c5d6b in 'cellSpursJq' module
-[E]: TODO: _cellSpursJobQueuePortPushFlush
-[W]: Unknown function 0xe70f874e in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueueAttributeSetGrabParameters
-[W]: Unknown function 0xf244e799 in 'cellSpursJq' module
-[E]: TODO: _cellSpursCreateJobQueue
-[W]: Unknown function 0xff03cc79 in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueueAttributeSetIsHaltOnError
-[W]: Unknown function 0x01bbf2e0 in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueueGetSpurs
-[W]: Unknown function 0xb53436e7 in 'cellSpursJq' module
-[E]: TODO: _cellSpursJobQueuePort2PushJobListBody
-[W]: Unknown function 0xbfea28ab in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueuePort2PushFlush
-[W]: Unknown function 0xc485d207 in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueuePort2Destroy
-[W]: Unknown function 0xcf89f218 in 'cellSpursJq' module
-[E]: TODO: _cellSpursJobQueuePort2PushJobBody
-[W]: Unknown function 0xf11fe0f1 in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueuePort2Create
-[W]: Unknown function 0xfacb3ced in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueuePort2Sync
-[W]: Unknown function 0xfc526b72 in 'cellSpursJq' module
-[E]: TODO: cellSpursJobQueuePort2PushSync
-[W]: Unknown function 0xacfc8dbc in 'cellSpurs' module
-[E]: TODO: cellSpursInitialize
-[W]: Unknown function 0x011ee38b in 'cellSpurs' module
-[E]: TODO: _cellSpursLFQueueInitialize
-[W]: Unknown function 0x16394a4e in 'cellSpurs' module
-[E]: TODO: _cellSpursTasksetAttributeInitialize
-[W]: Unknown function 0x1656d49f in 'cellSpurs' module
-[E]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[W]: Unknown function 0x1d46fedf in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskWithAttribute
-[W]: Unknown function 0x22aab31d in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagDetachLv2EventQueue
-[W]: Unknown function 0x303c19cd in 'cellSpurs' module
-[E]: TODO: cellSpursCreateJobChainWithAttribute
-[W]: Unknown function 0x34552fa6 in 'cellSpurs' module
-[E]: TODO: cellSpursTaskExitCodeInitialize
-[W]: Unknown function 0x3548f483 in 'cellSpurs' module
-[E]: TODO: _cellSpursJobChainAttributeInitialize
-[W]: Unknown function 0x373523d4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagWait
-[W]: Unknown function 0x4a6465e3 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset2
-[W]: Unknown function 0x4ac7bae4 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagClear
-[W]: Unknown function 0x52cc6c82 in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTaskset
-[W]: Unknown function 0x5ef96465 in 'cellSpurs' module
-[E]: TODO: _cellSpursEventFlagInitialize
-[W]: Unknown function 0x652b70e2 in 'cellSpurs' module
-[E]: TODO: cellSpursTasksetAttributeSetName
-[W]: Unknown function 0x68aaeba9 in 'cellSpurs' module
-[E]: TODO: cellSpursJobGuardInitialize
-[W]: Unknown function 0x6d2d9339 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagTryWait
-[W]: Unknown function 0x738e40e6 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownJobChain
-[W]: Unknown function 0x73e06f91 in 'cellSpurs' module
-[E]: TODO: cellSpursLFQueueDetachLv2EventQueue
-[W]: Unknown function 0x87630976 in 'cellSpurs' module
-[E]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[W]: Unknown function 0x8a85674d in 'cellSpurs' module
-[E]: TODO: _cellSpursLFQueuePushBody
-[W]: Unknown function 0x8adadf65 in 'cellSpurs' module
-[E]: TODO: _cellSpursTaskAttribute2Initialize
-[W]: Unknown function 0x8f122ef8 in 'cellSpurs' module
-[E]: TODO: cellSpursTasksetAttributeSetTasksetSize
-[W]: Unknown function 0x9f72add3 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTaskset
-[W]: Unknown function 0xa121a224 in 'cellSpurs' module
-[E]: TODO: cellSpursTaskAttributeSetExitCodeContainer
-[W]: Unknown function 0xa789e631 in 'cellSpurs' module
-[E]: TODO: cellSpursShutdownTaskset
-[W]: Unknown function 0xa7a94892 in 'cellSpurs' module
-[E]: TODO: cellSpursJoinTask2
-[W]: Unknown function 0xa7c066de in 'cellSpurs' module
-[E]: TODO: cellSpursJoinJobChain
-[W]: Unknown function 0xb8474eff in 'cellSpurs' module
-[E]: TODO: _cellSpursTaskAttributeInitialize
-[W]: Unknown function 0xbeb600ac in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask
-[W]: Unknown function 0xc10931cb in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTasksetWithAttribute
-[W]: Unknown function 0xc2acdf43 in 'cellSpurs' module
-[E]: TODO: _cellSpursTasksetAttribute2Initialize
-[W]: Unknown function 0xd5d0b256 in 'cellSpurs' module
-[E]: TODO: cellSpursJobGuardNotify
-[W]: Unknown function 0xe0a6dbe4 in 'cellSpurs' module
-[E]: TODO: _cellSpursSendSignal
-[W]: Unknown function 0xe14ca62d in 'cellSpurs' module
-[E]: TODO: cellSpursCreateTask2
-[W]: Unknown function 0xe717ac73 in 'cellSpurs' module
-[E]: TODO: cellSpursTaskExitCodeTryGet
-[W]: Unknown function 0xf31731bb in 'cellSpurs' module
-[E]: TODO: cellSpursRunJobChain
-[W]: Unknown function 0x1650aea4 in 'cellSsl' module
-[E]: TODO: cellSslEnd
-[W]: Unknown function 0x571afaca in 'cellSsl' module
-[E]: TODO: cellSslCertificateLoader
-[W]: Unknown function 0xfb02c9d2 in 'cellSsl' module
-[E]: TODO: cellSslInit
+[W]: Unimplemented function 'cellSpursJobQueueAttributeSetDoBusyWaiting' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueueAttributeSetSubmitWithEntryLock' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueueAttributeSetMaxSizeJobDescriptor' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueuePortFinalize' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueuePortInitialize' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueueAttributeInitialize' in 'cellSpursJq' module
+[W]: Unimplemented function '_cellSpursJobQueuePortPushBody' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueuePortSync' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueueAttributeSetIsJobTypeMemoryCheck' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursShutdownJobQueue' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJoinJobQueue' in 'cellSpursJq' module
+[W]: Unimplemented function '_cellSpursJobQueuePortPushFlush' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueueAttributeSetGrabParameters' in 'cellSpursJq' module
+[W]: Unimplemented function '_cellSpursCreateJobQueue' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueueAttributeSetIsHaltOnError' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueueGetSpurs' in 'cellSpursJq' module
+[W]: Unimplemented function '_cellSpursJobQueuePort2PushJobListBody' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueuePort2PushFlush' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueuePort2Destroy' in 'cellSpursJq' module
+[W]: Unimplemented function '_cellSpursJobQueuePort2PushJobBody' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueuePort2Create' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueuePort2Sync' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursJobQueuePort2PushSync' in 'cellSpursJq' module
+[W]: Unimplemented function 'cellSpursTasksetAttributeSetTasksetSize' in 'cellSpurs' module
+[W]: Unimplemented function 'cellSslEnd' in 'cellSsl' module
+[W]: Unimplemented function 'cellSslCertificateLoader' in 'cellSsl' module
+[W]: Unimplemented function 'cellSslInit' in 'cellSsl' module
 [W]: Unknown module 'sceNpCommerce2'
-[W]: Unknown function 0x6ee62ed2 in 'sceNp' module
-[E]: TODO: sceNpManagerGetContentRatingFlag
-[W]: Unknown function 0xb1e0718b in 'sceNp' module
-[E]: TODO: sceNpManagerGetAccountRegion
-[W]: Unknown function 0xeb7a3d84 in 'sceNp' module
-[E]: TODO: sceNpManagerGetChatRestrictionFlag
-[W]: Unknown function 0xf042b14f in 'sceNp' module
-[E]: TODO: sceNpDrmIsAvailable2
-[W]: Unknown function 0x01fbbc9b in 'sceNp' module
-[E]: TODO: sceNpBasicSendMessageGui
-[W]: Unknown function 0x04372385 in 'sceNp' module
-[E]: TODO: sceNpBasicGetFriendListEntry
-[W]: Unknown function 0x21206642 in 'sceNp' module
-[E]: TODO: sceNpScoreGetRankingByRangeAsync
-[W]: Unknown function 0x259113b8 in 'sceNp' module
-[E]: TODO: sceNpScoreDestroyTitleCtx
-[W]: Unknown function 0x32cf311f in 'sceNp' module
-[E]: TODO: sceNpScoreInit
-[W]: Unknown function 0x3d1760dc in 'sceNp' module
-[E]: TODO: sceNpLookupAbortTransaction
-[W]: Unknown function 0x3db7914d in 'sceNp' module
-[E]: TODO: sceNpScoreGetRankingByNpIdAsync
-[W]: Unknown function 0x4026eac5 in 'sceNp' module
-[E]: TODO: sceNpBasicRegisterContextSensitiveHandler
-[W]: Unknown function 0x52a6b523 in 'sceNp' module
-[E]: TODO: sceNpManagerUnregisterCallback
-[W]: Unknown function 0x5de61626 in 'sceNp' module
-[E]: TODO: sceNpLookupDestroyTitleCtx
-[W]: Unknown function 0x5f2d9257 in 'sceNp' module
-[E]: TODO: sceNpLookupInit
-[W]: Unknown function 0x64a704cc in 'sceNp' module
-[E]: TODO: sceNpBasicRecvMessageAttachmentLoad
-[W]: Unknown function 0x6f5e8143 in 'sceNp' module
-[E]: TODO: sceNpScoreCreateTransactionCtx
-[W]: Unknown function 0x73931bd0 in 'sceNp' module
-[E]: TODO: sceNpBasicGetBlockListEntryCount
-[W]: Unknown function 0x7508112e in 'sceNp' module
-[E]: TODO: sceNpLookupPollAsync
-[W]: Unknown function 0x7be47e61 in 'sceNp' module
-[E]: TODO: sceNpScoreCensorCommentAsync
-[W]: Unknown function 0x806960ab in 'sceNp' module
-[E]: TODO: sceNpBasicRecvMessageCustom
-[W]: Unknown function 0x8440537c in 'sceNp' module
-[E]: TODO: sceNpLookupTerm
-[W]: Unknown function 0x860b1756 in 'sceNp' module
-[E]: TODO: sceNpLookupTitleSmallStorageAsync
-[W]: Unknown function 0x9851f805 in 'sceNp' module
-[E]: TODO: sceNpScoreTerm
-[W]: Unknown function 0xa7a090e5 in 'sceNp' module
-[E]: TODO: sceNpScorePollAsync
-[W]: Unknown function 0xacb9ee8e in 'sceNp' module
-[E]: TODO: sceNpBasicUnregisterHandler
-[W]: Unknown function 0xafef640d in 'sceNp' module
-[E]: TODO: sceNpBasicGetFriendListEntryCount
-[W]: Unknown function 0xb9f93bbb in 'sceNp' module
-[E]: TODO: sceNpScoreCreateTitleCtx
-[W]: Unknown function 0xbcdbb2ab in 'sceNp' module
-[E]: TODO: sceNpBasicAddPlayersHistoryAsync
-[W]: Unknown function 0xbdc07fd5 in 'sceNp' module
-[E]: TODO: sceNpManagerGetNetworkTime
-[W]: Unknown function 0xbe07c708 in 'sceNp' module
-[E]: TODO: sceNpManagerGetOnlineId
-[W]: Unknown function 0xc5f4cf82 in 'sceNp' module
-[E]: TODO: sceNpScoreDestroyTransactionCtx
-[W]: Unknown function 0xce81c7f0 in 'sceNp' module
-[E]: TODO: sceNpLookupCreateTitleCtx
-[W]: Unknown function 0xd208f91d in 'sceNp' module
-[E]: TODO: sceNpUtilCmpNpId
-[W]: Unknown function 0xdb2e4dc2 in 'sceNp' module
-[E]: TODO: sceNpScoreGetGameDataAsync
-[W]: Unknown function 0xddce7d15 in 'sceNp' module
-[E]: TODO: sceNpScoreGetBoardInfoAsync
-[W]: Unknown function 0xe035f7d6 in 'sceNp' module
-[E]: TODO: sceNpBasicGetEvent
-[W]: Unknown function 0xe7dcd3b4 in 'sceNp' module
-[E]: TODO: sceNpManagerRegisterCallback
-[W]: Unknown function 0xea2e9ffc in 'sceNp' module
-[E]: TODO: sceNpLookupCreateTransactionCtx
-[W]: Unknown function 0xecd503de in 'sceNp' module
-[E]: TODO: sceNpBasicGetMessageEntryCount
-[W]: Unknown function 0xee5b20d9 in 'sceNp' module
-[E]: TODO: sceNpScoreAbortTransaction
-[W]: Unknown function 0xf0b1e399 in 'sceNp' module
-[E]: TODO: sceNpScoreRecordScoreAsync
-[W]: Unknown function 0xf2b3338a in 'sceNp' module
-[E]: TODO: sceNpBasicGetBlockListEntry
-[W]: Unknown function 0xf42c0df8 in 'sceNp' module
-[E]: TODO: sceNpManagerGetOnlineName
-[W]: Unknown function 0xf76847c2 in 'sceNp' module
-[E]: TODO: sceNpScoreRecordGameDataAsync
-[W]: Unknown function 0xfb87cf5e in 'sceNp' module
-[E]: TODO: sceNpLookupDestroyTransactionCtx
-[W]: Unknown function 0xfe37a7f4 in 'sceNp' module
-[E]: TODO: sceNpManagerGetNpId
-[W]: Unknown function 0xbef554a4 in 'sys_fs' module
-[E]: TODO: cellFsUtime
-[W]: Unknown function 0x3140f6e1 in 'sys_fs' module
-[E]: TODO: cellFsSetIoBuffer
-[W]: Unknown function 0x6d3bb15b in 'sys_fs' module
-[E]: TODO: cellFsSdataOpenByFd
-[W]: Unknown function 0x967a162b in 'sys_fs' module
-[E]: TODO: cellFsFsync
-[W]: Unknown function 0x5e00d433 in 'cellSync2' module
-[E]: TODO: _cellSync2QueueAttributeInitialize
-[W]: Unknown function 0x6af85cdf in 'cellSync2' module
-[E]: TODO: cellSync2QueueFinalize
-[W]: Unknown function 0xc08cc0f9 in 'cellSync2' module
-[E]: TODO: cellSync2QueueEstimateBufferSize
-[W]: Unknown function 0xd83ab0c9 in 'cellSync2' module
-[E]: TODO: cellSync2QueuePop
-[W]: Unknown function 0xf125e044 in 'cellSync2' module
-[E]: TODO: cellSync2QueueInitialize
-[W]: Unknown function 0x13efe7f5 in 'sys_net' module
-[E]: TODO: getsockname
-[W]: Unknown function 0x28e208bb in 'sys_net' module
-[E]: TODO: listen
-[W]: Unknown function 0x3f09e20a in 'sys_net' module
-[E]: TODO: socketselect
-[W]: Unknown function 0x5a045bd1 in 'sys_net' module
-[E]: TODO: getsockopt
-[W]: Unknown function 0xf9ec2db6 in 'sys_net' module
-[E]: TODO: getpeername
-[W]: Unknown function 0x0247c69e in 'cellSail' module
-[E]: TODO: cellSailGraphicsAdapterGetFrame
-[W]: Unknown function 0x1139a206 in 'cellSail' module
-[E]: TODO: cellSailPlayerSetSoundAdapter
-[W]: Unknown function 0x15fd6a2a in 'cellSail' module
-[E]: TODO: cellSailDescriptorClose
-[W]: Unknown function 0x18b4629d in 'cellSail' module
-[E]: TODO: cellSailPlayerFinalize
-[W]: Unknown function 0x18bcd21b in 'cellSail' module
-[E]: TODO: cellSailPlayerSetGraphicsAdapter
-[W]: Unknown function 0x1c983864 in 'cellSail' module
-[E]: TODO: cellSailGraphicsAdapterInitialize
-[W]: Unknown function 0x23654375 in 'cellSail' module
-[E]: TODO: cellSailPlayerInitialize2
-[W]: Unknown function 0x2e3ccb5e in 'cellSail' module
-[E]: TODO: cellSailGraphicsAdapterSetPreferredFormat
-[W]: Unknown function 0x346ebba3 in 'cellSail' module
-[E]: TODO: cellSailMemAllocatorInitialize
-[W]: Unknown function 0x34ecc1b9 in 'cellSail' module
-[E]: TODO: cellSailPlayerOpenStream
-[W]: Unknown function 0x3d0d3b72 in 'cellSail' module
-[E]: TODO: cellSailSoundAdapterInitialize
-[W]: Unknown function 0x44a20e79 in 'cellSail' module
-[E]: TODO: cellSailGraphicsAdapterUpdateAvSync
-[W]: Unknown function 0x752f8585 in 'cellSail' module
-[E]: TODO: cellSailPlayerGetDescriptorCount
-[W]: Unknown function 0x76488bb1 in 'cellSail' module
-[E]: TODO: cellSailGraphicsAdapterFinalize
-[W]: Unknown function 0x7c8dff3b in 'cellSail' module
-[E]: TODO: cellSailPlayerAddDescriptor
-[W]: Unknown function 0x7eb8d6b5 in 'cellSail' module
-[E]: TODO: cellSailSoundAdapterGetFrame
-[W]: Unknown function 0x85beffcc in 'cellSail' module
-[E]: TODO: cellSailPlayerCloseStream
-[W]: Unknown function 0x950d53c1 in 'cellSail' module
-[E]: TODO: cellSailPlayerCancel
-[W]: Unknown function 0x952269c9 in 'cellSail' module
-[E]: TODO: cellSailPlayerGetParameter
-[W]: Unknown function 0xbdf21b0f in 'cellSail' module
-[E]: TODO: cellSailPlayerBoot
-[W]: Unknown function 0xc044fab1 in 'cellSail' module
-[E]: TODO: cellSailDescriptorOpen
-[W]: Unknown function 0xd1462438 in 'cellSail' module
-[E]: TODO: cellSailSoundAdapterFinalize
-[W]: Unknown function 0xd1d55a90 in 'cellSail' module
-[E]: TODO: cellSailPlayerSetPaused
-[W]: Unknown function 0xd7938b8d in 'cellSail' module
-[E]: TODO: cellSailPlayerCreateDescriptor
-[W]: Unknown function 0xe535b0d3 in 'cellSail' module
-[E]: TODO: cellSailPlayerStart
-[W]: Unknown function 0xeba8d4ec in 'cellSail' module
-[E]: TODO: cellSailPlayerStop
-[W]: Unknown function 0xeec22809 in 'cellSail' module
-[E]: TODO: cellSailSoundAdapterUpdateAvSync
-[W]: Unknown function 0xf25f197d in 'cellSail' module
-[E]: TODO: cellSailSoundAdapterGetFormat
-[W]: Unknown function 0xfc5baf8a in 'cellSail' module
-[E]: TODO: cellSailPlayerSetRepeatMode
-[W]: Unknown function 0xfc839bd4 in 'cellSail' module
-[E]: TODO: cellSailPlayerDestroyDescriptor
-[W]: Unknown function 0xffd58aa4 in 'cellSail' module
-[E]: TODO: cellSailGraphicsAdapterGetFormat
+[W]: Unimplemented function 'sceNpManagerGetContentRatingFlag' in 'sceNp' module
+[W]: Unimplemented function 'sceNpManagerGetAccountRegion' in 'sceNp' module
+[W]: Unimplemented function 'sceNpManagerGetChatRestrictionFlag' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicSendMessageGui' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicGetFriendListEntry' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreGetRankingByRangeAsync' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreDestroyTitleCtx' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreInit' in 'sceNp' module
+[W]: Unimplemented function 'sceNpLookupAbortTransaction' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreGetRankingByNpIdAsync' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicRegisterContextSensitiveHandler' in 'sceNp' module
+[W]: Unimplemented function 'sceNpManagerUnregisterCallback' in 'sceNp' module
+[W]: Unimplemented function 'sceNpLookupDestroyTitleCtx' in 'sceNp' module
+[W]: Unimplemented function 'sceNpLookupInit' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicRecvMessageAttachmentLoad' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreCreateTransactionCtx' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicGetBlockListEntryCount' in 'sceNp' module
+[W]: Unimplemented function 'sceNpLookupPollAsync' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreCensorCommentAsync' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicRecvMessageCustom' in 'sceNp' module
+[W]: Unimplemented function 'sceNpLookupTerm' in 'sceNp' module
+[W]: Unimplemented function 'sceNpLookupTitleSmallStorageAsync' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreTerm' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScorePollAsync' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicUnregisterHandler' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicGetFriendListEntryCount' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreCreateTitleCtx' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicAddPlayersHistoryAsync' in 'sceNp' module
+[W]: Unimplemented function 'sceNpManagerGetNetworkTime' in 'sceNp' module
+[W]: Unimplemented function 'sceNpManagerGetOnlineId' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreDestroyTransactionCtx' in 'sceNp' module
+[W]: Unimplemented function 'sceNpLookupCreateTitleCtx' in 'sceNp' module
+[W]: Unimplemented function 'sceNpUtilCmpNpId' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreGetGameDataAsync' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreGetBoardInfoAsync' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicGetEvent' in 'sceNp' module
+[W]: Unimplemented function 'sceNpManagerRegisterCallback' in 'sceNp' module
+[W]: Unimplemented function 'sceNpLookupCreateTransactionCtx' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicGetMessageEntryCount' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreAbortTransaction' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreRecordScoreAsync' in 'sceNp' module
+[W]: Unimplemented function 'sceNpBasicGetBlockListEntry' in 'sceNp' module
+[W]: Unimplemented function 'sceNpManagerGetOnlineName' in 'sceNp' module
+[W]: Unimplemented function 'sceNpScoreRecordGameDataAsync' in 'sceNp' module
+[W]: Unimplemented function 'sceNpLookupDestroyTransactionCtx' in 'sceNp' module
+[W]: Unimplemented function 'sceNpManagerGetNpId' in 'sceNp' module
+[W]: Unimplemented function 'cellFsUtime' in 'sys_fs' module
+[W]: Unimplemented function 'cellFsSetIoBuffer' in 'sys_fs' module
+[W]: Unimplemented function 'cellFsSdataOpenByFd' in 'sys_fs' module
+[W]: Unimplemented function 'cellFsFsync' in 'sys_fs' module
+[W]: Unimplemented function '_cellSync2QueueAttributeInitialize' in 'cellSync2' module
+[W]: Unimplemented function 'cellSync2QueueFinalize' in 'cellSync2' module
+[W]: Unimplemented function 'cellSync2QueueEstimateBufferSize' in 'cellSync2' module
+[W]: Unimplemented function 'cellSync2QueuePop' in 'cellSync2' module
+[W]: Unimplemented function 'cellSync2QueueInitialize' in 'cellSync2' module
+[W]: Unimplemented function 'getsockname' in 'sys_net' module
+[W]: Unimplemented function 'socketselect' in 'sys_net' module
+[W]: Unimplemented function 'getsockopt' in 'sys_net' module
+[W]: Unimplemented function 'getpeername' in 'sys_net' module
+[W]: Unimplemented function 'cellSailGraphicsAdapterGetFrame' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerSetSoundAdapter' in 'cellSail' module
+[W]: Unimplemented function 'cellSailDescriptorClose' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerFinalize' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerSetGraphicsAdapter' in 'cellSail' module
+[W]: Unimplemented function 'cellSailGraphicsAdapterInitialize' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerInitialize2' in 'cellSail' module
+[W]: Unimplemented function 'cellSailGraphicsAdapterSetPreferredFormat' in 'cellSail' module
+[W]: Unimplemented function 'cellSailMemAllocatorInitialize' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerOpenStream' in 'cellSail' module
+[W]: Unimplemented function 'cellSailSoundAdapterInitialize' in 'cellSail' module
+[W]: Unimplemented function 'cellSailGraphicsAdapterUpdateAvSync' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerGetDescriptorCount' in 'cellSail' module
+[W]: Unimplemented function 'cellSailGraphicsAdapterFinalize' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerAddDescriptor' in 'cellSail' module
+[W]: Unimplemented function 'cellSailSoundAdapterGetFrame' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerCloseStream' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerCancel' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerGetParameter' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerBoot' in 'cellSail' module
+[W]: Unimplemented function 'cellSailDescriptorOpen' in 'cellSail' module
+[W]: Unimplemented function 'cellSailSoundAdapterFinalize' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerSetPaused' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerCreateDescriptor' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerStart' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerStop' in 'cellSail' module
+[W]: Unimplemented function 'cellSailSoundAdapterUpdateAvSync' in 'cellSail' module
+[W]: Unimplemented function 'cellSailSoundAdapterGetFormat' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerSetRepeatMode' in 'cellSail' module
+[W]: Unimplemented function 'cellSailPlayerDestroyDescriptor' in 'cellSail' module
+[W]: Unimplemented function 'cellSailGraphicsAdapterGetFormat' in 'cellSail' module
 [W]: Unknown module 'cellSysutilAvconfExt'
-[W]: Unknown function 0x01379fd7 in 'sceNp2' module
-[E]: TODO: sceNpMatching2DestroyContext
-[W]: Unknown function 0x05bf2fbd in 'sceNp2' module
-[E]: TODO: sceNpMatching2GetWorldInfoList
-[W]: Unknown function 0x0d22867f in 'sceNp2' module
-[E]: TODO: sceNpMatching2SearchRoom
-[W]: Unknown function 0x1f372697 in 'sceNp2' module
-[E]: TODO: sceNpMatching2LeaveRoom
-[W]: Unknown function 0x215b0d75 in 'sceNp2' module
-[E]: TODO: sceNpMatching2SetRoomDataExternal
-[W]: Unknown function 0x23009d07 in 'sceNp2' module
-[E]: TODO: sceNpMatching2Term2
-[W]: Unknown function 0x26ae9ff8 in 'sceNp2' module
-[E]: TODO: sceNpMatching2SignalingGetConnectionInfo
-[W]: Unknown function 0x28cad8b3 in 'sceNp2' module
-[E]: TODO: sceNpMatching2SendRoomMessage
-[W]: Unknown function 0x3457c0db in 'sceNp2' module
-[E]: TODO: sceNpMatching2GetServerInfo
-[W]: Unknown function 0x3c00c9d4 in 'sceNp2' module
-[E]: TODO: sceNpMatching2GetEventData
-[W]: Unknown function 0x41251f74 in 'sceNp2' module
-[E]: TODO: sceNp2Init
-[W]: Unknown function 0x430ce063 in 'sceNp2' module
-[E]: TODO: sceNpMatching2AbortContextStart
-[W]: Unknown function 0x490124fd in 'sceNp2' module
-[E]: TODO: sceNpMatching2GetRoomMemberIdListLocal
-[W]: Unknown function 0x5721e711 in 'sceNp2' module
-[E]: TODO: sceNpMatching2JoinRoom
-[W]: Unknown function 0x66f19527 in 'sceNp2' module
-[E]: TODO: sceNpMatching2KickoutRoomMember
-[W]: Unknown function 0x6ba4c668 in 'sceNp2' module
-[E]: TODO: sceNpMatching2ContextStartAsync
-[W]: Unknown function 0x748029a2 in 'sceNp2' module
-[E]: TODO: sceNpMatching2RegisterContextCallback
-[W]: Unknown function 0x7bf6e152 in 'sceNp2' module
-[E]: TODO: sceNpMatching2SendRoomChatMessage
-[W]: Unknown function 0x817d1090 in 'sceNp2' module
-[E]: TODO: sceNpMatching2SetRoomDataInternal
-[W]: Unknown function 0x8d3f8d49 in 'sceNp2' module
-[E]: TODO: sceNpMatching2SignalingGetPingInfo
-[W]: Unknown function 0x8e5cfe9f in 'sceNp2' module
-[E]: TODO: sceNpMatching2GetServerIdListLocal
-[W]: Unknown function 0x9344d41f in 'sceNp2' module
-[E]: TODO: sceNpMatching2GrantRoomOwner
-[W]: Unknown function 0x9cbce3f2 in 'sceNp2' module
-[E]: TODO: sceNpMatching2CreateContext
-[W]: Unknown function 0xa9e6103e in 'sceNp2' module
-[E]: TODO: sceNpMatching2RegisterSignalingCallback
-[W]: Unknown function 0xaa6c2c43 in 'sceNp2' module
-[E]: TODO: sceNpMatching2ClearEventData
-[W]: Unknown function 0xaadb7c12 in 'sceNp2' module
-[E]: TODO: sceNp2Term
-[W]: Unknown function 0xdb87b088 in 'sceNp2' module
-[E]: TODO: sceNpMatching2SetDefaultRequestOptParam
-[W]: Unknown function 0xdcb6b27d in 'sceNp2' module
-[E]: TODO: sceNpMatching2RegisterRoomEventCallback
-[W]: Unknown function 0xde6d308b in 'sceNp2' module
-[E]: TODO: sceNpMatching2GetRoomPasswordLocal
-[W]: Unknown function 0xe7a3bc7a in 'sceNp2' module
-[E]: TODO: sceNpMatching2CreateJoinRoom
-[W]: Unknown function 0xf43c647a in 'sceNp2' module
-[E]: TODO: sceNpMatching2ContextStop
-[W]: Unknown function 0xf4babd3f in 'sceNp2' module
-[E]: TODO: sceNpMatching2Init2
-[W]: Unknown function 0xfee11e72 in 'sceNp2' module
-[E]: TODO: sceNpMatching2RegisterRoomMessageCallback
+[W]: Unimplemented function 'sceNpMatching2DestroyContext' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2GetWorldInfoList' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2SearchRoom' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2LeaveRoom' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2SetRoomDataExternal' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2Term2' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2SignalingGetConnectionInfo' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2SendRoomMessage' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2GetServerInfo' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2GetEventData' in 'sceNp2' module
+[W]: Unimplemented function 'sceNp2Init' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2AbortContextStart' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2GetRoomMemberIdListLocal' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2JoinRoom' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2KickoutRoomMember' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2ContextStartAsync' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2RegisterContextCallback' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2SendRoomChatMessage' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2SetRoomDataInternal' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2SignalingGetPingInfo' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2GetServerIdListLocal' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2GrantRoomOwner' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2CreateContext' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2RegisterSignalingCallback' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2ClearEventData' in 'sceNp2' module
+[W]: Unimplemented function 'sceNp2Term' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2SetDefaultRequestOptParam' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2RegisterRoomEventCallback' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2GetRoomPasswordLocal' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2CreateJoinRoom' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2ContextStop' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2Init2' in 'sceNp2' module
+[W]: Unimplemented function 'sceNpMatching2RegisterRoomMessageCallback' in 'sceNp2' module
 [W]: Unknown module 'sceNpTus'
-[W]: Unknown function 0x20543730 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogClose
-[W]: Unknown function 0x21425307 in 'cellSysutil' module
-[E]: TODO: cellSaveDataListAutoLoad
-[W]: Unknown function 0x4dd03a4e in 'cellSysutil' module
-[E]: TODO: cellSaveDataListAutoSave
-[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogAbort
-[W]: Unknown function 0x7bc2c8a8 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogProgressBarReset
-[W]: Unknown function 0x8b7ed64b in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoSave2
-[W]: Unknown function 0x94862702 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogProgressBarInc
-[W]: Unknown function 0x9d6af72a in 'cellSysutil' module
-[E]: TODO: cellMsgDialogProgressBarSetMsg
-[W]: Unknown function 0xced17573 in 'cellSysutil' module
-[E]: TODO: cellSaveDataFixedDelete
-[W]: Unknown function 0xe7fa820b in 'cellSysutil' module
-[E]: TODO: cellSaveDataEnableOverlay
-[W]: Unknown function 0xedadd797 in 'cellSysutil' module
-[E]: TODO: cellSaveDataDelete2
-[W]: Unknown function 0xfbd5c856 in 'cellSysutil' module
-[E]: TODO: cellSaveDataAutoLoad2
-[W]: Unknown function 0x18d3df30 in 'cellVoice' module
-[E]: TODO: cellVoiceDisconnectIPortFromOPort
-[W]: Unknown function 0x2a01013e in 'cellVoice' module
-[E]: TODO: cellVoiceCreateNotifyEventQueue
-[W]: Unknown function 0x2de54871 in 'cellVoice' module
-[E]: TODO: cellVoiceCreatePort
-[W]: Unknown function 0x35d84910 in 'cellVoice' module
-[E]: TODO: cellVoiceSetNotifyEventQueue
-[W]: Unknown function 0x36472c57 in 'cellVoice' module
-[E]: TODO: cellVoiceReadFromOPort
-[W]: Unknown function 0x54ac3519 in 'cellVoice' module
-[E]: TODO: cellVoiceGetPortInfo
-[W]: Unknown function 0x94d51f92 in 'cellVoice' module
-[E]: TODO: cellVoiceStartEx
-[W]: Unknown function 0x9d0f4af1 in 'cellVoice' module
-[E]: TODO: cellVoiceSetPortAttr
-[W]: Unknown function 0x9f70c475 in 'cellVoice' module
-[E]: TODO: cellVoiceDeletePort
-[W]: Unknown function 0xae6a21d5 in 'cellVoice' module
-[E]: TODO: cellVoiceConnectIPortToOPort
-[W]: Unknown function 0xb1a2c38f in 'cellVoice' module
-[E]: TODO: cellVoiceInitEx
-[W]: Unknown function 0xc4f573b8 in 'cellVoice' module
-[E]: Unknown func id: 0xc4f573b8
-[W]: Unknown function 0xd3a84be1 in 'cellVoice' module
-[E]: TODO: cellVoiceStop
-[W]: Unknown function 0xdd000886 in 'cellVoice' module
-[E]: TODO: cellVoiceRemoveNotifyEventQueue
-[W]: Unknown function 0xdde35a0c in 'cellVoice' module
-[E]: TODO: cellVoiceSetMuteFlag
-[W]: Unknown function 0xe0e1ae12 in 'cellVoice' module
-[E]: TODO: cellVoiceEnd
-[W]: Unknown function 0x26090058 in 'sysPrxForUser' module
-[E]: TODO: sys_prx_load_module
-[W]: Unknown function 0x8a561d92 in 'sysPrxForUser' module
-[E]: TODO: _sys_heap_free
-[W]: Unknown function 0xa330ad84 in 'sysPrxForUser' module
-[E]: TODO: sys_prx_load_module_on_memcontainer_by_fd
-[W]: Unknown function 0xaa6d9bff in 'sysPrxForUser' module
-[E]: TODO: sys_prx_load_module_on_memcontainer
-[W]: Unknown function 0xaede4b03 in 'sysPrxForUser' module
-[E]: TODO: _sys_heap_delete_heap
-[W]: Unknown function 0xdd3b27ac in 'sysPrxForUser' module
-[E]: TODO: _sys_spu_printf_finalize
-[W]: Unknown function 0xef68c17c in 'sysPrxForUser' module
-[E]: TODO: sys_prx_load_module_by_fd
+[W]: Unimplemented function 'cellMsgDialogClose' in 'cellSysutil' module
+[W]: Unimplemented function 'cellSaveDataListAutoLoad' in 'cellSysutil' module
+[W]: Unimplemented function 'cellSaveDataListAutoSave' in 'cellSysutil' module
+[W]: Unimplemented function 'cellMsgDialogAbort' in 'cellSysutil' module
+[W]: Unimplemented function 'cellMsgDialogProgressBarReset' in 'cellSysutil' module
+[W]: Unimplemented function 'cellMsgDialogProgressBarInc' in 'cellSysutil' module
+[W]: Unimplemented function 'cellMsgDialogProgressBarSetMsg' in 'cellSysutil' module
+[W]: Unimplemented function 'cellSaveDataFixedDelete' in 'cellSysutil' module
+[W]: Unimplemented function 'cellSaveDataEnableOverlay' in 'cellSysutil' module
+[W]: Unimplemented function 'cellSaveDataDelete2' in 'cellSysutil' module
+[W]: Unimplemented function 'cellVoiceDisconnectIPortFromOPort' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceCreateNotifyEventQueue' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceCreatePort' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceSetNotifyEventQueue' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceReadFromOPort' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceGetPortInfo' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceStartEx' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceSetPortAttr' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceDeletePort' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceConnectIPortToOPort' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceInitEx' in 'cellVoice' module
+[W]: Unimplemented function 'Unknown func id: 0xc4f573b8' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceStop' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceRemoveNotifyEventQueue' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceSetMuteFlag' in 'cellVoice' module
+[W]: Unimplemented function 'cellVoiceEnd' in 'cellVoice' module
+[W]: Unimplemented function 'sys_prx_load_module' in 'sysPrxForUser' module
+[W]: Unimplemented function '_sys_heap_free' in 'sysPrxForUser' module
+[W]: Unimplemented function 'sys_prx_load_module_on_memcontainer_by_fd' in 'sysPrxForUser' module
+[W]: Unimplemented function 'sys_prx_load_module_on_memcontainer' in 'sysPrxForUser' module
+[W]: Unimplemented function '_sys_heap_delete_heap' in 'sysPrxForUser' module
+[W]: Unimplemented function '_sys_spu_printf_finalize' in 'sysPrxForUser' module
+[W]: Unimplemented function 'sys_prx_load_module_by_fd' in 'sysPrxForUser' module
+[S]: (S)ELF: boot done.
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 [W : PPU[1] Thread (CPUThread)[0x00b993b8]]: memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
@@ -557,12 +263,12 @@
 [E : PPU[1] Thread (CPUThread)[0x02bd607c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x144eda0)
 [E : PPU[1] Thread (CPUThread)[0x02bd607c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x144edbc)
 [E : PPU[1] Thread (CPUThread)[0x02bd607c]]: sysPrxForUser error: sys_prx_register_library(lib_addr=0x144edd8)
-[E : PPU[1] Thread (CPUThread)[0x02bb0148]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00108e8, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=32)
-[E : PPU[1] Thread (CPUThread)[0x02bb0028]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108e8, prefix_addr=0x14520c0, size=0x4)
-[E : PPU[1] Thread (CPUThread)[0x02bb0070]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x186fa80, spurs_addr=0xd00108e8)
-[E : PPU[1] Thread (CPUThread)[0x02bb0148]]: cellSpurs error: _cellSpursAttributeInitialize(attr_addr=0xd00108e8, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=251)
-[E : PPU[1] Thread (CPUThread)[0x02bb0028]]: cellSpurs error: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108e8, prefix_addr=0x14520c8, size=0x6)
-[E : PPU[1] Thread (CPUThread)[0x02bb0070]]: cellSpurs error: cellSpursInitializeWithAttribute2(spurs_addr=0x1871b00, spurs_addr=0xd00108e8)
+[W : PPU[1] Thread (CPUThread)[0x02bb0148]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00108e8, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=32)
+[W : PPU[1] Thread (CPUThread)[0x02bb0028]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108e8, prefix_addr=0x14520c0, size=0x4)
+[W : PPU[1] Thread (CPUThread)[0x02bb0070]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x186fa80, spurs_addr=0xd00108e8)
+[W : PPU[1] Thread (CPUThread)[0x02bb0148]]: cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0xd00108e8, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=251)
+[W : PPU[1] Thread (CPUThread)[0x02bb0028]]: cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0xd00108e8, prefix_addr=0x14520c8, size=0x6)
+[W : PPU[1] Thread (CPUThread)[0x02bb0070]]: cellSpurs warning: cellSpursInitializeWithAttribute2(spurs_addr=0x1871b00, spurs_addr=0xd00108e8)
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 26
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 27
 [W : PPU[1] Thread (CPUThread)[0x02bd210c]]: cellSysutil warning: cellSysutilRegisterCallback(slot=2, func_addr=0x168fc20, userdata=0x0)
@@ -581,52 +287,50 @@
 [W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x02bd2010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00102f0, option_addr=0x0, waitForEvent=0x0)
 [W : PPU[1] Thread (CPUThread)[0x02ba6100]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=23656816)
-[E : PPU[1] Thread (CPUThread)[0x02ba6070]]: TODO: cellGcmSetQueueHandler
+[E : PPU[1] Thread (CPUThread)[0x02ba6070]]: cellGcmSys error: Unimplemented function: cellGcmSetQueueHandler
 [E : PPU[1] Thread (CPUThread)[0x02ba6130]]: cellGcmSys error: Unimplemented function: cellGcmSetVBlankHandler
-[E : PPU[1] Thread (CPUThread)[0x02ba6154]]: TODO: cellGcmSetSecondVHandler
-[! : RSXThread]: RSX thread entry
+[E : PPU[1] Thread (CPUThread)[0x02ba6154]]: cellGcmSys error: Unimplemented function: cellGcmSetSecondVHandler
 [W : PPU[1] Thread (CPUThread)[0x02ba6064]]: cellGcmSys warning: cellGcmSetUserHandler(handler=0x168f990)
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x21): sq_id = 29
 [! : PPU[1] Thread (CPUThread)[0x02bd6028]]: *** New PPU Thread [callback_drop_prepare_thread] (): id = 30
+[! : RSXThread]: RSX thread entry
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 31
 [W : PPU[1] Thread (CPUThread)[0x02bd6058]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 32
 [W : PPU[1] Thread (CPUThread)[0x02ba60b8]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
 [W : PPU[1] Thread (CPUThread)[0x02ba60dc]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x39600000, io=0xe000000, size=0x100000)
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=0, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [00000000]: 0
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=1, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [00000000]: 0
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=2, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [00000000]: 0
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=3, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [00000000]: 0
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=4, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [00000000]: 0
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=5, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [00000000]: 0
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=6, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [00000000]: 0
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=7, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [00000000]: 0
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=0, location=1)
+[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [04000000]: 0
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=1, location=1)
+[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [04000010]: 0
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=2, location=1)
+[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [04000020]: 0
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=3, location=1)
+[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [04000030]: 0
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=4, location=1)
+[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [04000040]: 0
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=5, location=1)
+[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [04000050]: 0
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=6, location=1)
+[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [04000060]: 0
+[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmSys warning: cellGcmGetReportDataAddressLocation(index=7, location=1)
+[E : PPU[1] Thread (CPUThread)[0x00aac7b8]]: Write64 to null block: [04000070]: 0
 [W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2880)
 [W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=2880)
 [W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=0, location=0, offset=65536, size=8716288, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=0)
-[W : PPU[1] Thread (CPUThread)[0x02ba610c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x10000,pitch=7,width=720,height=480)
-[W : PPU[1] Thread (CPUThread)[0x02ba610c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x268000,pitch=7,width=720,height=480)
-[E : PPU[1] Thread (CPUThread)[0x02bb01c0]]: TODO: _cellSpursTasksetAttribute2Initialize
-[E : PPU[1] Thread (CPUThread)[0x02bb00a0]]: TODO: cellSpursCreateTaskset2
-[E : PPU[1] Thread (CPUThread)[0x02bb001c]]: TODO: _cellSpursLFQueueInitialize
-[E : PPU[1] Thread (CPUThread)[0x02bb0040]]: TODO: cellSpursLFQueueAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x02bb00d0]]: TODO: _cellSpursEventFlagInitialize
-[E : PPU[1] Thread (CPUThread)[0x02bb0118]]: TODO: cellSpursEventFlagAttachLv2EventQueue
-[E : PPU[1] Thread (CPUThread)[0x02bb0088]]: TODO: _cellSpursJobChainAttributeInitialize
-[E : PPU[1] Thread (CPUThread)[0x02bb0064]]: TODO: cellSpursCreateJobChainWithAttribute
-[E : PPU[1] Thread (CPUThread)[0x02bb00e8]]: TODO: cellSpursJobGuardInitialize
-[E : PPU[1] Thread (CPUThread)[0x02bb00e8]]: TODO: cellSpursJobGuardInitialize
-[E : PPU[1] Thread (CPUThread)[0x02bb00e8]]: TODO: cellSpursJobGuardInitialize
-[E : PPU[1] Thread (CPUThread)[0x02bb0208]]: TODO: cellSpursRunJobChain
+[E : PPU[1] Thread (CPUThread)[0x02bb01c0]]: cellSpurs error: Unimplemented function: _cellSpursTasksetAttribute2Initialize
+[E : PPU[1] Thread (CPUThread)[0x02bb00a0]]: cellSpurs error: Unimplemented function: cellSpursCreateTaskset2
+[E : PPU[1] Thread (CPUThread)[0x02bb001c]]: cellSpurs error: Unimplemented function: _cellSpursLFQueueInitialize
+[E : PPU[1] Thread (CPUThread)[0x02bb0040]]: cellSpurs error: Unimplemented function: cellSpursLFQueueAttachLv2EventQueue
+[W : PPU[1] Thread (CPUThread)[0x02bb00d0]]: cellSpurs warning: _cellSpursEventFlagInitialize(spurs_addr=0x186fa80, taskset_addr=0x0, eventFlag_addr=0x2686c80, flagClearMode=0, flagDirection=1)
+[E : PPU[1] Thread (CPUThread)[0x02bb0118]]: cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(eventFlag_addr=0x2686c80)
+[E : PPU[1] Thread (CPUThread)[0x02bb0088]]: cellSpurs error: Unimplemented function: _cellSpursJobChainAttributeInitialize
+[E : PPU[1] Thread (CPUThread)[0x02bb0064]]: cellSpurs error: Unimplemented function: cellSpursCreateJobChainWithAttribute
+[E : PPU[1] Thread (CPUThread)[0x02bb00e8]]: cellSpurs error: Unimplemented function: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x02bb00e8]]: cellSpurs error: Unimplemented function: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x02bb00e8]]: cellSpurs error: Unimplemented function: cellSpursJobGuardInitialize
+[E : PPU[1] Thread (CPUThread)[0x02bb0208]]: cellSpurs error: Unimplemented function: cellSpursRunJobChain
 [W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
@@ -683,15 +387,15 @@
 [W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x02ba6058]]: cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 [W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=1, location=0, offset=26279936, size=7536640, pitch=10240, comp=7, base=0, bank=0)
-[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (7)
+[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (7)
 [W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=1)
 [W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=2, location=0, offset=33882112, size=7536640, pitch=10240, comp=11, base=115, bank=2)
-[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (11)
+[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (11)
 [W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=2)
 [W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=3, location=0, offset=41484288, size=14745600, pitch=5120, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=3)
 [W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=4, location=0, offset=56295424, size=3801088, pitch=5120, comp=9, base=0, bank=2)
-[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
+[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (9)
 [W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=4)
 [W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=5, location=0, offset=60162048, size=3735552, pitch=2560, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=5)
@@ -708,97 +412,101 @@
 [W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=11, location=1, offset=6684672, size=65536, pitch=192, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=11)
 [W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=12, location=0, offset=68485120, size=262144, pitch=1280, comp=9, base=0, bank=2)
-[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
+[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (9)
 [W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=12)
 [W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=13, location=0, offset=68812800, size=262144, pitch=1024, comp=9, base=0, bank=2)
-[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad comp! (9)
+[E : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys error: cellGcmSetTileInfo: bad compression mode! (9)
 [W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=13)
 [W : PPU[1] Thread (CPUThread)[0x02ba6148]]: cellGcmSys warning: cellGcmSetTileInfo(index=14, location=1, offset=6815744, size=65536, pitch=96, comp=0, base=0, bank=0)
 [W : PPU[1] Thread (CPUThread)[0x02ba60ac]]: cellGcmSys warning: cellGcmBindTile(index=14)
-[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=0)
-[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=1)
-[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=3)
-[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=4)
-[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: TODO: cellGcmBindZcull(index=2)
+[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: cellGcmBindZcull(index=0)
+[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: cellGcmBindZcull(index=1)
+[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: cellGcmBindZcull(index=3)
+[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: cellGcmBindZcull(index=4)
+[W : PPU[1] Thread (CPUThread)[0x02ba60f4]]: cellGcmSys warning: cellGcmBindZcull(index=2)
 [! : PPU[1] Thread (CPUThread)[0x02bd6028]]: *** New PPU Thread [] (): id = 33
 [W : PPU[33] Thread[0x02bb6070]]: cellGame warning: cellGameBootCheck(type_addr=0x2683eb4, attributes_addr=0x2683eb8, size_addr=0x2684828, dirName_addr=0x2684840)
-[E : PPU[1] Thread (CPUThread)[0x02bb0130]]: TODO: _cellSpursTaskAttribute2Initialize
-[E : PPU[1] Thread (CPUThread)[0x02bb01f0]]: TODO: cellSpursCreateTask2
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=1, index=1)
-[E : PPU[1] Thread (CPUThread)[0x0140ad58]]: Write32 to null block: [0000000c]: 1
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=2, index=1)
-[E : PPU[1] Thread (CPUThread)[0x0140ae20]]: Write32 to null block: [0000000c]: 1
-[E : RSXThread]: TODO: cellGcmSetContextDmaReport(0xbad68000)
-[E : RSXThread]: TODO: cellGcmSetControl0(0x101000)
-[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
-[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
-[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
-[E : RSXThread]: TODO: cellGcmSetVertexTexture_Control0(0x0)
-[E : RSXThread]: TODO: cellGcmWaitForIdle(0x0)
-[E : RSXThread]: TODO: cellGcmSetControl0(0x101000)
-[E : RSXThread]: TODO: unknown/illegal method [0x0000eb00](0x2)
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=0, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac580]]: Read32 from null block: [0000000c]
-[W : PPU[1] Thread (CPUThread)[0x02ba60e8]]: cellGcmGetReportDataAddressLocation(location=1, index=1)
-[E : PPU[1] Thread (CPUThread)[0x00aac5a0]]: Read32 from null block: [0000000c]
-[E : PPU[1] Thread (CPUThread)[0x02ba60a0]]: TODO: cellGcmGetTimeStampLocation
-[E : PPU[1] Thread (CPUThread)[0x02ba60a0]]: TODO: cellGcmGetTimeStampLocation
-[E : RSXThread]: TODO: cellGcmSetControl0(0x100000)
-[W : RSXThread]: FP not found in buffer!
-[W : RSXThread]: VP not found in buffer!
-[! : RSXThread]: Add program (0):
-[! : RSXThread]: *** prog id = 3
-[! : RSXThread]: *** vp id = 2
-[! : RSXThread]: *** fp id = 1
-[! : RSXThread]: *** vp data size = 32
-[! : RSXThread]: *** fp data size = 112
-[! : RSXThread]: *** vp shader = 
-#version 330
-
-uniform mat4 scaleOffsetMat = mat4(1.0);
-layout (location = 0) in vec4 in_pos;
-layout (location = 8) in vec4 in_tc0;
-out vec4 tc0;
-
-void func0();
-
-void main()
-{
-	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-	func0();
-	gl_Position = gl_Position * scaleOffsetMat;
-}
-
-void func0()
-{
-	gl_Position = in_pos;
-	tc0.xy = in_tc0.xyxx.xy;
-}
-
-[! : RSXThread]: *** fp shader = 
-#version 330
-
-in vec4 tc0;
-uniform sampler2D tex0;
-uniform sampler2D tex1;
-vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
-vec4 h1 = vec4(0.0, 0.0, 0.0, 0.0);
-layout (location = 0) out vec4 ocol;
-
-void main()
-{
-	h0.xyz = texture(tex0, tc0.xy).xyz;
-	h1.y = texture(tex1, h0.zzzz.xy).y;
-	h0.z = h1.yyyy.z;
-	h0.y = texture(tex1, h0.yyyy.xy).y;
-	h0.y = h0.y;
-	h1.y = texture(tex1, h0.xy).y;
-	h0.x = h1.yyyy.x;
-	ocol = h0;
-}
-
-[W : RSXThread]: New FBO (720x480)
-[W : RSXThread]: m_set_restart_index requires glPrimitiveRestartIndex()
-[E : RSXThread]: TODO: unknown/illegal method [0x0000eb00](0x10004)
-[! : RSXThread]: RSX thread exit...
-[!]: Closing memory...
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x2683ec0, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0x2683f44, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=2, buf_addr=0x2683fc8, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=3, buf_addr=0x268404c, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=4, buf_addr=0x26840d0, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=5, buf_addr=0x2684154, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=6, buf_addr=0x26841d8, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=7, buf_addr=0x268425c, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=8, buf_addr=0x26842e0, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=9, buf_addr=0x2684364, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=10, buf_addr=0x26843e8, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x268446c, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=12, buf_addr=0x26844f0, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=13, buf_addr=0x2684574, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=14, buf_addr=0x26845f8, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=15, buf_addr=0x268467c, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=16, buf_addr=0x2684700, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=17, buf_addr=0x2684784, bufsize=128)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x2684808, bufsize=10)
+[W : PPU[33] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0x2684818, bufsize=6)
+[W : PPU[33] Thread[0x02bb6040]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x2684824)
+[W : PPU[33] Thread[0x02bb6004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x18672e4, usrdirPath_addr=0x1867364)
+[! : PPU[1] Thread (CPUThread)[0x02bd6028]]: *** New PPU Thread [] (): id = 34
+[E : PPU[34] Thread[0x02bb6010]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x2683ec0, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0x2683f44, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=2, buf_addr=0x2683fc8, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=3, buf_addr=0x268404c, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=4, buf_addr=0x26840d0, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=5, buf_addr=0x2684154, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=6, buf_addr=0x26841d8, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=7, buf_addr=0x268425c, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=8, buf_addr=0x26842e0, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=9, buf_addr=0x2684364, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=10, buf_addr=0x26843e8, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x268446c, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=12, buf_addr=0x26844f0, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=13, buf_addr=0x2684574, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=14, buf_addr=0x26845f8, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=15, buf_addr=0x268467c, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=16, buf_addr=0x2684700, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=17, buf_addr=0x2684784, bufsize=128)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x2684808, bufsize=10)
+[W : PPU[34] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0x2684818, bufsize=6)
+[W : PPU[34] Thread[0x02bb6040]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x2684824)
+[W : PPU[34] Thread[0x02bb6004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0040ce0, usrdirPath_addr=0xd0040d60)
+[! : PPU[1] Thread (CPUThread)[0x02bd6028]]: *** New PPU Thread [] (): id = 35
+[E : PPU[35] Thread[0x02bb6010]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=0, buf_addr=0x2683ec0, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=1, buf_addr=0x2683f44, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=2, buf_addr=0x2683fc8, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=3, buf_addr=0x268404c, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=4, buf_addr=0x26840d0, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=5, buf_addr=0x2684154, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=6, buf_addr=0x26841d8, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=7, buf_addr=0x268425c, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=8, buf_addr=0x26842e0, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=9, buf_addr=0x2684364, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=10, buf_addr=0x26843e8, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=11, buf_addr=0x268446c, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=12, buf_addr=0x26844f0, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=13, buf_addr=0x2684574, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=14, buf_addr=0x26845f8, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=15, buf_addr=0x268467c, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=16, buf_addr=0x2684700, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=17, buf_addr=0x2684784, bufsize=128)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=100, buf_addr=0x2684808, bufsize=10)
+[W : PPU[35] Thread[0x02bb601c]]: cellGame warning: cellGameGetParamString(id=101, buf_addr=0x2684818, bufsize=6)
+[W : PPU[35] Thread[0x02bb6040]]: cellGame warning: cellGameGetParamInt(id=102, value_addr=0x2684824)
+[W : PPU[35] Thread[0x02bb6004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0050ce0, usrdirPath_addr=0xd0050d60)
+[! : PPU[1] Thread (CPUThread)[0x02bd6028]]: *** New PPU Thread [] (): id = 36
+[E : PPU[36] Thread[0x02bb6010]]: cellGame error: Unimplemented function: cellGameDataCheck
+[W : PPU[36] Thread[0x02bb6004]]: cellGame warning: cellGameContentPermit(contentInfoPath_addr=0x18674e4, usrdirPath_addr=0x1867564)
+[E : PPU[1] Thread (CPUThread)[0x02bae040]]: Unknown function 0x43ddab4f
+[E : PPU[1] Thread (CPUThread)[0x02bae094]]: Unknown function 0xe70f874e
+[E : PPU[1] Thread (CPUThread)[0x02bae01c]]: Unknown function 0x1686957e
+[E : PPU[1] Thread (CPUThread)[0x02bae0ac]]: Unknown function 0xff03cc79
+[E : PPU[1] Thread (CPUThread)[0x02bb01cc]]: cellSpurs error: cellSpursGetNumSpuThread(spurs_addr=0x186fa80, nThreads_addr=0xd0010740)
+[E : PPU[1] Thread (CPUThread)[0x02bb01cc]]: cellSpurs error: cellSpursGetNumSpuThread : CELL_SPURS_CORE_ERROR_NULL_POINTER
+[E : PPU[1] Thread (CPUThread)[0x00b32ba8]]: Read32 from null block: [00000000]
+[E : PPU[1] Thread (CPUThread)[0x00b32bc0]]: Read32 from null block: [00000000]
+[E : PPU[1] Thread (CPUThread)[0x00b32bd4]]: Read32 from null block: [00000000]
+[E : PPU[1] Thread (CPUThread)[0x00b32be8]]: Read32 from null block: [00000004]
+[E : PPU[1] Thread (CPUThread)[0x00b32bf0]]: PPU[1] Thread (CPUThread) branch error: bad address 0x0 #pc: 0xb32bf0
