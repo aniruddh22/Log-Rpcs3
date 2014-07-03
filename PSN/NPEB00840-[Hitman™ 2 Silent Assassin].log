@@ -1,0 +1,612 @@
+HLE: ! path: /dev_hdd0/game/
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00840/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00840/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00840//../
+LDR: ! /host_root/ -> 
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00840//USRDIR/
+LDR: !  
+MEM: ! Initing memory...
+MEM: ! Memory initialized.
+LDR: W Unimplemented function 'cellSaveDataListAutoLoad' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataFixedDelete' in 'cellSysutil' module
+LDR: W Unknown module 'cellSaveData'
+LDR: W Unimplemented function 'sceNpManagerUnregisterCallback' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerRegisterCallback' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetNpId' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetTicket' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetTicketParam' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerRequestTicket2' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetEntitlementById' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetEntitlementIdList' in 'sceNp' module
+LDR: W Unimplemented function 'getsockname' in 'sys_net' module
+LDR: W Unimplemented function 'socketselect' in 'sys_net' module
+LDR: W Unimplemented function 'gethostbyname' in 'sys_net' module
+LDR: W Unimplemented function 'inet_ntoa' in 'sys_net' module
+LDR: W Unimplemented function 'gethostbyaddr' in 'sys_net' module
+LDR: W Unimplemented function 'cellSslEnd' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertificateLoader' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslInit' in 'cellSsl' module
+LDR: W Unimplemented function 'cellFsSdataOpenByFd' in 'sys_fs' module
+LDR: W Unimplemented function 'cellFsFsync' in 'sys_fs' module
+LDR: W Unimplemented function 'sys_prx_load_module_on_memcontainer_by_fd' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'sys_prx_load_module_by_fd' in 'sysPrxForUser' module
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: W PPU[1] Thread (CPUThread)[0x0054e8e4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 13
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 14
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 15
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 16
+HLE: W PPU[1] Thread (CPUThread)[0x0053ef68]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x0053ef68]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x005455dc]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x005455dc]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x005409d8]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x005409d8]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x005455dc]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x005455dc]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x0053ef14]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x0053ef14]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x005409d8]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x005409d8]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [ps3HDDL] (attribute=0x12): sq_id = 17
+HLE: W PPU[1] Thread (CPUThread)[0x00010dcc]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010a10)
+HLE: W PPU[1] Thread (CPUThread)[0x000107b8]sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+HLE: W PPU[1] Thread (CPUThread)[0x0065e058]cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0x83ab00, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=255)
+HLE: W PPU[1] Thread (CPUThread)[0x0065e07c]cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x83ad00, spurs_addr=0x83ab00)
+HLE: W PPU[1] Thread (CPUThread)[0x0065e058]cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0x83bd00, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=150)
+HLE: W PPU[1] Thread (CPUThread)[0x0065e07c]cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x83bf00, spurs_addr=0x83bd00)
+HLE: W PPU[1] Thread (CPUThread)[0x00658088]cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x689510, userdata=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [ZSysCom] (attribute=0x12): sq_id = 18
+HLE: W PPU[1] Thread (CPUThread)[0x0065601c]cellGcmSys warning: cellGcmInit(context_addr=0x12ed414,cmdSize=0x3fe000,ioSize=0x400000,ioAddress=0x30200000)
+HLE: W PPU[1] Thread (CPUThread)[0x0065601c]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W PPU[1] Thread (CPUThread)[0x0065601c]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x400000)
+RSX: ! RSXThreadRSX thread started
+HLE: W PPU[1] Thread (CPUThread)[0x006560ac]cellGcmSys warning: cellGcmMapMainMemory(ea=0x30700000,size=0x9600000,offset_addr=0x12ec9c0)
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [Memory] (attribute=0x12): sq_id = 19
+HLE: W PPU[1] Thread (CPUThread)[0x000a1508]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 20
+HLE: W PPU[1] Thread (CPUThread)[0x000a82b4]sys_semaphore warning: sys_semaphore_create(sem_addr=0x30716528, attr_addr=0x30716508, initial_count=0, max_count=1)
+HLE: ! PPU[1] Thread (CPUThread)[0x000a82b4]*** semaphore created [] (protocol=0x2): id = 21
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+HLE: W PPU[1] Thread (CPUThread)[0x01567028]cellGame warning: cellGameBootCheck(type_addr=0xd0010714, attributes_addr=0xd0010710, size_addr=0xd0010718, dirName_addr=0xd0010728)
+HLE: W PPU[1] Thread (CPUThread)[0x0156701c]cellGame warning: cellGameGetParamInt(id=104, value_addr=0x1510560)
+HLE: W PPU[1] Thread (CPUThread)[0x01567004]cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0010848, usrdirPath_addr=0x11f93d0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [opWait] (attribute=0x12): sq_id = 22
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: Recursive lwmutex(sq=22)
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: *** lwcond created [opWait] (lwmutex_addr=0x30106ca0): id = 23
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [s_media] (attribute=0x12): sq_id = 24
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 25
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [ps3medi] (attribute=0x12): sq_id = 26
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x30112fec, attr_addr=0xd0010280)
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 27
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 28
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: Recursive lwmutex(sq=28)
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: *** lwcond created [media.m] (lwmutex_addr=0x30113008): id = 29
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x301133ac, attr_addr=0xd0010280)
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 30
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 31
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x30113464, attr_addr=0xd00101f0)
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 32
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [cache_f] (attribute=0x12): sq_id = 33
+HLE: E PPU[1] Thread (CPUThread)[0x0065e004]cellSpurs error: Unimplemented function: _cellSpursTasksetAttributeInitialize
+HLE: E PPU[1] Thread (CPUThread)[0x0065e040]cellSpurs error: Unimplemented function: cellSpursTasksetAttributeSetName
+HLE: E PPU[1] Thread (CPUThread)[0x0065e088]cellSpurs error: Unimplemented function: cellSpursCreateTasksetWithAttribute
+HLE: W PPU[1] Thread (CPUThread)[0x0065e034]cellSpurs warning: _cellSpursEventFlagInitialize(spurs_addr=0x83bf00, taskset_addr=0x0, eventFlag_addr=0x30115f00, flagClearMode=0, flagDirection=1)
+HLE: E PPU[1] Thread (CPUThread)[0x0065e04c]cellSpurs error: cellSpursEventFlagAttachLv2EventQueue(eventFlag_addr=0x30115f00)
+HLE: E PPU[1] Thread (CPUThread)[0x0065e094]cellSpurs error: Unimplemented function: _cellSpursLFQueueInitialize
+HLE: E PPU[1] Thread (CPUThread)[0x0065e0a0]cellSpurs error: Unimplemented function: cellSpursLFQueueAttachLv2EventQueue
+HLE: E PPU[1] Thread (CPUThread)[0x0065e0c4]cellSpurs error: cellSpursCreateTask(taskset_addr=0x30114600, taskID_addr=0xd00102d0, elf_addr_addr=0x63f880, context_addr_addr=0x30113600, context_size=3072, lsPattern_addr=0x60e5b0, argument_addr=0xd00102d8)
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [media.m] (attribute=0x12): sq_id = 34
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x39d000b4, attr_addr=0xd0010270)
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 35
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [dearchi] (attribute=0x12): sq_id = 36
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [dearchi] (attribute=0x12): sq_id = 37
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [dearchi] (attribute=0x12): sq_id = 38
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: Recursive lwmutex(sq=38)
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: *** lwcond created [dearchi] (lwmutex_addr=0x39d00190): id = 39
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [dearchi] (attribute=0x12): sq_id = 40
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 41
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 42
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: sys_rwlock_create(rw_lock_id_addr=0x39d00b5c, attr_addr=0xd0010170)
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: TODO: SYS_SYNC_PRIORITY attr
+HLE: W PPU[1] Thread (CPUThread)[0x0046e720]sys_rwlock warning: *** rwlock created [] (protocol=0x2): id = 43
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 44
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 45
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: Recursive lwmutex(sq=45)
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x39d00be0): id = 46
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: Recursive lwmutex(sq=45)
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: *** lwcond created [schedul] (lwmutex_addr=0x39d00be0): id = 47
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 48
+HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [schedul] (attribute=0x12): sq_id = 49
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: Recursive lwmutex(sq=49)
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x39d00c88): id = 50
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: Recursive lwmutex(sq=49)
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x39d00c88): id = 51
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: Recursive lwmutex(sq=49)
+HLE: W PPU[1] Thread (CPUThread)[0x015770f4]sys_lwcond warning: *** lwcond created [fios wo] (lwmutex_addr=0x39d00c88): id = 52
+PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [fios mediathread 2] (flags=0x1, entry=0x6bba38): id = 53
+PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [fios mediathread 3] (flags=0x1, entry=0x6bba38): id = 54
+PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [fios mediathread 4] (flags=0x1, entry=0x6bba38): id = 55
+PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [fios scheduler 1] (flags=0x1, entry=0x6bba38): id = 56
+PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [ValidateNPDRM] (flags=0x0, entry=0x68e138): id = 57
+HLE: W PPU[57] Thread (ValidateNPDRM)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+HLE: E PPU[53] Thread (fios mediathread 2)[0x01569034]sceNp error: Unimplemented function: sceNpDrmIsAvailable2
+HLE: W PPU[53] Thread (fios mediathread 2)[0x0157504c]"/dev_hdd0/game/NPEB00840/USRDIR/KEY_FILE.EDAT" opened: fd = 58
+HLE: W PPU[53] Thread (fios mediathread 2)[0x01575010]sys_fs warning: cellFsClose(fd=58)
+HLE: W PPU[1] Thread (CPUThread)[0x0065a004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [sdu_list_item] (flags=0x0, entry=0x68d7e0): id = 59
+HLE: E PPU[59] Thread (sdu_list_item)[0x00658034]TODO: cellSaveDataListAutoLoad
+HLE: W PPU[53] Thread (fios mediathread 2)[0x0157504c]"/dev_hdd0/game/NPEB00840/USRDIR/main.ini" opened: fd = 60
+HLE: W PPU[53] Thread (fios mediathread 2)[0x01575010]sys_fs warning: cellFsClose(fd=60)
+HLE: W PPU[1] Thread (CPUThread)[0x00658058]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_LANG
+HLE: W PPU[1] Thread (CPUThread)[0x01563088]sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x30710178, commID_addr=0x604434, commSign_addr=0x6044e0, options=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x01563010]sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0x3071017c)
+HLE: W PPU[1] Thread (CPUThread)[0x000a1508]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 61
+HLE: W PPU[1] Thread (CPUThread)[0x000a1570]sys_cond warning: *** condition on recursive mutex(61)
+HLE: W PPU[1] Thread (CPUThread)[0x000a1570]sys_cond warning: *** condition created [] (mutex_id=61): id = 62
+HLE: W PPU[1] Thread (CPUThread)[0x000a1570]sys_cond warning: *** condition on recursive mutex(61)
+HLE: W PPU[1] Thread (CPUThread)[0x000a1570]sys_cond warning: *** condition created [] (mutex_id=61): id = 63
+PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [Trophy System] (flags=0x1, entry=0x68e530): id = 64
+HLE: E PPU[1] Thread (CPUThread)[0x01569040]TODO: sceNpManagerGetNpId
+HLE: W PPU[64] Thread (Trophy System)[0x0156301c]sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0xd0080a20, options=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SSL)
+HLE: E PPU[1] Thread (CPUThread)[0x0156f01c]TODO: cellSslInit
+HLE: E PPU[1] Thread (CPUThread)[0x0156f010]TODO: cellSslCertificateLoader
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x68e6e8, arg_addr=0x30710184, options=0x1)
+HLE: E PPU[1] Thread (CPUThread)[0x0156f010]TODO: cellSslCertificateLoader
+HLE: E PPU[1] Thread (CPUThread)[0x0156f004]TODO: cellSslEnd
+HLE: W PPU[1] Thread (CPUThread)[0x0065a004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SSL)
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 65
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W PPU[1] Thread (CPUThread)[0x0156d004]sys_net warning: sys_net_initialize_network_ex(param_addr=0xd00104b0)
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROPCONF.SFM')
+HLE: W PPU[1] Thread (CPUThread)[0x0156d004]sys_net warning: sys_net_initialize_network_ex(param_addr=0xd00104b0)
+HLE: E PPU[1] Thread (CPUThread)[0x0156b028]cellNetCtl error: Unimplemented function: cellNetCtlInit
+HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 66
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 67
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\ICON0.PNG')
+HLE: E PPU[1] Thread (CPUThread)[0x0156b010]cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 68
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 69
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 70
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 71
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 72
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 73
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 74
+HLE: W PPU[1] Thread (CPUThread)[0x005e2da0]sys_cond warning: *** condition created [] (mutex_id=74): id = 75
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 76
+HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 77
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP000.PNG')
+PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [ZThread] (flags=0x1, entry=0x6b7f10): id = 78
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP001.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP002.PNG')
+HLE: W PPU[53] Thread (fios mediathread 2)[0x0157504c]"/dev_hdd0/game/NPEB00840/USRDIR/ICON0.PNG" opened: fd = 79
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP003.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP004.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP005.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP006.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP007.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP008.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP009.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP010.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP011.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP012.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP013.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP014.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP015.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP016.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP017.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP018.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP019.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP020.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP021.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP022.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP023.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP024.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP025.PNG')
+HLE: W PPU[53] Thread (fios mediathread 2)[0x01575010]sys_fs warning: cellFsClose(fd=79)
+HLE: W PPU[53] Thread (fios mediathread 2)[0x0157504c]"/dev_hdd0/game/NPEB00840/USRDIR/PIC0.PNG" opened: fd = 80
+HLE: W PPU[53] Thread (fios mediathread 2)[0x01575010]sys_fs warning: cellFsClose(fd=80)
+HLE: W PPU[78] Thread (ZThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 81
+HLE: W PPU[78] Thread (ZThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 82
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+HLE: W PPU[1] Thread (CPUThread)[0x00658010]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010194, option_addr=0x0, waitForEvent=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=10240)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+HLE: W PPU[1] Thread (CPUThread)[0x00656058]cellGcmSys warning: cellGcmSetFlipMode(mode=1)
+HLE: W PPU[1] Thread (CPUThread)[0x00656064]cellGcmSys warning: cellGcmSetSecondVFrequency(level=2)
+HLE: W PPU[1] Thread (CPUThread)[0x006560b8]cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=6991400)
+HLE: W PPU[1] Thread (CPUThread)[0x006560dc]cellGcmSys warning: cellGcmSetVBlankHandler(handler_addr=0x6aae90)
+HLE: W PPU[1] Thread (CPUThread)[0x00656010]cellGcmSys warning: cellGcmSetUserHandler(handler_addr=0x6aae50)
+RSX: W RSXThreadNV0039_SET_CONTEXT_DMA_BUFFER_IN: TODO: srcContext=0xfeed0001, dstContext=0xfeed0000
+RSX: W RSXThreadNV0039_SET_CONTEXT_DMA_BUFFER_IN: TODO: srcContext=0xfeed0001, dstContext=0xfeed0000
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=2048)
+HLE: W PPU[1] Thread (CPUThread)[0x006560f4]cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=15073280, pitch=10240, comp=8, base=0, bank=0)
+HLE: E PPU[1] Thread (CPUThread)[0x006560f4]cellGcmSys error: cellGcmSetTile: bad comp! (8)
+HLE: W PPU[1] Thread (CPUThread)[0x006560f4]cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=15138816, size=11796480, pitch=5120, comp=0, base=230, bank=0)
+HLE: W PPU[1] Thread (CPUThread)[0x006560f4]cellGcmSys warning: cellGcmSetTile(index=2, location=0, offset=26935296, size=16777216, pitch=2048, comp=0, base=410, bank=0)
+HLE: W PPU[1] Thread (CPUThread)[0x006560f4]cellGcmSys warning: cellGcmSetTile(index=3, location=0, offset=43712512, size=15073280, pitch=10240, comp=12, base=666, bank=3)
+HLE: E PPU[1] Thread (CPUThread)[0x006560f4]cellGcmSys error: cellGcmSetTile: bad comp! (12)
+HLE: W PPU[1] Thread (CPUThread)[0x00656100]cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0x29b0000, width=2560, height=1472, cullStart=0x0, zFormat=0x2, aaFormat=0x5, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+HLE: E PPU[2] Thread (Callback)[0x00656040]cellGcmSys error: Unimplemented function: cellGcmGetLastSecondVTime
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
+RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
+RSX: W RSXThreadFP not found in buffer!
+RSX: W RSXThreadVP not found in buffer!
+RSX: ! RSXThreadAdd program (0):
+RSX: ! RSXThread*** prog id = 3
+RSX: ! RSXThread*** vp id = 2
+RSX: ! RSXThread*** fp id = 1
+RSX: ! RSXThread*** vp data size = 64
+RSX: ! RSXThread*** fp data size = 32
+RSX: ! RSXThread*** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+vec4 dst_reg1 = vec4(0.0);
+vec4 tmp0;
+vec4 dst_reg7 = vec4(0.0);
+vec4 dst_reg0 = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+layout (location = 3) in vec4 in_diff_color;
+layout (location = 0) in vec4 in_pos;
+layout (location = 8) in vec4 in_tc0;
+uniform vec4 vc[468];
+out vec4 diff_color;
+out vec4 tc0;
+
+void func0();
+
+void main()
+{
+	func0();
+	gl_Position = dst_reg0;
+	diff_color = dst_reg1;
+	tc0 = dst_reg7;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	dst_reg1 = in_diff_color;
+	tmp0 = (vc[1] + in_pos);
+	dst_reg7.xy = in_tc0.xyxx.xy;
+	dst_reg0 = (tmp0 * vc[0]);
+}
+
+RSX: ! RSXThread*** fp shader = 
+#version 330
+
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+uniform sampler2D tex0;
+in vec4 tc0;
+in vec4 diff_color;
+layout (location = 0) out vec4 ocol0;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	r0 = (diff_color * r0);
+	ocol0 = r0;
+}
+
+RSX: W RSXThreadNew FBO (1280x720)
+HLE: E PPU[2] Thread (Callback)[0x00656040]cellGcmSys error: Unimplemented function: cellGcmGetLastSecondVTime
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
+RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
+HLE: E PPU[2] Thread (Callback)[0x00656040]cellGcmSys error: Unimplemented function: cellGcmGetLastSecondVTime
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W RSXThreadNV0039_SET_CONTEXT_DMA_BUFFER_IN: TODO: srcContext=0xfeed0001, dstContext=0xfeed0000
+HLE: W PPU[1] Thread (CPUThread)[0x0065c004]cellAudio warning: cellAudioInit()
+HLE: ! Audio ThreadAudio thread started
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
+RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 25
+RSX: W RSXThreadFP not found in buffer!
+RSX: ! RSXThreadAdd program (1):
+RSX: ! RSXThread*** prog id = 5
+RSX: ! RSXThread*** vp id = 2
+RSX: ! RSXThread*** fp id = 4
+RSX: ! RSXThread*** vp data size = 64
+RSX: ! RSXThread*** fp data size = 16
+RSX: ! RSXThread*** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+vec4 dst_reg1 = vec4(0.0);
+vec4 tmp0;
+vec4 dst_reg7 = vec4(0.0);
+vec4 dst_reg0 = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+layout (location = 3) in vec4 in_diff_color;
+layout (location = 0) in vec4 in_pos;
+layout (location = 8) in vec4 in_tc0;
+uniform vec4 vc[468];
+out vec4 diff_color;
+out vec4 tc0;
+
+void func0();
+
+void main()
+{
+	func0();
+	gl_Position = dst_reg0;
+	diff_color = dst_reg1;
+	tc0 = dst_reg7;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	dst_reg1 = in_diff_color;
+	tmp0 = (vc[1] + in_pos);
+	dst_reg7.xy = in_tc0.xyxx.xy;
+	dst_reg0 = (tmp0 * vc[0]);
+}
+
+RSX: ! RSXThread*** fp shader = 
+#version 330
+
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+in vec4 diff_color;
+layout (location = 0) out vec4 ocol0;
+
+void main()
+{
+	r0 = diff_color;
+	ocol0 = r0;
+}
+
+HLE: W PPU[1] Thread (CPUThread)[0x00549038]"/dev_hdd0/game/NPEB00840/USRDIR/Movies/SE_Eidos.bik" opened: fd = 83
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
+RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
+HLE: W PPU[1] Thread (CPUThread)[0x0065c04c]cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd000fa40, portNum_addr=0x6da4f8)
+HLE: W PPU[1] Thread (CPUThread)[0x0065c04c]cellAudio warning: *** audio port opened(nChannel=8, nBlock=16, attr=0x1000, level=1.000000): port = 0
+HLE: W PPU[1] Thread (CPUThread)[0x0065c028]cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd000fa60)
+HLE: W PPU[1] Thread (CPUThread)[0x0039b91c]sys_mutex warning: *** mutex created [binkliba] (protocol=0x1, recursive=true): id = 84
+HLE: W PPU[1] Thread (CPUThread)[0x0039b930]sys_mutex warning: *** mutex created [binkliba] (protocol=0x1, recursive=true): id = 85
+PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [Bink Audio Thread] (flags=0x1, entry=0x6abca0): id = 86
+HLE: W PPU[1] Thread (CPUThread)[0x003a937c]sys_mutex warning: *** mutex created [radcb] (protocol=0x1, recursive=true): id = 87
+HLE: W PPU[1] Thread (CPUThread)[0x003a93a0]sys_mutex warning: *** mutex created [radcb] (protocol=0x1, recursive=true): id = 88
+PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [Bink IO Thread] (flags=0x1, entry=0x6abf40): id = 89
+HLE: W PPU[1] Thread (CPUThread)[0x003a92c0]sys_mutex warning: *** mutex created [radcb] (protocol=0x1, recursive=true): id = 90
+HLE: W PPU[1] Thread (CPUThread)[0x006560ac]cellGcmSys warning: cellGcmMapMainMemory(ea=0x3a300000,size=0x400000,offset_addr=0xd000ff90)
+HLE: E PPU[2] Thread (Callback)[0x00656040]cellGcmSys error: Unimplemented function: cellGcmGetLastSecondVTime
+HLE: W PPU[1] Thread (CPUThread)[0x0065c034]cellAudio warning: cellAudioPortStart(portNum=0x0)
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
+RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
+RSX: W RSXThreadFP not found in buffer!
+RSX: ! RSXThreadAdd program (2):
+RSX: ! RSXThread*** prog id = 7
+RSX: ! RSXThread*** vp id = 2
+RSX: ! RSXThread*** fp id = 6
+RSX: ! RSXThread*** vp data size = 64
+RSX: ! RSXThread*** fp data size = 320
+RSX: ! RSXThread*** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+vec4 dst_reg1 = vec4(0.0);
+vec4 tmp0;
+vec4 dst_reg7 = vec4(0.0);
+vec4 dst_reg0 = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+layout (location = 3) in vec4 in_diff_color;
+layout (location = 0) in vec4 in_pos;
+layout (location = 8) in vec4 in_tc0;
+uniform vec4 vc[468];
+out vec4 diff_color;
+out vec4 tc0;
+
+void func0();
+
+void main()
+{
+	func0();
+	gl_Position = dst_reg0;
+	diff_color = dst_reg1;
+	tc0 = dst_reg7;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	dst_reg1 = in_diff_color;
+	tmp0 = (vc[1] + in_pos);
+	dst_reg7.xy = in_tc0.xyxx.xy;
+	dst_reg0 = (tmp0 * vc[0]);
+}
+
+RSX: ! RSXThread*** fp shader = 
+#version 330
+
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 r1 = vec4(0.0, 0.0, 0.0, 0.0);
+in vec4 tc0;
+uniform vec4 fc32 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc64 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc160 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc224 = vec4(1.164124, 2.017822, -1.081669, 0.000000);
+uniform vec4 fc256 = vec4(1.164124, -0.813477, -0.391449, 0.529705);
+uniform vec4 fc304 = vec4(1.164124, 1.595795, -0.870655, 0.000000);
+uniform sampler2D tex2;
+uniform sampler2D tex1;
+uniform sampler2D tex0;
+layout (location = 0) out vec4 ocol0;
+layout (location = 1) out vec4 ocol1;
+
+void main()
+{
+	r0.xy = tc0.xy;
+	r1.w = fc32.xxxx.w;
+	r0.w = (r0.yyyy * fc64.xxxx).w;
+	r0.z = r0.xxxx.z;
+	r0.x = texture(tex2, r0.zwzz.xy).x;
+	r1.z = r0.xxxx.z;
+	r0.x = texture(tex1, r0.zwzz.xy).x;
+	r0.w = fc160.xxxx.w;
+	r1.x = texture(tex0, tc0.xy).x;
+	r1.y = r0.xxxx.y;
+	r0.z = vec2(dot(r1.xzwx.xyz, fc224.xyz), 0).xxxx.z;
+	r0.y = vec2(dot(r1, fc256), 0).xxxx.y;
+	r0.x = vec2(dot(r1.xywz.xyz, fc304.xyz), 0).xxxx.x;
+	ocol0 = r0;
+	ocol1 = r1;
+}
+
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
+RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
+HLE: E PPU[2] Thread (Callback)[0x00656040]cellGcmSys error: Unimplemented function: cellGcmGetLastSecondVTime
+HLE: W PPU[86] Thread (Bink Audio Thread)[0x0065c01c]cellAudio warning: cellAudioPortStop(portNum=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065c034]cellAudio warning: cellAudioPortStart(portNum=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065c01c]cellAudio warning: cellAudioPortStop(portNum=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065c034]cellAudio warning: cellAudioPortStart(portNum=0x0)
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
+RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
+RSX: ! RSXThreadAdd program (3):
+RSX: ! RSXThread*** prog id = 8
+RSX: ! RSXThread*** vp id = 2
+RSX: ! RSXThread*** fp id = 6
+RSX: ! RSXThread*** vp data size = 64
+RSX: ! RSXThread*** fp data size = 320
+RSX: ! RSXThread*** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+vec4 dst_reg1 = vec4(0.0);
+vec4 tmp0;
+vec4 dst_reg7 = vec4(0.0);
+vec4 dst_reg0 = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+layout (location = 3) in vec4 in_diff_color;
+layout (location = 0) in vec4 in_pos;
+layout (location = 8) in vec4 in_tc0;
+uniform vec4 vc[468];
+out vec4 diff_color;
+out vec4 tc0;
+
+void func0();
+
+void main()
+{
+	func0();
+	gl_Position = dst_reg0;
+	diff_color = dst_reg1;
+	tc0 = dst_reg7;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	dst_reg1 = in_diff_color;
+	tmp0 = (vc[1] + in_pos);
+	dst_reg7.xy = in_tc0.xyxx.xy;
+	dst_reg0 = (tmp0 * vc[0]);
+}
+
+RSX: ! RSXThread*** fp shader = 
+#version 330
+
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 r1 = vec4(0.0, 0.0, 0.0, 0.0);
+in vec4 tc0;
+uniform vec4 fc32 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc64 = vec4(0.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc160 = vec4(1.000000, 0.000000, 0.000000, 0.000000);
+uniform vec4 fc224 = vec4(1.164124, 2.017822, -1.081669, 0.000000);
+uniform vec4 fc256 = vec4(1.164124, -0.813477, -0.391449, 0.529705);
+uniform vec4 fc304 = vec4(1.164124, 1.595795, -0.870655, 0.000000);
+uniform sampler2D tex2;
+uniform sampler2D tex1;
+uniform sampler2D tex0;
+layout (location = 0) out vec4 ocol0;
+layout (location = 1) out vec4 ocol1;
+
+void main()
+{
+	r0.xy = tc0.xy;
+	r1.w = fc32.xxxx.w;
+	r0.w = (r0.yyyy * fc64.xxxx).w;
+	r0.z = r0.xxxx.z;
+	r0.x = texture(tex2, r0.zwzz.xy).x;
+	r1.z = r0.xxxx.z;
+	r0.x = texture(tex1, r0.zwzz.xy).x;
+	r0.w = fc160.xxxx.w;
+	r1.x = texture(tex0, tc0.xy).x;
+	r1.y = r0.xxxx.y;
+	r0.z = vec2(dot(r1.xzwx.xyz, fc224.xyz), 0).xxxx.z;
+	r0.y = vec2(dot(r1, fc256), 0).xxxx.y;
+	r0.x = vec2(dot(r1.xywz.xyz, fc304.xyz), 0).xxxx.x;
+	ocol0 = r0;
+	ocol1 = r1;
+}
+
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
+RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
+HLE: E PPU[2] Thread (Callback)[0x00656040]cellGcmSys error: Unimplemented function: cellGcmGetLastSecondVTime
+HLE: W PPU[86] Thread (Bink Audio Thread)[0x0065c01c]cellAudio warning: cellAudioPortStop(portNum=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065c034]cellAudio warning: cellAudioPortStart(portNum=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065c01c]cellAudio warning: cellAudioPortStop(portNum=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065c034]cellAudio warning: cellAudioPortStart(portNum=0x0)
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
+RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
+HLE: W PPU[86] Thread (Bink Audio Thread)[0x0065c01c]cellAudio warning: cellAudioPortStop(portNum=0x0)
