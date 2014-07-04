@@ -1,0 +1,291 @@
+HLE: ! path: /dev_hdd0/game/
+LDR: ! Loading RAP file EP1004-NPEB01283_00-GTAVDIGITALDOWNL.rap
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\/../
+LDR: ! /host_root/ -> 
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\/USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\/USRDIR/
+LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\/USRDIR/
+LDR: !  
+MEM: ! Initing memory...
+MEM: ! Memory initialized.
+LDR: W Unimplemented function 'cellVoiceStart' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceDisconnectIPortFromOPort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceCreatePort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceReadFromOPort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceWriteToIPort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceGetPortInfo' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceSetPortAttr' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceDeletePort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceConnectIPortToOPort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceGetBitRate' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceInit' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceStop' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceEnd' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceGetPortAttr' in 'cellVoice' module
+LDR: W Unimplemented function 'cellSheapAllocate' in 'cellSheap' module
+LDR: W Unimplemented function 'cellSheapFree' in 'cellSheap' module
+LDR: W Unimplemented function 'cellSheapInitialize' in 'cellSheap' module
+LDR: W Unknown module 'cellHttp'
+LDR: W Unimplemented function 'cellSslEnd' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertificateLoader' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslInit' in 'cellSsl' module
+LDR: W Unknown module 'sceNpCommerce2'
+LDR: W Unimplemented function 'cellSpursAddWorkload' in 'cellSpurs' module
+LDR: W Unimplemented function '_cellSpursSemaphoreInitialize' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursWakeUp' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursBarrierInitialize' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursTasksetAttributeSetTasksetSize' in 'cellSpurs' module
+LDR: W Unimplemented function '_cellSpursWorkloadFlagReceiver' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursGetWorkloadFlag' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursReadyCountStore' in 'cellSpurs' module
+LDR: W Unimplemented function 'getsockname' in 'sys_net' module
+LDR: W Unimplemented function 'socketselect' in 'sys_net' module
+LDR: W Unimplemented function 'gethostbyname' in 'sys_net' module
+LDR: W Unimplemented function 'inet_ntop' in 'sys_net' module
+LDR: W Unimplemented function 'cellFsAllocateFileAreaWithoutZeroFill' in 'sys_fs' module
+LDR: W Unimplemented function 'cellFsWriteWithOffset' in 'sys_fs' module
+LDR: W Unimplemented function 'cellFsFsync' in 'sys_fs' module
+LDR: W Unimplemented function 'cellFsChmod' in 'sys_fs' module
+LDR: W Unimplemented function 'cellFsUtime' in 'sys_fs' module
+LDR: W Unimplemented function 'cellSaveDataListAutoLoad' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogUnloadAsync' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAddSupportLanguage' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogLoadAsync' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetKeyLayoutOption' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAbort' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataFixedDelete' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetDeviceMask' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataDelete2' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetLayoutMode' in 'cellSysutil' module
+LDR: W Unimplemented function 'sceNpBasicSendMessageGui' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetTicket' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingGetConnectionInfo' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicAddFriend' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingGetConnectionFromPeerAddress' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicSetPresence' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicRegisterContextSensitiveHandler' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingAddExtendedHandler' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerUnregisterCallback' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetTicketParam' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupDestroyTitleCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicSetPresenceDetails2' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupInit' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingActivateConnection' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingCreateCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicRecvMessageAttachmentLoad' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetContentRatingFlag' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupSetTimeout' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetBlockListEntryCount' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupPollAsync' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicRecvMessageCustom' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerRequestTicket2' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupTerm' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupTitleSmallStorageAsync' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingTerminateConnection' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingGetLocalNetInfo' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetEntitlementById' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingDestroyCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicUnregisterHandler' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetAccountRegion' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetEntitlementIdList' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicAddPlayersHistoryAsync' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetNetworkTime' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingGetConnectionStatus' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupCreateTitleCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpProfileCallGui' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupNpIdAsync' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpUtilCmpNpId' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetEvent' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerRegisterCallback' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingGetConnectionFromNpId' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupCreateTransactionCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetChatRestrictionFlag' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicSendMessage' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetMessageEntryCount' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetBlockListEntry' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupDestroyTransactionCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetNpId' in 'sceNp' module
+LDR: W Unknown module 'cellSaveData'
+LDR: W Unknown module 'cellSysutilAvconfExt'
+LDR: W Unimplemented function 'sceNpMatching2DestroyContext' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterLobbyMessageCallback' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetWorldInfoList' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterLobbyEventCallback' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SearchRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2LeaveRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SetRoomDataExternal' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2Term2' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetRoomMemberDataExternalList' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2AbortRequest' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetServerInfo' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetEventData' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNp2Init' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2JoinRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2ContextStartAsync' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterContextCallback' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SetRoomDataInternal' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetServerIdListLocal' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2CreateContext' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterSignalingCallback' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2ClearEventData' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNp2Term' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterRoomEventCallback' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2CreateJoinRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2ContextStop' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2Init2' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterRoomMessageCallback' in 'sceNp2' module
+LDR: W Unknown module 'sceNpSns'
+HLE: W PPU[1] Thread (CPUThread)[0x01b49034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: W PPU[1] Thread (CPUThread)[0x01b49034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: W PPU[1] Thread (CPUThread)[0x01b49034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: W PPU[1] Thread (CPUThread)[0x01b49034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: W PPU[1] Thread (CPUThread)[0x01b49034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: W PPU[1] Thread (CPUThread)[0x01b49034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: W PPU[1] Thread (CPUThread)[0x01b49034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: W PPU[1] Thread (CPUThread)[0x01b49034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: W PPU[1] Thread (CPUThread)[0x01b49034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: W PPU[1] Thread (CPUThread)[0x000104b4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b4c)
+HLE: W PPU[1] Thread (CPUThread)[0x01b45010]cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_NET)
+HLE: W PPU[1] Thread (CPUThread)[0x01b45004]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W PPU[1] Thread (CPUThread)[0x01b45010]cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_VOICE)
+HLE: W PPU[1] Thread (CPUThread)[0x01b45004]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VOICE)
+HLE: W PPU[1] Thread (CPUThread)[0x01b45010]cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_RTC)
+HLE: W PPU[1] Thread (CPUThread)[0x01b45004]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+HLE: W PPU[1] Thread (CPUThread)[0x01b45010]cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_NP_TUS)
+HLE: W PPU[1] Thread (CPUThread)[0x01b45004]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
+HLE: W PPU[1] Thread (CPUThread)[0x01b45010]cellSysmodule warning: cellSysmoduleIsLoaded(CELL_SYSMODULE_SYSUTIL_GAME)
+HLE: W PPU[1] Thread (CPUThread)[0x01b45004]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+HLE: W PPU[1] Thread (CPUThread)[0x00010504]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b44)
+HLE: W PPU[1] Thread (CPUThread)[0x021a0124]cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0x1e0b830, nSpus=2, spuPriority=3342336, ppuPriority=5, exitIfNoWork=200)
+HLE: W PPU[1] Thread (CPUThread)[0x021a016c]cellSpurs warning: cellSpursAttributeSetSpuThreadGroupType(attr_addr=0x1e0b830, type=24)
+HLE: W PPU[1] Thread (CPUThread)[0x021a0010]cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0x1e0b830, prefix_addr=0x1787720, size=0x7)
+HLE: W PPU[1] Thread (CPUThread)[0x021a0178]cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x30115000, spurs_addr=0x1e0b830)
+HLE: W PPU[1] Thread (CPUThread)[0x021a0124]cellSpurs warning: _cellSpursAttributeInitialize(attr_addr=0x1e0ba30, nSpus=2, spuPriority=3342336, ppuPriority=1, exitIfNoWork=201)
+HLE: W PPU[1] Thread (CPUThread)[0x021a0010]cellSpurs warning: cellSpursAttributeSetNamePrefix(attr_addr=0x1e0ba30, prefix_addr=0x175aa3c, size=0x9)
+HLE: W PPU[1] Thread (CPUThread)[0x021a0178]cellSpurs warning: cellSpursInitializeWithAttribute(spurs_addr=0x30116000, spurs_addr=0x1e0ba30)
+HLE: W PPU[1] Thread (CPUThread)[0x00a41450]sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1e1ff00, attr_addr=0xd0010a78, init=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x00a41450]sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 12
+HLE: W PPU[1] Thread (CPUThread)[0x00a41450]sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1e1ff04, attr_addr=0xd0010a78, init=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x00a41450]sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 13
+HLE: W PPU[1] Thread (CPUThread)[0x00a41450]sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1e1ff08, attr_addr=0xd0010a78, init=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x00a41450]sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 14
+HLE: W PPU[1] Thread (CPUThread)[0x00a41450]sys_event_flag warning: sys_event_flag_create(eflag_id_addr=0x1e1ff0c, attr_addr=0xd0010a78, init=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x00a41450]sys_event_flag warning: *** event_flag created [] (protocol=0x2, type=0x20000): id = 15
+HLE: W PPU[1] Thread (CPUThread)[0x00010514]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b3c)
+HLE: W PPU[1] Thread (CPUThread)[0x00010520]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b34)
+HLE: W PPU[1] Thread (CPUThread)[0x00aa1758]vm warning: sys_vm_memory_map(vsize=0x2000000,psize=0x1290000,cidr=0xffffffff,flags=0x200,policy=0x1,addr=0x1c3be38)
+HLE: W PPU[1] Thread (CPUThread)[0x01b49034]sys_lwmutex warning: *** lwmutex created [critsec] (attribute=0x11): sq_id = 16
+PPU: E PPU[1] Thread (CPUThread)[0x00aa3900]Trap! (tw 1f, r1, r1) #pc: 0xaa3900
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r0 = 0xaa38e8
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r1 = 0xd0010a10
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r2 = 0x1bc2ef8
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r3 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r4 = 0xd0010a80
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r5 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r6 = 0x1
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r7 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r8 = 0x80
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r9 = 0xa88
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r10 = 0x178e298
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r11 = 0x2f85c0ef
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r12 = 0x1b48020
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r13 = 0x30007060
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r14 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r15 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r16 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r17 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r18 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r19 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r20 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r21 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r22 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r23 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r24 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r25 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r26 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r27 = 0x1c39bf8
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r28 = 0x30a08800
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r29 = 0xa87800
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r30 = 0x3
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]r31 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f0 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f1 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f2 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f3 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f4 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f5 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f6 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f7 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f8 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f9 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f10 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f11 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f12 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f13 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f14 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f15 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f16 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f17 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f18 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f19 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f20 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f21 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f22 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f23 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f24 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f25 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f26 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f27 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f28 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f29 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f30 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]f31 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v1 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v3 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v4 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v5 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v8 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v9 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v10 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v11 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v12 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]CR = 0x28000042
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]LR = 0xaa38e8
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]CTR = 0x1b49030
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]XER = 0x0 [CA=601295421440 | OV=140716013518848 | SO=601295421440]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]FPSCR = 0x0 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=0 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
+HLE: ! All threads stopped...
+MEM: ! Closing memory...

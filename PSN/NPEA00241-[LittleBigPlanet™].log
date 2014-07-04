@@ -1,20 +1,18 @@
 HLE: ! path: /dev_hdd0/game/
-LDR: ! Loading RAP file EP9000-NPEA00241_00-GLITTLEBIG000001.rap
-LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241\USRDIR/BOOT.BIN'...
-LDR: !  
-LDR: ! Mount info:
+LDR: ! PKG Loader: Package successfully installed in: /dev_hdd0/game/NPEB01283
+HLE: ! path: /dev_hdd0/game/
 LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
 LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
 LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
 LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241\
-LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241\/../
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241//../
 LDR: ! /host_root/ -> 
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241\/USRDIR/
-LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241\/USRDIR/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241//USRDIR/
 LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
-LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241\/USRDIR/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00241//USRDIR/
 LDR: !  
 MEM: ! Initing memory...
 MEM: ! Memory initialized.
