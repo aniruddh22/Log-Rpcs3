@@ -1,0 +1,593 @@
+HLE: ! path: /dev_hdd0/game/
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00365/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00365/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00365//../
+LDR: ! /host_root/ -> 
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00365//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00365//USRDIR/
+LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00365//USRDIR/
+LDR: !  
+MEM: ! Initing memory...
+MEM: ! Memory initialized.
+LDR: W Unimplemented function 'cellHttpUtilParseUri' in 'cellHttpUtil' module
+LDR: W Unimplemented function 'cellHttpUtilBase64Encoder' in 'cellHttpUtil' module
+LDR: W Unimplemented function 'cellHttpUtilEscapeUri' in 'cellHttpUtil' module
+LDR: W Unknown module 'cellHttp'
+LDR: W Unimplemented function 'cellSslCertGetNameEntryInfo' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetRsaPublicKeyExponent' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslEnd' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetNotAfter' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetNotBefore' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetSubjectName' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetMd5Fingerprint' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetNameEntryCount' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetSerialNumber' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetRsaPublicKeyModulus' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetIssuerName' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslCertGetPublicKey' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSslInit' in 'cellSsl' module
+LDR: W Unimplemented function 'cellSpursRequestIdleSpu' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursWorkloadAttributeSetName' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursGetWorkloadInfo' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursTraceInitialize' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursRemoveWorkload' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursWaitForWorkloadShutdown' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursTasksetAttributeSetTasksetSize' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursShutdownWorkload' in 'cellSpurs' module
+LDR: W Unimplemented function '_cellSpursWorkloadFlagReceiver' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursAddWorkloadWithAttribute' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursGetWorkloadFlag' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursTraceStart' in 'cellSpurs' module
+LDR: W Unimplemented function '_cellSpursWorkloadAttributeInitialize' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursReadyCountStore' in 'cellSpurs' module
+LDR: W Unimplemented function 'socketselect' in 'sys_net' module
+LDR: W Unimplemented function 'getsockopt' in 'sys_net' module
+LDR: W Unimplemented function 'gethostbyname' in 'sys_net' module
+LDR: W Unimplemented function 'inet_ntoa' in 'sys_net' module
+LDR: W Unimplemented function 'gethostbyaddr' in 'sys_net' module
+LDR: W Unimplemented function 'getpeername' in 'sys_net' module
+LDR: W Unimplemented function 'cellOskDialogGetInputText' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataListAutoLoad' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellGameUnregisterDiscChangeCallback' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogGetSize' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogUnloadAsync' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSaveDataListAutoSave' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAddSupportLanguage' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogLoadAsync' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetKeyLayoutOption' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAbort' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetInitialKeyLayout' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetLayoutMode' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellVoiceStart' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceCreatePort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceReadFromOPort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceWriteToIPort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceGetMuteFlag' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceGetPortInfo' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceGetVolume' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceSetPortAttr' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceDeletePort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceConnectIPortToOPort' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceInit' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceStop' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceSetMuteFlagAll' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceSetVolume' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceSetMuteFlag' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceEnd' in 'cellVoice' module
+LDR: W Unimplemented function 'cellVoiceGetPortAttr' in 'cellVoice' module
+LDR: W Unimplemented function 'cellUsbdInterruptTransfer' in 'cellUsbd' module
+LDR: W Unimplemented function 'cellUsbdOpenPipe' in 'cellUsbd' module
+LDR: W Unimplemented function 'cellUsbdScanStaticDescriptor' in 'cellUsbd' module
+LDR: W Unimplemented function 'cellUsbdEnd' in 'cellUsbd' module
+LDR: W Unimplemented function 'cellUsbdSetThreadPriority2' in 'cellUsbd' module
+LDR: W Unimplemented function 'cellUsbdGetPrivateData' in 'cellUsbd' module
+LDR: W Unimplemented function 'cellUsbdSetPrivateData' in 'cellUsbd' module
+LDR: W Unimplemented function 'cellUsbdRegisterExtraLdd' in 'cellUsbd' module
+LDR: W Unimplemented function 'cellUsbdUnregisterExtraLdd' in 'cellUsbd' module
+LDR: W Unimplemented function 'cellUsbdControlTransfer' in 'cellUsbd' module
+LDR: W Unimplemented function 'cellUsbdInit' in 'cellUsbd' module
+LDR: W Unimplemented function 'cellFsWriteWithOffset' in 'sys_fs' module
+LDR: W Unimplemented function 'cellFsFsync' in 'sys_fs' module
+LDR: W Unimplemented function 'cellFsChmod' in 'sys_fs' module
+LDR: W Unimplemented function 'cellFsUtime' in 'sys_fs' module
+LDR: W Unimplemented function 'sceNpBasicSendMessageGui' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetFriendListEntry' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetTicket' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingGetConnectionInfo' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScoreRecordScore' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicAddPlayersHistory' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScoreWaitAsync' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScoreGetRankingByRangeAsync' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScoreDestroyTitleCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicAddFriend' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetMyLanguages' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetFriendPresenceByIndex' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScoreInit' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetAvatarUrl' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScoreGetRankingByNpIdAsync' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicAbortGui' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingAddExtendedHandler' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetTicketParam' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupDestroyTitleCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupInit' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingActivateConnection' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingCreateCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicRecvMessageAttachmentLoad' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetContentRatingFlag' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScoreCreateTransactionCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupPollAsync' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingGetPeerNetInfo' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScoreCensorCommentAsync' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicRecvMessageCustom' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerRequestTicket2' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupTerm' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupTitleSmallStorageAsync' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingTerminateConnection' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScoreTerm' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetPlayersHistoryEntryCount' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScorePollAsync' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetCustomInvitationEntryCount' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingDestroyCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicUnregisterHandler' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetFriendListEntryCount' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetAccountRegion' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScoreCreateTitleCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetPlayersHistoryEntry' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicRegisterHandler' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetNetworkTime' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicSetPresenceDetails' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpScoreDestroyTransactionCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingGetConnectionStatus' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupCreateTitleCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpProfileCallGui' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingGetPeerNetInfoResult' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpUtilCmpNpId' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetEvent' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerRegisterCallback' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpSignalingGetConnectionFromNpId' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupCreateTransactionCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetChatRestrictionFlag' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicSendMessage' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetMessageEntryCount' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpLookupDestroyTransactionCtx' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpBasicGetFriendPresenceByNpId' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpManagerGetNpId' in 'sceNp' module
+LDR: W Unimplemented function 'sceNpMatching2DestroyContext' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetWorldInfoList' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SearchRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2CreateServerContext' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2LeaveRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SetRoomDataExternal' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2Term2' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetRoomMemberDataExternalList' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetServerInfo' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetEventData' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNp2Init' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2AbortContextStart' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2JoinRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2KickoutRoomMember' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2ContextStartAsync' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterContextCallback' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SetRoomDataInternal' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SignalingGetPingInfo' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GetServerIdListLocal' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2GrantRoomOwner' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2CreateContext' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2ClearEventData' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNp2Term' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SetRoomMemberDataInternal' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2DeleteServerContext' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2SetDefaultRequestOptParam' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterRoomEventCallback' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2CreateJoinRoom' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2ContextStop' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2Init2' in 'sceNp2' module
+LDR: W Unimplemented function 'sceNpMatching2RegisterRoomMessageCallback' in 'sceNp2' module
+LDR: W Unknown module 'sceNpCommerce2'
+LDR: W Unknown module 'cellRec'
+LDR: W Unknown module 'sceNpTus'
+LDR: W Unimplemented function 'UCS2stoUTF8s' in 'cellL10n' module
+LDR: W Unimplemented function 'UTF8stoUCS2s' in 'cellL10n' module
+LDR: W Unknown module 'cellPhotoUtility'
+LDR: W Unimplemented function 'cellJpgEncQueryAttr' in 'cellJpgEnc' module
+LDR: W Unimplemented function 'cellJpgEncWaitForInput' in 'cellJpgEnc' module
+LDR: W Unimplemented function 'cellJpgEncGetStreamInfo' in 'cellJpgEnc' module
+LDR: W Unimplemented function 'cellJpgEncEncodePicture2' in 'cellJpgEnc' module
+LDR: W Unimplemented function 'cellJpgEncClose' in 'cellJpgEnc' module
+LDR: W Unimplemented function 'cellJpgEncWaitForOutput' in 'cellJpgEnc' module
+LDR: W Unimplemented function 'cellJpgEncOpen' in 'cellJpgEnc' module
+LDR: W Unknown module 'cellSysutilNpEula'
+LDR: W Unknown module 'sceNpUtil'
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: W PPU[1] Thread (CPUThread)[0x00ace360]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x22): sq_id = 15
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 16
+HLE: W PPU[1] Thread (CPUThread)[0x008fd6a0]sys_mutex warning: *** mutex created [FileSv] (protocol=0x1, recursive=false): id = 17
+HLE: W PPU[1] Thread (CPUThread)[0x00abe340]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x00abe340]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x00ac50ac]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x00ac50ac]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x00abfdb0]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x00abfdb0]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x00ac50ac]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x00ac50ac]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x00abe2ec]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x00abe2ec]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x00abfdb0]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_TIMEZONE
+HLE: W PPU[1] Thread (CPUThread)[0x00abfdb0]cellSysutil warning: cellSysutilGetSystemParamInt: CELL_SYSUTIL_SYSTEMPARAM_ID_SUMMERTIME
+HLE: W PPU[1] Thread (CPUThread)[0x0110e058]sys_lwmutex warning: *** lwmutex created [ps3HDDL] (attribute=0x12): sq_id = 18
+TTY: 
+TTY init: stdout ############################################################
+TTY: 
+TTY init: stderr ############################################################
+TTY: 
+TTY init: spu stdout ########################################################
+TTY: 
+TTY init: user 1 ############################################################
+TTY: 
+TTY init: user 2 ############################################################
+TTY: 
+TTY init: user 3 ############################################################
+TTY: 
+TTY init: user 4 ############################################################
+TTY: 
+TTY init: user 5 ############################################################
+TTY: 
+TTY init: user 6 ############################################################
+TTY: 
+TTY init: user 7 ############################################################
+TTY: 
+TTY init: user 8 ############################################################
+TTY: 
+TTY init: user 9 ############################################################
+TTY: 
+TTY init: user 10 ###########################################################
+TTY: 
+TTY init: user 11 ###########################################################
+TTY: 
+TTY init: user 12 ###########################################################
+TTY: 
+TTY init: user 13 ###########################################################
+HLE: W PPU[1] Thread (CPUThread)[0x004ef938]sys_event warning: sys_event_queue_create(equeue_id_addr=0xf3ea5c, attr_addr=0xd0010b40, event_queue_key=0x0, size=16)
+HLE: W PPU[1] Thread (CPUThread)[0x004ef938]sys_event warning: *** event_queue created [TWITTER] (protocol=0x2, type=0x1): id = 19
+HLE: W PPU[1] Thread (CPUThread)[0x004ef954]sys_event warning: sys_event_port_create(eport_id_addr=0xf3ea60, port_type=0x1, name=0x76543210)
+HLE: W PPU[1] Thread (CPUThread)[0x004ef954]sys_event warning: *** sys_event_port created: id = 20
+HLE: W PPU[1] Thread (CPUThread)[0x004ef964]sys_event warning: sys_event_port_connect_local(eport_id=20, equeue_id=19)
+PPU: ! PPU[1] Thread (CPUThread)[0x0110e028]*** New PPU Thread [Twitter Thread] (flags=0x1, entry=0xdf28c8): id = 21
+HLE: W PPU[1] Thread (CPUThread)[0x00173c10]sys_event warning: sys_event_queue_create(equeue_id_addr=0xebd5b0, attr_addr=0xd0010bc0, event_queue_key=0x0, size=127)
+HLE: W PPU[1] Thread (CPUThread)[0x00173c10]sys_event warning: *** event_queue created [] (protocol=0x1, type=0x1): id = 22
+HLE: W PPU[1] Thread (CPUThread)[0x00173c44]sys_event warning: sys_event_port_create(eport_id_addr=0xebd5b4, port_type=0x1, name=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x00173c44]sys_event warning: *** sys_event_port created: id = 23
+HLE: W PPU[1] Thread (CPUThread)[0x00173c6c]sys_event warning: sys_event_port_connect_local(eport_id=23, equeue_id=22)
+TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: 
+TTY: RTTY: eTTY: gTTY: iTTY: sTTY: tTTY: eTTY: rTTY: iTTY: nTTY: gTTY:  TTY: sTTY: yTTY: sTTY:  TTY: mTTY: oTTY: dTTY: uTTY: lTTY: eTTY:  TTY: cTTY: oTTY: nTTY: fTTY: iTTY: gTTY: uTTY: rTTY: aTTY: tTTY: iTTY: oTTY: nTTY:  TTY: 'TTY: sTTY: iTTY: nTTY: gTTY: lTTY: eTTY: -TTY: pTTY: lTTY: aTTY: yTTY: eTTY: rTTY: 'TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: STTY: pTTY: uTTY: rTTY: sTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: ITTY: OTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: STTY: yTTY: nTTY: cTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: ATTY: uTTY: dTTY: iTTY: oTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: UTTY: STTY: BTTY: DTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: FTTY: STTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: NTTY: ETTY: TTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: NTTY: ETTY: TTTY: CTTY: TTTY: LTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: STTY: YTTY: STTY: UTTY: TTTY: ITTY: LTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: RTTY: TTTY: CTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: HTTY: TTTY: TTTY: PTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP_UTIL)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: HTTY: TTTY: TTTY: PTTY: _TTY: UTTY: TTTY: ITTY: LTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTPS)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: HTTY: TTTY: TTTY: PTTY: STTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_REC)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: RTTY: ETTY: CTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: TTTY: RTTY: OTTY: PTTY: HTTY: YTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: GTTY: ATTY: MTTY: ETTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VDEC_MPEG2)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: MTTY: PTTY: ETTY: GTTY: 2TTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VDEC_DIVX)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: DTTY: ITTY: VTTY: XTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: NTTY: PTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: NTTY: PTTY: 2TTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: TTTY: UTTY: STTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SPURS)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_IO)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYNC)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_AUDIO)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_USBD)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_FS)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_NET)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_NETCTL)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_RTC)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_HTTP)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_HTTP_UTIL)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_HTTPS)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_REC)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_VDEC_MPEG2)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_VDEC_DIVX)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP2)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec004]cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
+TTY: RTTY: eTTY: qTTY: uTTY: iTTY: rTTY: eTTY: dTTY:  TTY: sTTY: iTTY: zTTY: eTTY:  TTY: fTTY: oTTY: rTTY:  TTY: mTTY: oTTY: dTTY: uTTY: lTTY: eTTY:  TTY: cTTY: oTTY: nTTY: fTTY: iTTY: gTTY: uTTY: rTTY: aTTY: tTTY: iTTY: oTTY: nTTY:  TTY: 'TTY: sTTY: iTTY: nTTY: gTTY: lTTY: eTTY: -TTY: pTTY: lTTY: aTTY: yTTY: eTTY: rTTY: 'TTY:  TTY: iTTY: sTTY:  TTY: 0TTY:  TTY: KTTY: BTTY: 
+TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: -TTY: 
+TTY: RTTY: eTTY: gTTY: iTTY: sTTY: tTTY: eTTY: rTTY: iTTY: nTTY: gTTY:  TTY: sTTY: yTTY: sTTY:  TTY: mTTY: oTTY: dTTY: uTTY: lTTY: eTTY:  TTY: cTTY: oTTY: nTTY: fTTY: iTTY: gTTY: uTTY: rTTY: aTTY: tTTY: iTTY: oTTY: nTTY:  TTY: 'TTY: mTTY: uTTY: lTTY: tTTY: iTTY: -TTY: pTTY: lTTY: aTTY: yTTY: eTTY: rTTY: 'TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: STTY: pTTY: uTTY: rTTY: sTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: ITTY: OTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYNC)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: STTY: yTTY: nTTY: cTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: ATTY: uTTY: dTTY: iTTY: oTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: UTTY: STTY: BTTY: DTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: FTTY: STTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: NTTY: ETTY: TTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: NTTY: ETTY: TTTY: CTTY: TTTY: LTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: STTY: YTTY: STTY: UTTY: TTTY: ITTY: LTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RTC)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: RTTY: TTTY: CTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: HTTY: TTTY: TTTY: PTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTP_UTIL)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: HTTY: TTTY: TTTY: PTTY: _TTY: UTTY: TTTY: ITTY: LTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_HTTPS)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: HTTY: TTTY: TTTY: PTTY: STTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_REC)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: RTTY: ETTY: CTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: TTTY: RTTY: OTTY: PTTY: HTTY: YTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_GAME)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: GTTY: ATTY: MTTY: ETTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: NTTY: PTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: NTTY: PTTY: 2TTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TUS)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: TTTY: UTTY: STTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_COMMERCE2)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: CTTY: OTTY: MTTY: MTTY: ETTY: RTTY: CTTY: ETTY: 2TTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_PNGDEC)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: PTTY: NTTY: GTTY:  TTY: DTTY: eTTY: cTTY: oTTY: dTTY: eTTY: rTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_JPGDEC)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: JTTY: PTTY: GTTY:  TTY: DTTY: eTTY: cTTY: oTTY: dTTY: eTTY: rTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_MIC)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: MTTY: iTTY: cTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_VOICE)
+HLE: W PPU[1] Thread (CPUThread)[0x00911db4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b38)
+TTY:  TTY:  TTY:  TTY: |TTY: -TTY:  TTY: 0TTY: .TTY: 0TTY: 0TTY: 0TTY:  TTY: MTTY: BTTY:  TTY: fTTY: oTTY: rTTY:  TTY: PTTY: RTTY: XTTY: (TTY: VTTY: oTTY: iTTY: cTTY: eTTY: )TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00911e30]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010b30)
+HLE: W PPU[1] Thread (CPUThread)[0x010ec010]cellSysmodule warning: cellSysmoduleLoadModule((null))
+PPU: E PPU[1] Thread (CPUThread)[0x00911e48]Trap! (tw 1f, r1, r1) #pc: 0x911e48
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r0 = 0x10ec00c
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r1 = 0xd0010ac0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r2 = 0xe183b8
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r3 = 0xffffffff80012002
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r4 = 0xe1c7eb
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r5 = 0xffffffffffffffff
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r6 = 0xd00106c0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r7 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r8 = 0xe1c7eb
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r9 = 0xffff
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r10 = 0x10d20e0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r11 = 0x32267a31
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r12 = 0x10eb008
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r13 = 0x30007060
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r14 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r15 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r16 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r17 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r18 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r19 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r20 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r21 = 0x1097e00
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r22 = 0xafc408
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r23 = 0xe13720
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r24 = 0xe13720
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r25 = 0xd0010b30
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r26 = 0xd0010b38
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r27 = 0xb35668
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r28 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r29 = 0x0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r30 = 0xddafa0
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]r31 = 0xe13840
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f0 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f1 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f2 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f3 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f4 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f5 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f6 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f7 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f8 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f9 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f10 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f11 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f12 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f13 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f14 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f15 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f16 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f17 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f18 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f19 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f20 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f21 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f22 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f23 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f24 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f25 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f26 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f27 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f28 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f29 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f30 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]f31 = 0.000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v0 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v1 = 0x00000001000000010000000100000001 [x: 1.4013e-045 y: 1.4013e-045 z: 1.4013e-045 w: 1.4013e-045]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v2 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v3 = 0xc040000040400000c0000000bf800000 [x: -3 y: 3 z: -2 w: -1]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v4 = 0x00000000000000003f80000000000000 [x: 0 y: 0 z: 1 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v5 = 0x3f800000000000000000000000000000 [x: 1 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v6 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v7 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v8 = 0x00000000ffffffff0000000000000000 [x: 0 y: -1.#QNAN z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v9 = 0xffffffff000000000000000000000000 [x: -1.#QNAN y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v10 = 0x3f800000000000000000000000000000 [x: 1 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v11 = 0x40000000400000004000000040000000 [x: 2 y: 2 z: 2 w: 2]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v12 = 0x00000000ffffffff0000000000000000 [x: 0 y: -1.#QNAN z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v13 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v14 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v15 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v16 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v17 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v18 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v19 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v20 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v21 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v22 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v23 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v24 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v25 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v26 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v27 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v28 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v29 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v30 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]v31 = 0x00000000000000000000000000000000 [x: 0 y: 0 z: 0 w: 0]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]CR = 0x48004088
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]LR = 0x911e3c
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]CTR = 0x10ec00c
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]XER = 0x20000000 [CA=708669603841 | OV=140716013518848 | SO=708669603840]
+PPU: ! PPU[1] Thread (CPUThread)[0x00911e48]FPSCR = 0x82002000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=2 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=1 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=1]
+HLE: W PPU[21] Thread (Twitter Thread)[0x004f08a0]sys_event_queue_receive(equeue=19) aborted
+HLE: ! All threads stopped...
+MEM: ! Closing memory...
