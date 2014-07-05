@@ -1,6 +1,5 @@
 HLE: ! path: /dev_hdd0/game/
-LDR: ! Loading RAP file EP1004-NPEB01283_00-GTAVDIGITALDOWNL.rap
-LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\USRDIR/BOOT.BIN'...
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
 LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
@@ -8,13 +7,13 @@ LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
 LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
 LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\
-LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\/../
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283//../
 LDR: ! /host_root/ -> 
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\/USRDIR/
-LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\/USRDIR/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283//USRDIR/
 LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
-LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283\/USRDIR/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01283//USRDIR/
 LDR: !  
 MEM: ! Initing memory...
 MEM: ! Memory initialized.
@@ -285,7 +284,7 @@ PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]v31 = 0x0000000000000000000000000000
 PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]CR = 0x28000042
 PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]LR = 0xaa38e8
 PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]CTR = 0x1b49030
-PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]XER = 0x0 [CA=601295421440 | OV=140716013518848 | SO=601295421440]
+PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]XER = 0x0 [CA=670014898176 | OV=140716013518848 | SO=670014898176]
 PPU: ! PPU[1] Thread (CPUThread)[0x00aa3900]FPSCR = 0x0 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=0 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
 HLE: ! All threads stopped...
 MEM: ! Closing memory...
