@@ -17,6 +17,25 @@ LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB
 LDR: !  
 MEM: ! Initing memory...
 MEM: ! Memory initialized.
+LDR: ! Function 'cellAANConnect' hooked (addr=0xc432e8)
+LDR: ! Function 'cellAANDisconnect' hooked (addr=0xc43380)
+LDR: ! Function 'cellAANAddData' hooked (addr=0xc43418)
+LDR: ! Function 'cellSurMixerGetAANHandle' hooked (addr=0xc43564)
+LDR: ! Function 'cellSurMixerSetNotifyCallback' hooked (addr=0xc4359c)
+LDR: ! Function 'cellSurMixerRemoveNotifyCallback' hooked (addr=0xc43630)
+LDR: ! Function 'cellSurMixerSurBusAddData' hooked (addr=0xc436c0)
+LDR: ! Function 'cellSurMixerGetCurrentBlockTag' hooked (addr=0xc43770)
+LDR: ! Function 'cellSurMixerChStripGetAANPortNo' hooked (addr=0xc43fcc)
+LDR: ! Function 'cellSurMixerBeep' hooked (addr=0xc44008)
+LDR: ! Function 'cellSurMixerChStripSetParameter' hooked (addr=0xc443e4)
+LDR: ! Function 'cellSurMixerPause' hooked (addr=0xc44698)
+LDR: ! Function 'cellSurMixerGetTimestamp' hooked (addr=0xc45cb0)
+LDR: ! Function 'cellSurMixerSetParameter' hooked (addr=0xc45d18)
+LDR: ! Function 'cellSurMixerStart' hooked (addr=0xc45de8)
+LDR: ! Function 'cellSurMixerFinalize' hooked (addr=0xc460f0)
+LDR: ! Function 'cellSurMixerCreate' hooked (addr=0xc469b4)
+LDR: S Function group [surmxAAN] successfully hooked
+LDR: S Function group [surmixer] successfully hooked
 LDR: W Unknown module 'libTGV'
 LDR: W Unimplemented function 'sceNpManagerGetTicket' in 'sceNp' module
 LDR: W Unimplemented function 'sceNpManagerGetAccountAge' in 'sceNp' module
@@ -268,6 +287,29 @@ HLE: W PPU[44] Thread (GameContentAccess)[0x01dad040]"/dev_hdd0/game/NPEB01158/U
 HLE: W PPU[44] Thread (GameContentAccess)[0x01dad010]sys_fs warning: cellFsClose(fd=49)
 HLE: W PPU[44] Thread (GameContentAccess)[0x01dad040]"/dev_hdd0/game/NPEB01158/USRDIR/bs04.adat.sdat" opened: fd = 50
 HLE: W PPU[44] Thread (GameContentAccess)[0x01dad010]sys_fs warning: cellFsClose(fd=50)
+TTY: CGameDataStorageInfo::thread_CallSubProc() : START : state=2, m_threadState=2
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5070]cellGame warning: cellGameDataCheck(type=0x2, dirName_addr=0x1cfc7b0, size_addr=0x1cfd028)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc504c]cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfd034)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc504c]cellGame warning: cellGameGetParamInt(id=103, value_addr=0x1cfd038)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc504c]cellGame warning: cellGameGetParamInt(id=104, value_addr=0x1cfd03c)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=100, buf_addr=0x1cfd640, bufsize=10)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=101, buf_addr=0x1cfd64a, bufsize=6)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=106, buf_addr=0x1cfd650, bufsize=6)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=105, buf_addr=0x1cfd656, bufsize=8)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=0, buf_addr=0x1cfd040, bufsize=128)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=1, buf_addr=0x1cfd0c0, bufsize=128)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=2, buf_addr=0x1cfd140, bufsize=128)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=3, buf_addr=0x1cfd1c0, bufsize=128)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=4, buf_addr=0x1cfd240, bufsize=128)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=5, buf_addr=0x1cfd340, bufsize=128)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=6, buf_addr=0x1cfd2c0, bufsize=128)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=7, buf_addr=0x1cfd3c0, bufsize=128)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=8, buf_addr=0x1cfd440, bufsize=128)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=9, buf_addr=0x1cfd4c0, bufsize=128)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=10, buf_addr=0x1cfd540, bufsize=128)
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5010]cellGame warning: cellGameGetParamString(id=11, buf_addr=0x1cfd5c0, bufsize=128)
+HLE: E PPU[44] Thread (GameContentAccess)[0x01dc507c]cellGame error: Unimplemented function: cellGameGetSizeKB
+HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5028]cellGame warning: cellGameContentPermit(contentInfoPath_addr=0xd0040928, usrdirPath_addr=0xd0040b28)
 TTY: CGameDataStorageInfo::thread_CallSubProc() : START : state=6, m_threadState=6
 HLE: W PPU[44] Thread (GameContentAccess)[0x01dc5070]cellGame warning: cellGameDataCheck(type=0x2, dirName_addr=0x1cfc7b0, size_addr=0x1cfc8f0)
 HLE: W PPU[44] Thread (GameContentAccess)[0x01dc504c]cellGame warning: cellGameGetParamInt(id=102, value_addr=0x1cfc8fc)
@@ -787,19 +829,19 @@ HLE: E PPU[1] Thread (CPUThread)[0x01db504c]cellSpurs error: Unimplemented funct
 HLE: E PPU[1] Thread (CPUThread)[0x01db50ac]cellSpurs error: Unimplemented function: cellSpursJobGuardInitialize
 HLE: E PPU[1] Thread (CPUThread)[0x01db5184]cellSpurs error: Unimplemented function: cellSpursRunJobChain
 HLE: E PPU[1] Thread (CPUThread)[0x01db5178]cellSpurs error: Unimplemented function: cellSpursJobGuardNotify
-HLE: W PPU[118] Thread (PPU Thread)[0x00c5d230]sys_cond_wait(id=116) aborted
-HLE: W PPU[42] Thread (sgsfile-req-th)[0x00c08f60]sys_cond_wait(id=40) aborted
-RSX: W RSXThreadRSX thread aborted
-HLE: W PPU[95] Thread (fios mediathread 4)[0x01dc7040]sys_lwcond_wait(id=92) aborted
 RSX: W VBlank threadVBlank thread aborted
-HLE: W PPU[252] Thread (sgx-spurs-printf-handler)[0x00bed388]sys_event_queue_receive(equeue=250) aborted
-HLE: W PPU[243] Thread (meRenderMngr2 Thread)[0x01dc7040]sys_lwcond_wait(id=241) aborted
+HLE: W PPU[1] Thread (CPUThread)[0x00beb760]sys_event_queue_receive(equeue=254) aborted
+RSX: W RSXThreadRSX thread aborted
+HLE: W PPU[35] Thread (spu_printf_handler)[0x00cb0808]sys_event_queue_receive(equeue=34) aborted
 HLE: W PPU[229] Thread (spuren runit0
 )[0x01dc7040]sys_lwcond_wait(id=226) aborted
-HLE: W PPU[96] Thread (fios scheduler 1)[0x01dc7040]sys_lwcond_wait(id=86) aborted
-HLE: W PPU[93] Thread (fios mediathread 2)[0x01dc7040]sys_lwcond_wait(id=90) aborted
+HLE: W PPU[42] Thread (sgsfile-req-th)[0x00c08f60]sys_cond_wait(id=40) aborted
+HLE: W PPU[118] Thread (PPU Thread)[0x00c5d230]sys_cond_wait(id=116) aborted
 HLE: W PPU[94] Thread (fios mediathread 3)[0x01dc7040]sys_lwcond_wait(id=91) aborted
-HLE: W PPU[35] Thread (spu_printf_handler)[0x00cb0808]sys_event_queue_receive(equeue=34) aborted
-HLE: W PPU[1] Thread (CPUThread)[0x00beb760]sys_event_queue_receive(equeue=254) aborted
+HLE: W PPU[243] Thread (meRenderMngr2 Thread)[0x01dc7040]sys_lwcond_wait(id=241) aborted
+HLE: W PPU[93] Thread (fios mediathread 2)[0x01dc7040]sys_lwcond_wait(id=90) aborted
+HLE: W PPU[252] Thread (sgx-spurs-printf-handler)[0x00bed388]sys_event_queue_receive(equeue=250) aborted
+HLE: W PPU[95] Thread (fios mediathread 4)[0x01dc7040]sys_lwcond_wait(id=92) aborted
+HLE: W PPU[96] Thread (fios scheduler 1)[0x01dc7040]sys_lwcond_wait(id=86) aborted
 HLE: ! All threads stopped...
 MEM: ! Closing memory...
