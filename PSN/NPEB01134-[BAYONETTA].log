@@ -1,6 +1,5 @@
 HLE: ! path: /dev_hdd0/game/
-LDR: ! Loading RAP file EP0177-NPEB01134_00-00BAYONETTAHDDEU.rap
-LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134\USRDIR/BOOT.BIN'...
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
 LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
@@ -8,13 +7,13 @@ LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
 LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
 LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
 LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134\
-LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134\/../
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134//../
 LDR: ! /host_root/ -> 
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134\/USRDIR/
-LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134\/USRDIR/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134//USRDIR/
 LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
-LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134\/USRDIR/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01134//USRDIR/
 LDR: !  
 MEM: ! Initing memory...
 MEM: ! Memory initialized.
@@ -116,6 +115,7 @@ HLE: W PPU[1] Thread (CPUThread)[0x013c907c]cellSysutil warning: cellSysutilRegi
 HLE: W PPU[1] Thread (CPUThread)[0x013cb0b8]cellGcmSys warning: cellGcmInitDefaultFifoMode(mode=1)
 HLE: W PPU[1] Thread (CPUThread)[0x013cb010]cellGcmSys warning: cellGcmInit(context_addr=0x20868c8,cmdSize=0x80000,ioSize=0x100000,ioAddress=0x32900000)
 HLE: W PPU[1] Thread (CPUThread)[0x013cb010]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W PPU[1] Thread (CPUThread)[0x013cb010]cellGcmSys warning: cellGcmInit(): 256MB io address space used
 HLE: W PPU[1] Thread (CPUThread)[0x013cb010]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x32900000, io=0x0, size=0x100000)
 RSX: ! RSXThreadRSX thread started
 HLE: W PPU[1] Thread (CPUThread)[0x00f78eb4]sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=6)
@@ -249,26 +249,12 @@ HLE: W PPU[1] Thread (CPUThread)[0x021f9034]sys_lwmutex warning: *** lwmutex cre
 HLE: W PPU[1] Thread (CPUThread)[0x021ef094]sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd00107d0, drm_path_addr=0xd00107e0)
 HLE: W PPU[1] Thread (CPUThread)[0x021ef094]sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEB01134/USRDIR/data/hdd_data.edat
 HLE: W PPU[1] Thread (CPUThread)[0x021ef094]sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x4c7ff53b06e06a10f28a76dba41cf9da
-LDR: ! PPU[1] Thread (CPUThread)[0x021ef094]EDAT: Parsing data...
-
-LDR: S PPU[1] Thread (CPUThread)[0x021ef094]EDAT: Data successfully parsed!
-
-LDR: ! PPU[1] Thread (CPUThread)[0x021ef094]EDAT: Decrypting data...
-
-LDR: E PPU[1] Thread (CPUThread)[0x021ef094]EDAT: Flag 0x3C/0x3D EDAT files are unsupported yet
-LDR: E PPU[1] Thread (CPUThread)[0x021ef094]EDAT: Data decryption failed!
+LDR: E PPU[1] Thread (CPUThread)[0x021ef094]EDAT: File has invalid NPD header.
 TTY: sceNpDrmIsAvailable : /dev_hdd0/game/NPEB01134/USRDIR/data/hdd_data.edat
 HLE: W PPU[1] Thread (CPUThread)[0x021ef094]sceNp warning: sceNpDrmIsAvailable(k_licensee_addr=0xd00106c0, drm_path_addr=0xd00106d0)
 HLE: W PPU[1] Thread (CPUThread)[0x021ef094]sceNp warning: sceNpDrmIsAvailable: Found DRM license file at /dev_hdd0/game/NPEB01134/USRDIR/data/hdd_data.edat
 HLE: W PPU[1] Thread (CPUThread)[0x021ef094]sceNp warning: sceNpDrmIsAvailable: Using k_licensee 0x4c7ff53b06e06a10f28a76dba41cf9da
-LDR: ! PPU[1] Thread (CPUThread)[0x021ef094]EDAT: Parsing data...
-
-LDR: S PPU[1] Thread (CPUThread)[0x021ef094]EDAT: Data successfully parsed!
-
-LDR: ! PPU[1] Thread (CPUThread)[0x021ef094]EDAT: Decrypting data...
-
-LDR: E PPU[1] Thread (CPUThread)[0x021ef094]EDAT: Flag 0x3C/0x3D EDAT files are unsupported yet
-LDR: E PPU[1] Thread (CPUThread)[0x021ef094]EDAT: Data decryption failed!
+LDR: E PPU[1] Thread (CPUThread)[0x021ef094]EDAT: File has invalid NPD header.
 TTY: sceNpDrmIsAvailable : /dev_hdd0/game/NPEB01134/USRDIR/data/hdd_data.edat
 HLE: W PPU[1] Thread (CPUThread)[0x021f9034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 80
 HLE: W PPU[1] Thread (CPUThread)[0x021f9034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 81
@@ -314,10 +300,10 @@ HLE: W PPU[1] Thread (CPUThread)[0x013c9094]cellSysutil warning: cellAudioOutGet
 HLE: W PPU[1] Thread (CPUThread)[0x013c9094]cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=6, fs=0x4, option=0)
 HLE: W PPU[1] Thread (CPUThread)[0x021f9034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 92
 HLE: W PPU[1] Thread (CPUThread)[0x021f9034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 93
-HLE: E PPU[82] Thread (Surmixer Callback)[0x013cf1cc]cellSpurs error: Unimplemented function: cellSpursQueuePushBody
 TTY: MainStartup() fault!
 HLE: E PPU[82] Thread (Surmixer Callback)[0x013cf1cc]cellSpurs error: Unimplemented function: cellSpursQueuePushBody
 HLE: W PPU[1] Thread (CPUThread)[0x021f90f4]sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x1f12a10)
+HLE: E PPU[82] Thread (Surmixer Callback)[0x013cf1cc]cellSpurs error: Unimplemented function: cellSpursQueuePushBody
 HLE: E PPU[1] Thread (CPUThread)[0x013cf1cc]cellSpurs error: Unimplemented function: cellSpursQueuePushBody
 HLE: E PPU[1] Thread (CPUThread)[0x013cf034]cellSpurs error: cellSpursJoinTaskset(taskset_addr=0x307c7d00)
 HLE: E PPU[1] Thread (CPUThread)[0x013cf094]cellSpurs error: Unimplemented function: cellSpursQueueDetachLv2EventQueue

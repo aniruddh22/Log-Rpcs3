@@ -11,6 +11,9 @@ LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00840/
 LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00840//../
 LDR: ! /host_root/ -> 
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00840//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00840//USRDIR/
+LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB00840//USRDIR/
 LDR: !  
 MEM: ! Initing memory...
 MEM: ! Memory initialized.
@@ -82,6 +85,7 @@ HLE: W PPU[1] Thread (CPUThread)[0x00658088]cellSysutil warning: cellSysutilRegi
 HLE: W PPU[1] Thread (CPUThread)[0x01577058]sys_lwmutex warning: *** lwmutex created [ZSysCom] (attribute=0x12): sq_id = 18
 HLE: W PPU[1] Thread (CPUThread)[0x0065601c]cellGcmSys warning: cellGcmInit(context_addr=0x12ed414,cmdSize=0x3fe000,ioSize=0x400000,ioAddress=0x30200000)
 HLE: W PPU[1] Thread (CPUThread)[0x0065601c]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W PPU[1] Thread (CPUThread)[0x0065601c]cellGcmSys warning: cellGcmInit(): 256MB io address space used
 HLE: W PPU[1] Thread (CPUThread)[0x0065601c]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x400000)
 RSX: ! RSXThreadRSX thread started
 HLE: W PPU[1] Thread (CPUThread)[0x006560ac]cellGcmSys warning: cellGcmMapMainMemory(ea=0x30700000,size=0x9600000,offset_addr=0x12ec9c0)
@@ -187,13 +191,11 @@ HLE: W PPU[1] Thread (CPUThread)[0x0065a004]cellSysmodule warning: cellSysmodule
 HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 65
 HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
 HLE: W PPU[1] Thread (CPUThread)[0x0156d004]sys_net warning: sys_net_initialize_network_ex(param_addr=0xd00104b0)
-HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROPCONF.SFM')
 HLE: W PPU[1] Thread (CPUThread)[0x0156d004]sys_net warning: sys_net_initialize_network_ex(param_addr=0xd00104b0)
 HLE: E PPU[1] Thread (CPUThread)[0x0156b028]cellNetCtl error: Unimplemented function: cellNetCtlInit
 HLE: W PPU[1] Thread (CPUThread)[0x0065a010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 66
 HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 67
-HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\ICON0.PNG')
 HLE: E PPU[1] Thread (CPUThread)[0x0156b010]cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
 HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 68
 HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 69
@@ -205,14 +207,18 @@ HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created
 HLE: W PPU[1] Thread (CPUThread)[0x005e2da0]sys_cond warning: *** condition created [] (mutex_id=74): id = 75
 HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 76
 HLE: W PPU[1] Thread (CPUThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 77
-HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP000.PNG')
 PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [ZThread] (flags=0x1, entry=0x6b7f10): id = 78
+HLE: W PPU[53] Thread (fios mediathread 2)[0x0157504c]"/dev_hdd0/game/NPEB00840/USRDIR/ICON0.PNG" opened: fd = 79
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROPCONF.SFM')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\ICON0.PNG')
+HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP000.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP001.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP002.PNG')
-HLE: W PPU[53] Thread (fios mediathread 2)[0x0157504c]"/dev_hdd0/game/NPEB00840/USRDIR/ICON0.PNG" opened: fd = 79
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP003.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP004.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP005.PNG')
+HLE: W PPU[78] Thread (ZThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 80
+HLE: W PPU[78] Thread (ZThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 81
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP006.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP007.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP008.PNG')
@@ -225,6 +231,8 @@ HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulat
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP015.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP016.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP017.PNG')
+HLE: W PPU[53] Thread (fios mediathread 2)[0x01575010]sys_fs warning: cellFsClose(fd=79)
+HLE: W PPU[53] Thread (fios mediathread 2)[0x0157504c]"/dev_hdd0/game/NPEB00840/USRDIR/PIC0.PNG" opened: fd = 82
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP018.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP019.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP020.PNG')
@@ -233,11 +241,7 @@ HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulat
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP023.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP024.PNG')
 HLE: W PPU[64] Thread (Trophy System)[0x01563004]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR03684_00\TROP025.PNG')
-HLE: W PPU[53] Thread (fios mediathread 2)[0x01575010]sys_fs warning: cellFsClose(fd=79)
-HLE: W PPU[53] Thread (fios mediathread 2)[0x0157504c]"/dev_hdd0/game/NPEB00840/USRDIR/PIC0.PNG" opened: fd = 80
-HLE: W PPU[53] Thread (fios mediathread 2)[0x01575010]sys_fs warning: cellFsClose(fd=80)
-HLE: W PPU[78] Thread (ZThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 81
-HLE: W PPU[78] Thread (ZThread)[0x005e2d1c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=true): id = 82
+HLE: W PPU[53] Thread (fios mediathread 2)[0x01575010]sys_fs warning: cellFsClose(fd=82)
 HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
 HLE: W PPU[1] Thread (CPUThread)[0x00658010]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010194, option_addr=0x0, waitForEvent=0x0)
 HLE: W PPU[1] Thread (CPUThread)[0x00656004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
@@ -413,6 +417,7 @@ HLE: W PPU[1] Thread (CPUThread)[0x00549038]"/dev_hdd0/game/NPEB00840/USRDIR/Mov
 RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
 RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
 RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
+HLE: E PPU[2] Thread (Callback)[0x00656040]cellGcmSys error: Unimplemented function: cellGcmGetLastSecondVTime
 HLE: W PPU[1] Thread (CPUThread)[0x0065c04c]cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd000fa40, portNum_addr=0x6da4f8)
 HLE: W PPU[1] Thread (CPUThread)[0x0065c04c]cellAudio warning: *** audio port opened(nChannel=8, nBlock=16, attr=0x1000, level=1.000000): port = 0
 HLE: W PPU[1] Thread (CPUThread)[0x0065c028]cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd000fa60)
@@ -424,7 +429,6 @@ HLE: W PPU[1] Thread (CPUThread)[0x003a93a0]sys_mutex warning: *** mutex created
 PPU: ! PPU[1] Thread (CPUThread)[0x01577028]*** New PPU Thread [Bink IO Thread] (flags=0x1, entry=0x6abf40): id = 89
 HLE: W PPU[1] Thread (CPUThread)[0x003a92c0]sys_mutex warning: *** mutex created [radcb] (protocol=0x1, recursive=true): id = 90
 HLE: W PPU[1] Thread (CPUThread)[0x006560ac]cellGcmSys warning: cellGcmMapMainMemory(ea=0x3a300000,size=0x400000,offset_addr=0xd000ff90)
-HLE: E PPU[2] Thread (Callback)[0x00656040]cellGcmSys error: Unimplemented function: cellGcmGetLastSecondVTime
 HLE: W PPU[1] Thread (CPUThread)[0x0065c034]cellAudio warning: cellAudioPortStart(portNum=0x0)
 RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
 RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
@@ -512,6 +516,10 @@ RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
 RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4025
 RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
 HLE: E PPU[2] Thread (Callback)[0x00656040]cellGcmSys error: Unimplemented function: cellGcmGetLastSecondVTime
+HLE: W PPU[86] Thread (Bink Audio Thread)[0x0065c01c]cellAudio warning: cellAudioPortStop(portNum=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065c034]cellAudio warning: cellAudioPortStart(portNum=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065c01c]cellAudio warning: cellAudioPortStop(portNum=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0065c034]cellAudio warning: cellAudioPortStart(portNum=0x0)
 HLE: W PPU[86] Thread (Bink Audio Thread)[0x0065c01c]cellAudio warning: cellAudioPortStop(portNum=0x0)
 HLE: W PPU[1] Thread (CPUThread)[0x0065c034]cellAudio warning: cellAudioPortStart(portNum=0x0)
 HLE: W PPU[1] Thread (CPUThread)[0x0065c01c]cellAudio warning: cellAudioPortStop(portNum=0x0)
@@ -609,4 +617,3 @@ RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0001
 RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_OUTPUT_MASK: 4020
 RSX: W RSXThreadNV4097_SET_TEX_COORD_CONTROL
 RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 109
-HLE: W PPU[86] Thread (Bink Audio Thread)[0x0065c01c]cellAudio warning: cellAudioPortStop(portNum=0x0)

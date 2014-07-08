@@ -1,0 +1,365 @@
+HLE: ! path: /dev_hdd0/game/
+LDR: ! Loading RAP file EP9000-NPEA00021_00-FLOWPLAYSTATION3.rap
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00021\USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00021\
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00021\/../
+LDR: ! /host_root/ -> 
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00021\/USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00021\/USRDIR/
+LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00021\/USRDIR/
+LDR: !  
+MEM: ! Initing memory...
+MEM: ! Memory initialized.
+LDR: W Unimplemented function 'cellSaveDataDelete2' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellSpursRemoveWorkload' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursWaitForWorkloadShutdown' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursAddWorkload' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursWakeUp' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursShutdownWorkload' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursReadyCountStore' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSpursRequestIdleSpu' in 'cellSpurs' module
+LDR: W Unimplemented function 'cellSyncBarrierInitialize' in 'cellSync' module
+LDR: W Unimplemented function 'cellSyncBarrierWait' in 'cellSync' module
+LDR: W Unimplemented function 'cellSyncBarrierTryWait' in 'cellSync' module
+LDR: W Unknown module 'cellPhotoUtility'
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
+HLE: W PPU[1] Thread (CPUThread)[0x00101ad8]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 5
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 6
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 7
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 8
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 9
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 10
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 11
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 12
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 13
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lgcmtx] (attribute=0x12): sq_id = 14
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 15
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 16
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 17
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 18
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 19
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 20
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 21
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 22
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 23
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 24
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 25
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 26
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 27
+HLE: W PPU[1] Thread (CPUThread)[0x000fc3f0]vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\log.txt')
+HLE: W PPU[1] Thread (CPUThread)[0x000fc3f0]"log.txt" opened: fd = 28
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 29
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W PPU[1] Thread (CPUThread)[0x00b38070]cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0xc428f0, userdata=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x000bedec]sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "/app_home/sampleArg.txt" not found! flags: 0x00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00b3a010]cellGcmSys warning: cellGcmInit(context_addr=0xd212f4,cmdSize=0xf0000,ioSize=0x100000,ioAddress=0x30200000)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3a010]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3a010]cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W PPU[1] Thread (CPUThread)[0x00b3a010]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+RSX: ! RSXThreadRSX thread started
+HLE: W PPU[1] Thread (CPUThread)[0x00b3a07c]cellGcmSys warning: cellGcmSetVBlankHandler(handler_addr=0xc42908)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3a004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3a004]cellGcmSys warning: cellGcmGetTiledPitchSize(size=0)
+HLE: W PPU[1] Thread (CPUThread)[0x00b38004]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010b64, option_addr=0x0, waitForEvent=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3a040]cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3a0a0]cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=0, size=7864320, pitch=5120, comp=0, base=0, bank=0)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3a058]cellGcmSys warning: cellGcmMapMainMemory(ea=0x30400000,size=0xc00000,offset_addr=0xd0010a90)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+HLE: W PPU[1] Thread (CPUThread)[0x00ee904c]cellSpurs warning: cellSpursInitialize(spurs_addr=0xe94100, nSpus=2, spuPriority=250, ppuPriority=4294967295, exitIfNoWork=1)
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 30
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=30): id = 31
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 32
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=32): id = 33
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 34
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=34): id = 35
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 36
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=36): id = 37
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 38
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=38): id = 39
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 40
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=40): id = 41
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 42
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=42): id = 43
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 44
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=44): id = 45
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 46
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=46): id = 47
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 48
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=48): id = 49
+HLE: W PPU[1] Thread (CPUThread)[0x0006ae48]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 50
+HLE: W PPU[1] Thread (CPUThread)[0x0006aeac]sys_cond warning: *** condition created [] (mutex_id=50): id = 51
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 52
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=52): id = 53
+HLE: E PPU[1] Thread (CPUThread)[0x00eeb004]cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+HLE: W PPU[1] Thread (CPUThread)[0x0006b150]sys_cond warning: sys_cond_destroy(cond_id=51)
+HLE: W PPU[1] Thread (CPUThread)[0x0006b164]sys_mutex warning: sys_mutex_destroy(mutex_id=50)
+HLE: ! PPU[1] Thread (CPUThread)[0x0006b164]Mutex(50) was owned by thread -1 (recursive=0)
+HLE: W PPU[1] Thread (CPUThread)[0x000915b0]sys_event warning: sys_event_queue_create(equeue_id_addr=0xd12810, attr_addr=0xd00107a4, event_queue_key=0x0, size=8)
+HLE: W PPU[1] Thread (CPUThread)[0x000915b0]sys_event warning: *** event_queue created [] (protocol=0x2, type=0x1): id = 54
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [spu_printf_handler] (flags=0x1, entry=0xc418b0): id = 55
+HLE: W PPU[1] Thread (CPUThread)[0x0009163c]sys_event warning: sys_event_port_create(eport_id_addr=0xd12800, port_type=0x1, name=0xd1ed1ed1)
+HLE: W PPU[1] Thread (CPUThread)[0x0009163c]sys_event warning: *** sys_event_port created: id = 56
+HLE: W PPU[1] Thread (CPUThread)[0x0009164c]sys_event warning: sys_event_port_connect_local(eport_id=56, equeue_id=54)
+HLE: W PPU[1] Thread (CPUThread)[0x00ee9058]cellSpurs warning: cellSpursAttachLv2EventQueue(spurs_addr=0xe94100, queue=0x36, port_addr=0xd00107a0, isDynamic=0)
+HLE: E PPU[1] Thread (CPUThread)[0x00ee9028]TODO: cellSpursAddWorkload
+HLE: E PPU[1] Thread (CPUThread)[0x00ee9028]TODO: cellSpursAddWorkload
+HLE: E PPU[1] Thread (CPUThread)[0x00ee9028]TODO: cellSpursAddWorkload
+TTY: PUtilityCoreGcm::addShader: Created programs for textured prelit shading c7a864 c7a704
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 57
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=57): id = 58
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "/app_home/Data/Local/Localization.xml" not found! flags: 0x00000000
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "/app_home/Data/Classes/Classes.xml" not found! flags: 0x00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AUDIO)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_FS)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3e010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SPURS)
+HLE: W PPU[1] Thread (CPUThread)[0x00ee904c]cellSpurs warning: cellSpursInitialize(spurs_addr=0xea9d00, nSpus=1, spuPriority=128, ppuPriority=4294967295, exitIfNoWork=0)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3807c]cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=0, fs=0x4, option=0)
+HLE: W PPU[1] Thread (CPUThread)[0x00b3807c]cellSysutil warning: cellAudioOutGetSoundAvailability(audioOut=0, type=1, fs=0x4, option=0)
+HLE: W PPU[1] Thread (CPUThread)[0x00b38028]cellSysutil warning: cellAudioOutConfigure(audioOut=0, config_addr=0xd0010378, option_addr=0x0, (!)waitForEvent=0)
+HLE: W PPU[1] Thread (CPUThread)[0x00eef004]cellAudio warning: cellAudioInit()
+HLE: ! Audio ThreadAudio thread started
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 59
+TTY: 
+TTY: ===========================================================
+TTY:  NextSynth PS3 (c)2006 Sony Computer Entertainment America
+TTY:  v1.0.5,	built Jan 23 2007 at 10:21:01
+TTY: ===========================================================
+TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 60
+HLE: E PPU[1] Thread (CPUThread)[0x00ee9088]cellSpurs error: cellSpursGetInfo(spurs_addr=0xea9d00, info_addr=0xd000fd70)
+HLE: E PPU[1] Thread (CPUThread)[0x00ee9028]TODO: cellSpursAddWorkload
+HLE: E PPU[1] Thread (CPUThread)[0x00ee907c]TODO: cellSpursRequestIdleSpu
+HLE: E PPU[1] Thread (CPUThread)[0x00ee90a0]cellSpurs error: Unimplemented function: cellSpurssetExceptionEventHandler
+HLE: W PPU[1] Thread (CPUThread)[0x001c5cd4]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 61
+HLE: W PPU[1] Thread (CPUThread)[0x001c5ce8]sys_cond warning: *** condition created [] (mutex_id=61): id = 62
+HLE: W PPU[1] Thread (CPUThread)[0x00eef04c]cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd0010030, portNum_addr=0xc8c364)
+HLE: W PPU[1] Thread (CPUThread)[0x00eef04c]cellAudio warning: *** audio port opened(nChannel=8, nBlock=8, attr=0x0, level=1.000000): port = 0
+HLE: W PPU[1] Thread (CPUThread)[0x00eef028]cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0xd0010050)
+HLE: E PPU[1] Thread (CPUThread)[0x00ee9070]TODO: cellSpursReadyCountStore
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 63
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 64
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [syn_tick_timer_thread] (flags=0x1, entry=0xc49030): id = 65
+HLE: W PPU[1] Thread (CPUThread)[0x00eef034]cellAudio warning: cellAudioPortStart(portNum=0x0)
+TTY: 
+TTY: ==========================================================
+TTY:  SCREAM PS3    (c)2005 Sony Computer Entertainment America
+TTY:  (nextsynth)
+TTY:  by Buzz Burrowes, Jim Sproul, Chris Braymen,
+TTY:     Laurent Betbeder and Alan Gerrard
+TTY: 
+TTY:                                                 v4.6.0
+TTY:                         (built Jan 23 2007 at 10:19:28)
+TTY: ==========================================================
+TTY:     Sound Tick Thread Priority: 10
+TTY: ==========================================================
+TTY: 
+HLE: E PPU[1] Thread (CPUThread)[0x00eed01c]sys_fs error: "/app_home/./Data/Sounds/flowsound.ini" not found! flags: 0x00000000
+HLE: E PPU[1] Thread (CPUThread)[0x00ee9088]cellSpurs error: cellSpursGetInfo(spurs_addr=0xea9d00, info_addr=0xd000ffc0)
+HLE: E PPU[1] Thread (CPUThread)[0x00ee9028]TODO: cellSpursAddWorkload
+HLE: E PPU[1] Thread (CPUThread)[0x00ee907c]TODO: cellSpursRequestIdleSpu
+HLE: E PPU[1] Thread (CPUThread)[0x00ee90a0]cellSpurs error: Unimplemented function: cellSpurssetExceptionEventHandler
+TTY: snd_stream v2.07.00
+TTY: Compiled against Scream v4.06.00
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b10]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 66
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=66): id = 67
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 68
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 69
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 70
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=70): id = 71
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 72
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 73
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 74
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=74): id = 75
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 76
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 77
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 78
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=78): id = 79
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 80
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 81
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 82
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=82): id = 83
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 84
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 85
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 86
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=86): id = 87
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 88
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 89
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 90
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=90): id = 91
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 92
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 93
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 94
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=94): id = 95
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 96
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 97
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 98
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=98): id = 99
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 100
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 101
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 102
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=102): id = 103
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 104
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 105
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 106
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=106): id = 107
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 108
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 109
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 110
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=110): id = 111
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 112
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 113
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 114
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=114): id = 115
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 116
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 117
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 118
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=118): id = 119
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 120
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 121
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 122
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=122): id = 123
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 124
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 125
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 126
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=126): id = 127
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 128
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 129
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 130
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=130): id = 131
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 132
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 133
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 134
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=134): id = 135
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 136
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 137
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 138
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=138): id = 139
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 140
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 141
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 142
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=142): id = 143
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 144
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 145
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 146
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=146): id = 147
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 148
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 149
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 150
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=150): id = 151
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 152
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 153
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 154
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=154): id = 155
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 156
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 157
+HLE: W PPU[1] Thread (CPUThread)[0x001d3c5c]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 158
+HLE: W PPU[1] Thread (CPUThread)[0x001d3b70]sys_cond warning: *** condition created [] (mutex_id=158): id = 159
+HLE: W PPU[1] Thread (CPUThread)[0x001d3bc0]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 160
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [snd_stream_service_thread] (flags=0x1, entry=0xc49680): id = 161
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 162
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 163
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=163): id = 164
+HLE: W PPU[1] Thread (CPUThread)[0x0006ae48]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 165
+HLE: W PPU[1] Thread (CPUThread)[0x0006aeac]sys_cond warning: *** condition created [] (mutex_id=165): id = 166
+HLE: E PPU[1] Thread (CPUThread)[0x00eeb004]cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+HLE: W PPU[1] Thread (CPUThread)[0x0006b150]sys_cond warning: sys_cond_destroy(cond_id=166)
+HLE: W PPU[1] Thread (CPUThread)[0x0006b164]sys_mutex warning: sys_mutex_destroy(mutex_id=165)
+HLE: ! PPU[1] Thread (CPUThread)[0x0006b164]Mutex(165) was owned by thread -1 (recursive=0)
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 167
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=167): id = 168
+HLE: W PPU[1] Thread (CPUThread)[0x0006ae48]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 169
+HLE: W PPU[1] Thread (CPUThread)[0x0006aeac]sys_cond warning: *** condition created [] (mutex_id=169): id = 170
+HLE: E PPU[1] Thread (CPUThread)[0x00eeb004]cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+HLE: W PPU[1] Thread (CPUThread)[0x0006b150]sys_cond warning: sys_cond_destroy(cond_id=170)
+HLE: W PPU[1] Thread (CPUThread)[0x0006b164]sys_mutex warning: sys_mutex_destroy(mutex_id=169)
+HLE: ! PPU[1] Thread (CPUThread)[0x0006b164]Mutex(169) was owned by thread -1 (recursive=0)
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "/app_home/Data/Textures/cred_S.dds.gz" not found! flags: 0x00000000
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "e:/app_home/Data/Textures/cred_S.dds.gz" not found! flags: 0x00000000
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "e:/app_home/Data/Textures/cred_S.dds.gz" not found! flags: 0x00000000
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "/app_home/Data/Textures/cred_M.dds.gz" not found! flags: 0x00000000
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "e:/app_home/Data/Textures/cred_M.dds.gz" not found! flags: 0x00000000
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "e:/app_home/Data/Textures/cred_M.dds.gz" not found! flags: 0x00000000
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "/app_home/Data/Textures/cred_L.dds.gz" not found! flags: 0x00000000
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "e:/app_home/Data/Textures/cred_L.dds.gz" not found! flags: 0x00000000
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "e:/app_home/Data/Textures/cred_L.dds.gz" not found! flags: 0x00000000
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 171
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=171): id = 172
+HLE: W PPU[1] Thread (CPUThread)[0x0006ae48]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 173
+HLE: W PPU[1] Thread (CPUThread)[0x0006aeac]sys_cond warning: *** condition created [] (mutex_id=173): id = 174
+HLE: E PPU[1] Thread (CPUThread)[0x00eeb004]cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+HLE: W PPU[1] Thread (CPUThread)[0x0006b150]sys_cond warning: sys_cond_destroy(cond_id=174)
+HLE: W PPU[1] Thread (CPUThread)[0x0006b164]sys_mutex warning: sys_mutex_destroy(mutex_id=173)
+HLE: ! PPU[1] Thread (CPUThread)[0x0006b164]Mutex(173) was owned by thread -1 (recursive=0)
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 175
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=175): id = 176
+HLE: W PPU[1] Thread (CPUThread)[0x0006ae48]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 177
+HLE: W PPU[1] Thread (CPUThread)[0x0006aeac]sys_cond warning: *** condition created [] (mutex_id=177): id = 178
+HLE: E PPU[1] Thread (CPUThread)[0x00eeb004]cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+HLE: W PPU[1] Thread (CPUThread)[0x0006b150]sys_cond warning: sys_cond_destroy(cond_id=178)
+HLE: W PPU[1] Thread (CPUThread)[0x0006b164]sys_mutex warning: sys_mutex_destroy(mutex_id=177)
+HLE: ! PPU[1] Thread (CPUThread)[0x0006b164]Mutex(177) was owned by thread -1 (recursive=0)
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "/app_home/Data/Music/C1_L1.mp3" not found! flags: 0x00000000
+HLE: E PPU[1] Thread (CPUThread)[0x000fc3f0]sys_fs error: "/app_home/Data/Resources/first.xml" not found! flags: 0x00000000
+PPU: ! PPU[1] Thread (CPUThread)[0x00ef701c]*** New PPU Thread [sysutil_savedata_sample_auto_load] (flags=0x0, entry=0xc36510): id = 179
+HLE: W PPU[179] Thread (sysutil_savedata_sample_auto_load)[0x00808190]memory warning: sys_memory_container_create(cid_addr=0xec18cc, yield_size=0x400000)
+HLE: W PPU[179] Thread (sysutil_savedata_sample_auto_load)[0x00808190]memory warning: *** memory_container created(addr=0x31a00000): id = 180
+HLE: W PPU[179] Thread (sysutil_savedata_sample_auto_load)[0x00808238]memory warning: sys_memory_container_get_size(mem_info_addr=0xd01d0d80, cid=180)
+HLE: W PPU[179] Thread (sysutil_savedata_sample_auto_load)[0x00808244]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd01d0d80)
+HLE: W PPU[179] Thread (sysutil_savedata_sample_auto_load)[0x00b380a0]cellSysutil warning: cellSaveDataAutoLoad2(version=0, dirName_addr=0xd01d0d88, errDialog=0, setBuf=0xd01d0da8, funcList=0xc36520, funcStat=0xc36610, funcFile=0xb4, container=0, userdata_addr=0x84956190)
+HLE: W PPU[179] Thread (sysutil_savedata_sample_auto_load)[0x00b380a0]cellSaveDataAutoLoad2: Couldn't find save entry (NPEA00021-FLOW-)
+HLE: W PPU[179] Thread (sysutil_savedata_sample_auto_load)[0x008082b8]memory warning: sys_memory_container_get_size(mem_info_addr=0xd01d0d80, cid=180)
+HLE: W PPU[179] Thread (sysutil_savedata_sample_auto_load)[0x008082c4]memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd01d0d80)
+HLE: W PPU[179] Thread (sysutil_savedata_sample_auto_load)[0x008082d0]memory warning: sys_memory_container_destroy(cid=180)
+HLE: W PPU[1] Thread (CPUThread)[0x0006b000]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 181
+HLE: W PPU[1] Thread (CPUThread)[0x0006b068]sys_cond warning: *** condition created [] (mutex_id=181): id = 182
+HLE: W PPU[1] Thread (CPUThread)[0x0006ae48]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 183
+HLE: W PPU[1] Thread (CPUThread)[0x0006aeac]sys_cond warning: *** condition created [] (mutex_id=183): id = 184
+HLE: E PPU[1] Thread (CPUThread)[0x00eeb004]cellNetCtl error: Unimplemented function: cellNetCtlGetInfo
+HLE: W PPU[1] Thread (CPUThread)[0x0006b150]sys_cond warning: sys_cond_destroy(cond_id=184)
+HLE: W PPU[1] Thread (CPUThread)[0x0006b164]sys_mutex warning: sys_mutex_destroy(mutex_id=183)
+HLE: ! PPU[1] Thread (CPUThread)[0x0006b164]Mutex(183) was owned by thread -1 (recursive=0)
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 185
+HLE: W PPU[1] Thread (CPUThread)[0x00ef70ac]sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31979c50)
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 186
+HLE: W PPU[1] Thread (CPUThread)[0x00ef70ac]sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31979c50)
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 187
+HLE: W PPU[1] Thread (CPUThread)[0x00ef70ac]sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31979c50)
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 188
+HLE: W PPU[1] Thread (CPUThread)[0x00ef70ac]sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x31979c50)
+HLE: W PPU[1] Thread (CPUThread)[0x00ef7034]sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 189
+MEM: E PPU[1] Thread (CPUThread)[0x00089ee4]Read32 from null block: [00000028]
+MEM: E PPU[1] Thread (CPUThread)[0x00089ee8]Read32 from null block: [00000000]
+MEM: E PPU[1] Thread (CPUThread)[0x00089eec]Read32 from null block: [00000000]
+MEM: E PPU[1] Thread (CPUThread)[0x00089ef8]Read32 from null block: [00000004]
+PPU: E PPU[1] Thread (CPUThread)[0x00089efc]PPU[1] Thread (CPUThread) branch error: bad address 0x0 #pc: 0x89efc
+RSX: W RSXThreadRSX thread aborted
+HLE: W Audio ThreadAudio thread aborted
+HLE: W VBlank threadCallback::Branch() aborted
+RSX: W VBlank threadVBlank thread aborted
+HLE: W PPU[55] Thread (spu_printf_handler)[0x00092358]sys_event_queue_receive(equeue=54) aborted
+HLE: ! All threads stopped...
+MEM: ! Closing memory...

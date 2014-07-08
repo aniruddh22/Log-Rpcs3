@@ -68,8 +68,6 @@ LDR: W Unimplemented function 'cellSslCertificateLoader' in 'cellSsl' module
 LDR: W Unimplemented function 'Unknown func id: 0xfd0e1cac' in 'cellSysmodule' module
 LDR: W Unimplemented function 'Unknown func id: 0x1a267f98' in 'cellSysmodule' module
 LDR: W Unimplemented function 'cellWebBrowserShutdown' in 'cellSysutil' module
-LDR: W Unimplemented function 'cellMsgDialogProgressBarInc' in 'cellSysutil' module
-LDR: W Unimplemented function 'cellMsgDialogProgressBarSetMsg' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellWebBrowserCreate2' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellWebBrowserConfigSetViewRect2' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellSysconfOpen' in 'cellSysutil' module
@@ -92,7 +90,6 @@ LDR: W Unimplemented function 'cellOskDialogSetSeparateWindowOption' in 'cellSys
 LDR: W Unimplemented function 'cellWebBrowserConfigSetTabCount2' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellWebBrowserInitialize' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellSysconfAbort' in 'cellSysutil' module
-LDR: W Unimplemented function 'cellMsgDialogProgressBarReset' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogAddSupportLanguage' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellWebBrowserConfig2' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogLoadAsync' in 'cellSysutil' module
@@ -1456,7 +1453,7 @@ PPU: ! PPU[1] Thread (CPUThread)[0x001a5df0]v31 = 0x0000000000000000000000000000
 PPU: ! PPU[1] Thread (CPUThread)[0x001a5df0]CR = 0x42000042
 PPU: ! PPU[1] Thread (CPUThread)[0x001a5df0]LR = 0x1ac07c
 PPU: ! PPU[1] Thread (CPUThread)[0x001a5df0]CTR = 0x1ac114
-PPU: ! PPU[1] Thread (CPUThread)[0x001a5df0]XER = 0x0 [CA=68719476736 | OV=140716013518848 | SO=68719476736]
+PPU: ! PPU[1] Thread (CPUThread)[0x001a5df0]XER = 0x0 [CA=266287972352 | OV=140711718551552 | SO=266287972352]
 PPU: ! PPU[1] Thread (CPUThread)[0x001a5df0]FPSCR = 0x4000 [RN=0 | NI=0 | XE=0 | ZE=0 | UE=0 | OE=0 | VE=0 | VXCVI=0 | VXSQRT=0 | VXSOFT=0 | FPRF=4 | FI=0 | FR=0 | VXVC=0 | VXIMZ=0 | VXZDZ=0 | VXIDI=0 | VXISI=0 | VXSNAN=0 | XX=0 | ZX=0 | UX=0 | OX=0 | VX=0 | FEX=0 | FX=0]
 HLE: ! All threads stopped...
 MEM: ! Closing memory...
