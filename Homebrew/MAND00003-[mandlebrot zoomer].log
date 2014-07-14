@@ -1,207 +1,144 @@
-[!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/USRDIR/BOOT.BIN'...
-[!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\..\
-[!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\USRDIR\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/\USRDIR\
-[!]: Initing memory...
-[!]: Memory initialized.
-[W]: Unknown function 0x1f61b3ff in 'cellGcmSys' module
-[E]: TODO: cellGcmDumpGraphicsError
-[W]: Unknown function 0x5f909b17 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc1
-[W]: Unknown function 0x661fe266 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc12
-[W]: Unknown function 0xbb42a9dd in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc13
-[W]: Unknown function 0x8effb7fd in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc2
-[W]: Unknown function 0x1bd633f8 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc3
-[W]: Unknown function 0x688b8ac9 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc38
-[W]: Unknown function 0x7fc034bc in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc4
-[W]: Unknown function 0xc8f3bd09 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetCurrentField
-[W]: Unknown function 0x371674cf in 'cellGcmSys' module
-[E]: TODO: cellGcmGetDisplayBufferByFlipIndex
-[W]: Unknown function 0x63387071 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastFlipTime
-[W]: Unknown function 0x23ae55a3 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastSecondVTime
-[W]: Unknown function 0x21cee035 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetNotifyDataAddress
-[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReport
-[W]: Unknown function 0x9a0159af in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReportDataAddress
-[W]: Unknown function 0xa6b180ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReportDataLocation
-[W]: Unknown function 0x2ad4951b in 'cellGcmSys' module
-[E]: TODO: cellGcmGetTimeStampLocation
-[W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
-[E]: TODO: cellGcmGetVBlankCount
-[W]: Unknown function 0xfce9e764 in 'cellGcmSys' module
-[E]: TODO: cellGcmInitSystemMode
-[W]: Unknown function 0x172c3197 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetDefaultCommandBufferAndSegmentWordSize
-[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetFlipImmediate
-[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
-[E]: TODO: cellGcmSetGraphicsHandler
-[W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetInvalidateTile
-[W]: Unknown function 0x0a862772 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetQueueHandler
-[W]: Unknown function 0xdc494430 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetSecondVHandler
-[W]: Unknown function 0x8bde5ebf in 'cellGcmSys' module
-[E]: TODO: cellGcmSetUserCommand
-[W]: Unknown function 0xffe0160e in 'cellGcmSys' module
-[E]: TODO: cellGcmSetVBlankFrequency
-[W]: Unknown function 0xdf6476bd in 'cellGcmSys' module
-[E]: TODO: cellGcmSetWaitFlipUnsafe
-[W]: Unknown function 0x25b40ab4 in 'cellGcmSys' module
-[E]: TODO: cellGcmSortRemapEaIoAddress
-[W]: Unknown function 0xe44874f3 in 'cellGcmSys' module
-[E]: TODO: cellGcmSysGetLastVBlankTime
-[W]: Unknown function 0x527c6439 in 'cellGcmSys' module
-[E]: TODO: cellGcmTerminate
-[W]: Unknown function 0xcfdf24bb in 'cellSysutil' module
-[E]: TODO: cellVideoOutDebugSetMonitorType
-[W]: Unknown function 0x8e8bc444 in 'cellSysutil' module
-[E]: TODO: cellVideoOutRegisterCallback
-[W]: Unknown function 0x7871bed4 in 'cellSysutil' module
-[E]: TODO: cellVideoOutUnregisterCallback
-[W]: Unknown function 0x55e425c3 in 'cellSysutil' module
-[E]: TODO: cellVideoOutGetConvertCursorColorInfo
-[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogAbort
-[W]: Unknown function 0x20543730 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogClose
-[W]: Unknown function 0xf81eca25 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogOpen
-[W]: Unknown function 0x94862702 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogProgressBarInc
-[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogAbort
-[W]: Unknown function 0x7bc2c8a8 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogProgressBarReset
-[W]: Unknown function 0x9d6af72a in 'cellSysutil' module
-[E]: TODO: cellMsgDialogProgressBarSetMsg
-[W]: Unknown function 0x1d99c3ee in 'cellSysutil' module
-[E]: TODO: cellOskDialogGetInputText
-[W]: Unknown function 0xf3b4b43e in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetInitialInputDevice
-[W]: Unknown function 0x35beade0 in 'cellSysutil' module
-[E]: TODO: cellOskDialogGetSize
-[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
-[E]: TODO: cellOskDialogUnloadAsync
-[W]: Unknown function 0x41f20828 in 'cellSysutil' module
-[E]: TODO: cellOskDialogDisableDimmer
-[W]: Unknown function 0xb53c54fa in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetKeyLayoutOption
-[W]: Unknown function 0xb6d84526 in 'cellSysutil' module
-[E]: TODO: cellOskDialogAbort
-[W]: Unknown function 0xd3790a86 in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetDeviceMask
-[W]: Unknown function 0x53e39df3 in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetSeparateWindowOption
-[W]: Unknown function 0x7f21c918 in 'cellSysutil' module
-[E]: TODO: cellOskDialogAddSupportLanguage
-[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
-[E]: TODO: cellOskDialogLoadAsync
-[W]: Unknown function 0xc427890c in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetInitialKeyLayout
-[W]: Unknown function 0xf0ec3ccc in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetLayoutMode
-[W]: Unknown function 0x068fcbc6 in 'sys_io' module
-[E]: TODO: sys_config_start
-[W]: Unknown function 0x6d367953 in 'sys_io' module
-[E]: TODO: sys_config_stop
-[W]: Unknown function 0x6ae10596 in 'sys_io' module
-[E]: TODO: sys_config_add_service_listener
-[W]: Unknown function 0xf5d9d571 in 'sys_io' module
-[E]: TODO: sys_config_remove_service_listener
-[W]: Unknown function 0x78f058a2 in 'sys_io' module
-[E]: TODO: sys_config_register_service
-[W]: Unknown function 0x5f81900c in 'sys_io' module
-[E]: TODO: sys_config_unregister_service
-[W]: Unknown function 0x20a97ba2 in 'sys_io' module
-[E]: TODO: cellPadLddRegisterController
-[W]: Unknown function 0x3f797dff in 'sys_io' module
-[E]: TODO: cellPadGetRawData
-[W]: Unknown function 0x8b8231e5 in 'sys_io' module
-[E]: TODO: cellPadLddGetPortNo
-[W]: Unknown function 0xbafd6409 in 'sys_io' module
-[E]: TODO: cellPadLddDataInsert
-[W]: Unknown function 0xe442faa8 in 'sys_io' module
-[E]: TODO: cellPadLddUnregisterController
-[W]: Unknown function 0x4cc9b68d in 'sys_io' module
-[E]: TODO: cellPadPeriphGetInfo
-[W]: Unknown function 0x8a00f264 in 'sys_io' module
-[E]: TODO: cellPadPeriphGetData
-[W]: Unknown function 0x3dd4a957 in 'sysPrxForUser' module
-[E]: TODO: sys_ppu_thread_register_atexit
-[W]: Unknown function 0x4a071d98 in 'sysPrxForUser' module
-[E]: TODO: sys_interrupt_thread_disestablish
-[W]: Unknown function 0xac6fc404 in 'sysPrxForUser' module
-[E]: TODO: sys_ppu_thread_unregister_atexit
-[W : PPU[1] Thread (CPUThread)[0x000380dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x000380dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x000321c0]]: cellGcmSys warning: cellGcmInit(context_addr=0xd0010680,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
-[W : PPU[1] Thread (CPUThread)[0x000321c0]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x000321c0]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
-[! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00034010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010718, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x000380dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x000380dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x000380dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x000380dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x000322ec]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x000322a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x000322a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x384000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x00010c48]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
-[W : PPU[1] Thread (CPUThread)[0x0003801c]]: sysPrxForUser warning: sys_spu_elf_get_information(elf_img=0x1000052d, entry_addr=0xd00107c4, nseg_addr=0xd00107c8
-[W : PPU[1] Thread (CPUThread)[0x00038028]]: sysPrxForUser warning: sys_spu_elf_get_segments(elf_img=0x1000052d, segments_addr=0x30100960, nseg=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00038058]]: sysPrxForUser warning: sys_spu_image_import(img=0xd0010800, src=0x1000052d, type=0x0)
-[E : PPU[1] Thread (CPUThread)[0x00038058]]: ELF32: Bad NOTE descsz (62)
-[W : PPU[1] Thread (CPUThread)[0x00010d50]]: sys_spu warning: sys_spu_thread_group_create(id_addr=0xd00107cc, num=6, prio=100, attr_addr=0xd0010810)
-[W : PPU[1] Thread (CPUThread)[0x00010d50]]: sys_spu warning: *** SPU Thread Group created [mygroup] (type=0x0, option.ct=0x0): id=9
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x30100420, group=0x9, spu_num=0, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd00108e8)
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0x94000, ep=0x28, a1=0x30100420, a2=0x0, a3=0x0, a4=0x0): id=10
-[W : PPU[1] Thread (CPUThread)[0x00010e64]]: sys_spu warning: sys_spu_thread_set_spu_cfg(id=10, value=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x30100450, group=0x9, spu_num=1, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd0010908)
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0xd4000, ep=0x28, a1=0x30100450, a2=0x0, a3=0x0, a4=0x0): id=11
-[W : PPU[1] Thread (CPUThread)[0x00010e64]]: sys_spu warning: sys_spu_thread_set_spu_cfg(id=11, value=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x30100480, group=0x9, spu_num=2, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd0010928)
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0x114000, ep=0x28, a1=0x30100480, a2=0x0, a3=0x0, a4=0x0): id=12
-[W : PPU[1] Thread (CPUThread)[0x00010e64]]: sys_spu warning: sys_spu_thread_set_spu_cfg(id=12, value=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x301004b0, group=0x9, spu_num=3, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd0010948)
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0x154000, ep=0x28, a1=0x301004b0, a2=0x0, a3=0x0, a4=0x0): id=13
-[W : PPU[1] Thread (CPUThread)[0x00010e64]]: sys_spu warning: sys_spu_thread_set_spu_cfg(id=13, value=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x301004e0, group=0x9, spu_num=4, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd0010968)
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0x194000, ep=0x28, a1=0x301004e0, a2=0x0, a3=0x0, a4=0x0): id=14
-[W : PPU[1] Thread (CPUThread)[0x00010e64]]: sys_spu warning: sys_spu_thread_set_spu_cfg(id=14, value=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: sys_spu_thread_initialize(thread_addr=0x30100510, group=0x9, spu_num=5, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd0010988)
-[W : PPU[1] Thread (CPUThread)[0x00010e34]]: sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0x1d4000, ep=0x28, a1=0x30100510, a2=0x0, a3=0x0, a4=0x0): id=15
-[W : PPU[1] Thread (CPUThread)[0x00010e64]]: sys_spu warning: sys_spu_thread_set_spu_cfg(id=15, value=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00010ea4]]: sys_spu warning: sys_spu_thread_group_start(id=9)
-[! : RSXThread]: RSX thread exit...
-[!]: Closing memory...
+HLE: ! path: /dev_hdd0/game/
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003//../
+LDR: ! /host_root/ -> 
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003//USRDIR/
+LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\MAND00003//USRDIR/
+LDR: !  
+MEM: ! Initing memory: m_base_addr = 0xbc67880000
+MEM: ! Memory initialized.
+LDR: W Unimplemented function '_cellGcmFunc1' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc12' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc13' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc2' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc3' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc38' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc4' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetDefaultCommandBufferAndSegmentWordSize' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetUserCommand' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetWaitFlipUnsafe' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSysGetLastVBlankTime' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmTerminate' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellVideoOutDebugSetMonitorType' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellVideoOutRegisterCallback' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellVideoOutUnregisterCallback' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellVideoOutGetConvertCursorColorInfo' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellMsgDialogOpen' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellMsgDialogAbort' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogGetInputText' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetInitialInputDevice' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogGetSize' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogUnloadAsync' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogDisableDimmer' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetKeyLayoutOption' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAbort' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetDeviceMask' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetSeparateWindowOption' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAddSupportLanguage' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogLoadAsync' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetInitialKeyLayout' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetLayoutMode' in 'cellSysutil' module
+LDR: W Unimplemented function 'sys_config_start' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_stop' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_add_service_listener' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_remove_service_listener' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_register_service' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_unregister_service' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddRegisterController' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadGetRawData' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddGetPortNo' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddDataInsert' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddUnregisterController' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadPeriphGetInfo' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadPeriphGetData' in 'sys_io' module
+LDR: W Unimplemented function 'sys_ppu_thread_register_atexit' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'sys_interrupt_thread_disestablish' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'sys_ppu_thread_unregister_atexit' in 'sysPrxForUser' module
+HLE: W PPU[1] Thread (CPUThread)[0x000380dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+HLE: W PPU[1] Thread (CPUThread)[0x000380dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+HLE: W PPU[1] Thread (CPUThread)[0x000321c0]cellGcmSys warning: cellGcmInit(context_addr=0xd0010680,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
+HLE: W PPU[1] Thread (CPUThread)[0x000321c0]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W PPU[1] Thread (CPUThread)[0x000321c0]cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W PPU[1] Thread (CPUThread)[0x000321c0]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+RSX: ! RSXThreadRSX thread started
+HLE: W PPU[1] Thread (CPUThread)[0x00034010]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010718, option_addr=0x0, waitForEvent=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x000380dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
+HLE: W PPU[1] Thread (CPUThread)[0x000380dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
+HLE: W PPU[1] Thread (CPUThread)[0x000380dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
+HLE: W PPU[1] Thread (CPUThread)[0x000380dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
+TTY: buffers will be 0x384000 bytes
+HLE: W PPU[1] Thread (CPUThread)[0x000322ec]cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+TTY: screen res: 1280x720 buffers: 0xc0000000 0xc0384000
+HLE: W PPU[1] Thread (CPUThread)[0x00010c48]sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=0)
+TTY: Initializing 6 SPUs... 00000000
+HLE: W PPU[1] Thread (CPUThread)[0x0003801c]sysPrxForUser warning: sys_spu_elf_get_information(elf_img=0x1000052d, entry_addr=0xd00107c4, nseg_addr=0xd00107c8
+TTY: Getting ELF information... 00000000
+TTY: 	Entry Point: 00000000
+TTY: 	Segment Count: 00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00038028]sysPrxForUser warning: sys_spu_elf_get_segments(elf_img=0x1000052d, segments_addr=0x30100960, nseg=0x0)
+TTY: Getting ELF segments... 00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00038058]sysPrxForUser warning: sys_spu_image_import(img=0xd0010800, src=0x1000052d, type=0x0)
+LDR: E PPU[1] Thread (CPUThread)[0x00038058]ELF32: Bad NOTE descsz (62)
+TTY: Loading ELF image... 00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00010d50]sys_spu warning: sys_spu_thread_group_create(id_addr=0xd00107cc, num=6, prio=100, attr_addr=0xd0010810)
+HLE: W PPU[1] Thread (CPUThread)[0x00010d50]sys_spu warning: *** SPU Thread Group created [mygroup] (type=0x0, option.ct=0x0): id=9
+TTY: Creating thread group... 00000000
+TTY: group id = 9
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: sys_spu_thread_initialize(thread_addr=0x30100420, group=0x9, spu_num=0, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd00108e8)
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0x94000, ep=0x28, a1=0x30100420, a2=0x0, a3=0x0, a4=0x0): id=10
+TTY: Creating SPU thread... 00000000
+TTY: thread id = 10
+HLE: W PPU[1] Thread (CPUThread)[0x00010e64]sys_spu warning: sys_spu_thread_set_spu_cfg(id=10, value=0x0)
+TTY: Configuring SPU... 00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: sys_spu_thread_initialize(thread_addr=0x30100450, group=0x9, spu_num=1, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd0010908)
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0xd4000, ep=0x28, a1=0x30100450, a2=0x0, a3=0x0, a4=0x0): id=11
+TTY: Creating SPU thread... 00000000
+TTY: thread id = 11
+HLE: W PPU[1] Thread (CPUThread)[0x00010e64]sys_spu warning: sys_spu_thread_set_spu_cfg(id=11, value=0x0)
+TTY: Configuring SPU... 00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: sys_spu_thread_initialize(thread_addr=0x30100480, group=0x9, spu_num=2, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd0010928)
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0x114000, ep=0x28, a1=0x30100480, a2=0x0, a3=0x0, a4=0x0): id=12
+TTY: Creating SPU thread... 00000000
+TTY: thread id = 12
+HLE: W PPU[1] Thread (CPUThread)[0x00010e64]sys_spu warning: sys_spu_thread_set_spu_cfg(id=12, value=0x0)
+TTY: Configuring SPU... 00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: sys_spu_thread_initialize(thread_addr=0x301004b0, group=0x9, spu_num=3, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd0010948)
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0x154000, ep=0x28, a1=0x301004b0, a2=0x0, a3=0x0, a4=0x0): id=13
+TTY: Creating SPU thread... 00000000
+TTY: thread id = 13
+HLE: W PPU[1] Thread (CPUThread)[0x00010e64]sys_spu warning: sys_spu_thread_set_spu_cfg(id=13, value=0x0)
+TTY: Configuring SPU... 00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: sys_spu_thread_initialize(thread_addr=0x301004e0, group=0x9, spu_num=4, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd0010968)
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0x194000, ep=0x28, a1=0x301004e0, a2=0x0, a3=0x0, a4=0x0): id=14
+TTY: Creating SPU thread... 00000000
+TTY: thread id = 14
+HLE: W PPU[1] Thread (CPUThread)[0x00010e64]sys_spu warning: sys_spu_thread_set_spu_cfg(id=14, value=0x0)
+TTY: Configuring SPU... 00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: sys_spu_thread_initialize(thread_addr=0x30100510, group=0x9, spu_num=5, img_addr=0xd0010800, attr_addr=0xd00107e0, arg_addr=0xd0010988)
+HLE: W PPU[1] Thread (CPUThread)[0x00010e34]sys_spu warning: *** New SPU Thread [mythread] (img_offset=0x54000, ls_offset=0x1d4000, ep=0x28, a1=0x30100510, a2=0x0, a3=0x0, a4=0x0): id=15
+TTY: Creating SPU thread... 00000000
+TTY: thread id = 15
+HLE: W PPU[1] Thread (CPUThread)[0x00010e64]sys_spu warning: sys_spu_thread_set_spu_cfg(id=15, value=0x0)
+TTY: Configuring SPU... 00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00010ea4]sys_spu warning: sys_spu_thread_group_start(id=9)
+TTY: Starting SPU thread group... 00000000
+RSX: W VBlank threadVBlank thread aborted
+SPU: W SPU[15] Thread (mythread)[0x0000092c]SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
+SPU: W SPU[12] Thread (mythread)[0x0000092c]SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
+SPU: W SPU[10] Thread (mythread)[0x0000092c]SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
+RSX: W RSXThreadRSX thread aborted
+SPU: W SPU[14] Thread (mythread)[0x0000092c]SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
+SPU: W SPU[11] Thread (mythread)[0x0000092c]SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
+SPU: W SPU[13] Thread (mythread)[0x0000092c]SPUThread::ReadChannel($SPU_RdSigNotify1) aborted
+HLE: ! All threads stopped...
+MEM: ! Closing memory...

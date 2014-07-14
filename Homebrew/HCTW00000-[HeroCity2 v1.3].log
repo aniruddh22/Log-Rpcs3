@@ -1,126 +1,118 @@
-[!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/USRDIR/BOOT.BIN'...
-[!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\..\
-[!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\USRDIR\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/\USRDIR\
-[!]: Initing memory...
-[!]: Memory initialized.
-[W]: Unknown function 0xd3758645 in 'cellResc' module
-[E]: TODO: cellRescSetVBlankHandler
-[W]: Unknown function 0xe0cef79e in 'cellResc' module
-[E]: TODO: cellRescCreateInterlaceTable
-[W]: Unknown function 0x63387071 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastFlipTime
-[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReport
-[W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetInvalidateTile
-[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
-[E]: TODO: cellGcmSetGraphicsHandler
-[W]: Unknown function 0x3f797dff in 'sys_io' module
-[E]: TODO: cellPadGetRawData
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 12
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 17
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 18
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 19
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 21
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 22
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 23
-[W : PPU[1] Thread (CPUThread)[0x00247010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
-[W : PPU[1] Thread (CPUThread)[0x00247010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
-[W : PPU[1] Thread (CPUThread)[0x00247010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
-[W : PPU[1] Thread (CPUThread)[0x00247010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
-[W : PPU[1] Thread (CPUThread)[0x00247010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-[W : PPU[1] Thread (CPUThread)[0x000571f8]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=3)
-[E : PPU[1] Thread (CPUThread)[0x00225050]]: sys_fs error: "/app_home/fwArgs.txt" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x00247010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
-[W : PPU[1] Thread (CPUThread)[0x00247010]]: cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
-[W : PPU[1] Thread (CPUThread)[0x0009d2a4]]: sys_spu warning: sys_raw_spu_create(id_addr=0x1084fe24, attr_addr=0xd0010a14)
-[W : PPU[1] Thread (CPUThread)[0x0009d3a8]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
-[W : PPU[1] Thread (CPUThread)[0x0009d3a8]]: RawSPUThread[0]: Read32(MFC_CMDStatus)
-[W : PPU[1] Thread (CPUThread)[0x0009d360]]: RawSPUThread[0]: Write32(Prxy_QueryMask, 0x80000000)
-[W : PPU[1] Thread (CPUThread)[0x0009d360]]: RawSPUThread[0]: Write32(Prxy_QueryType, 0x2)
-[W : PPU[1] Thread (CPUThread)[0x0009d360]]: RawSPUThread[0]: Prxy Query Immediate.
-[W : PPU[1] Thread (CPUThread)[0x0009d3a8]]: RawSPUThread[0]: Read32(MFC_QStatus)
-[W : PPU[1] Thread (CPUThread)[0x0009d360]]: RawSPUThread[0]: Write32(SPU_NPC, 0x108)
-[W : PPU[1] Thread (CPUThread)[0x0009d360]]: RawSPUThread[0]: Write32(SPU_NPC, 0x108)
-[W : PPU[1] Thread (CPUThread)[0x0009d360]]: RawSPUThread[0]: Write32(SPU_RunCntl, 0x1)
-[W : RawSPU[24] Thread (CPUThread)[0x00000108]]: Starting RawSPU...
-[W : PPU[1] Thread (CPUThread)[0x0008ffa0]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
-[W : PPU[1] Thread (CPUThread)[0x0008ffa0]]: RawSPUThread[0]: Read32(SPU_Out_MBox)
-[W : PPU[1] Thread (CPUThread)[0x0022e004]]: cellGcmSys warning: cellGcmInit(context_addr=0x10850d0c,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
-[W : PPU[1] Thread (CPUThread)[0x0022e004]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x0022e004]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
-[! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x0022e034]]: cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
-[E : PPU[1] Thread (CPUThread)[0x0022e0b8]]: TODO: cellGcmSetGraphicsHandler
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : PPU[1] Thread (CPUThread)[0x0022e0ac]]: TODO: cellGcmSetInvalidateTile
-[E : RSXThread]: TODO: unknown/illegal method [0x00001fec](0x0)
-[E : RSXThread]: TODO: cellGcmSetTwoSideLightEn(0x0)
-[E : RSXThread]: TODO: cellGcmSetFrequencyDividerOperation(0x0)
-[E : RSXThread]: TODO: cellGcmSetLogicOp(0x1503)
-[E : RSXThread]: TODO: cellGcmSetPolygonOffsetScaleFactor(0x0, 0x0)
-[E : RSXThread]: TODO: cellGcmSetPointSize(0x3f800000)
-[W : PPU[1] Thread (CPUThread)[0x0022e0c4]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=3932160, pitch=5120, comp=7, base=1, bank=0)
-[E : PPU[1] Thread (CPUThread)[0x0022e0c4]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
-[W : PPU[1] Thread (CPUThread)[0x0022e0c4]]: cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=7864320, pitch=5120, comp=7, base=1, bank=0)
-[E : PPU[1] Thread (CPUThread)[0x0022e0c4]]: cellGcmSys error: cellGcmSetTile: bad comp! (7)
-[W : PPU[1] Thread (CPUThread)[0x0022e0c4]]: cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=257163264, size=3932160, pitch=5120, comp=10, base=121, bank=3)
-[E : PPU[1] Thread (CPUThread)[0x0022e0c4]]: cellGcmSys error: cellGcmSetTile: bad comp! (10)
-[W : PPU[1] Thread (CPUThread)[0x0022e0d0]]: cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0xf540000, width=1280, height=768, cullStart=0x1000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
-[W : PPU[1] Thread (CPUThread)[0x0010f694]]: sys_semaphore warning: sys_semaphore_create(sem_addr=0x1085040c, attr_addr=0xd00108f0, initial_count=1, max_count=2)
-[W : PPU[1] Thread (CPUThread)[0x0022e070]]: cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=2321192)
-[W : PPU[1] Thread (CPUThread)[0x00245004]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00107e0, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0022e028]]: cellGcmSys warning: cellGcmSetFlipMode(mode=1)
-[W : PPU[1] Thread (CPUThread)[0x0022e07c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x10000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x0022e07c]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x3d0000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x0009c2d8]]: sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 26
-[W : PPU[1] Thread (CPUThread)[0x00225050]]: *** cellFsOpen(path="/dev_hdd0/game/HCTW00000/USRDIR/worldtexture.tga"): fd = 28
-[W : PPU[1] Thread (CPUThread)[0x00249034]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 29
-[W : PPU[1] Thread (CPUThread)[0x00224f3c]]: sys_fs warning: cellFsClose(fd=28)
-[W : PPU[1] Thread (CPUThread)[0x0024907c]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30159970)
-[! : RSXThread]: RSX thread exit...
+HLE: ! path: /dev_hdd0/game/
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000//../
+LDR: ! /host_root/ -> 
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000//USRDIR/
+LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\HCTW00000//USRDIR/
+LDR: !  
+MEM: ! Initing memory: m_base_addr = 0x4ccb110000
+MEM: ! Memory initialized.
+LDR: W Unimplemented function 'cellPadGetRawData' in 'sys_io' module
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 11
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 12
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 17
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 18
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 19
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 20
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 21
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 22
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 23
+HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NET)
+HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_IO)
+HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_USBD)
+HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+HLE: W PPU[1] Thread (CPUThread)[0x000571f8]sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=3)
+HLE: E PPU[1] Thread (CPUThread)[0x00225050]sys_fs error: "/app_home/fwArgs.txt" not found! flags: 0x00000000
+HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_GCM_SYS)
+HLE: W PPU[1] Thread (CPUThread)[0x00247010]cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
+TTY: OpenGL ES-CM 1.0-debugrsx SCE Wed Aug 29 12:05:34 JST 2007
+HLE: W PPU[1] Thread (CPUThread)[0x0009d2a4]sys_spu warning: sys_raw_spu_create(id_addr=0x1084fe24, attr_addr=0xd0010a14)
+SPU: W PPU[1] Thread (CPUThread)[0x0009d3a8]RawSPUThread[0]: Read32(MFC_CMDStatus)
+SPU: W PPU[1] Thread (CPUThread)[0x0009d3a8]RawSPUThread[0]: Read32(MFC_CMDStatus)
+SPU: W PPU[1] Thread (CPUThread)[0x0009d360]RawSPUThread[0]: Write32(Prxy_QueryMask, 0x80000000)
+SPU: W PPU[1] Thread (CPUThread)[0x0009d360]RawSPUThread[0]: Write32(Prxy_QueryType, 0x2)
+SPU: W PPU[1] Thread (CPUThread)[0x0009d360]RawSPUThread[0]: Prxy Query Immediate.
+SPU: W PPU[1] Thread (CPUThread)[0x0009d3a8]RawSPUThread[0]: Read32(MFC_QStatus)
+SPU: W PPU[1] Thread (CPUThread)[0x0009d360]RawSPUThread[0]: Write32(SPU_NPC, 0x108)
+SPU: W PPU[1] Thread (CPUThread)[0x0009d360]RawSPUThread[0]: Write32(SPU_NPC, 0x108)
+HLE: W PPU[1] Thread (CPUThread)[0x0022e004]cellGcmSys warning: cellGcmInit(context_addr=0x10850d0c,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
+HLE: W PPU[1] Thread (CPUThread)[0x0022e004]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W PPU[1] Thread (CPUThread)[0x0022e004]cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W PPU[1] Thread (CPUThread)[0x0022e004]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+RSX: ! RSXThreadRSX thread started
+HLE: W PPU[1] Thread (CPUThread)[0x0022e034]cellGcmSys warning: cellGcmSetDebugOutputLevel(level=2)
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0b8]cellGcmSys error: Unimplemented function: cellGcmSetGraphicsHandler
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0ac]cellGcmSys error: Unimplemented function: cellGcmSetInvalidateTile
+RSX: W RSXThreadTODO: unknown/illegal method [0x00001fec](0x0)
+RSX: W RSXThreadTODO: cellGcmSetTwoSideLightEn(0x0)
+RSX: W RSXThreadNV406E_SEMAPHORE_ACQUIRE: 1
+HLE: W PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=3932160, pitch=5120, comp=7, base=1, bank=0)
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys error: cellGcmSetTile: bad comp! (7)
+RSX: W RSXThreadNV406E_SEMAPHORE_ACQUIRE: 3
+HLE: W PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys warning: cellGcmSetTile(index=0, location=0, offset=65536, size=7864320, pitch=5120, comp=7, base=1, bank=0)
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys error: cellGcmSetTile: bad comp! (7)
+RSX: W RSXThreadNV406E_SEMAPHORE_ACQUIRE: 5
+HLE: W PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys warning: cellGcmSetTile(index=1, location=0, offset=257163264, size=3932160, pitch=5120, comp=10, base=121, bank=3)
+HLE: E PPU[1] Thread (CPUThread)[0x0022e0c4]cellGcmSys error: cellGcmSetTile: bad comp! (10)
+RSX: W RSXThreadNV406E_SEMAPHORE_ACQUIRE: 7
+HLE: W PPU[1] Thread (CPUThread)[0x0022e0d0]cellGcmSys warning: TODO: cellGcmSetZcull(index=0, offset=0xf540000, width=1280, height=768, cullStart=0x1000, zFormat=0x2, aaFormat=0x0, zCullDir=0x0, zCullFormat=0x1, sFunc=0x201, sRef=0x80, sMask=0xff)
+HLE: W PPU[1] Thread (CPUThread)[0x0010f694]sys_semaphore warning: sys_semaphore_create(sem_addr=0x1085040c, attr_addr=0xd00108f0, initial_count=1, max_count=2)
+HLE: ! PPU[1] Thread (CPUThread)[0x0010f694]*** semaphore created [] (protocol=0x2): id = 25
+HLE: W PPU[1] Thread (CPUThread)[0x0022e070]cellGcmSys warning: cellGcmSetFlipHandler(handler_addr=2321192)
+HLE: W PPU[1] Thread (CPUThread)[0x00245004]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd00107e0, option_addr=0x0, waitForEvent=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0022e028]cellGcmSys warning: cellGcmSetFlipMode(mode=1)
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+RSX: W RSXThreadNV4097_SET_ZCULL_CONTROL0: 10
+RSX: W RSXThreadNV4097_SET_SCULL_CONTROL: ff000007
+RSX: W RSXThreadNV4097_SET_ANTI_ALIASING_CONTROL: ffff0000
+HLE: W PPU[1] Thread (CPUThread)[0x0009c2d8]sys_mutex warning: *** mutex created [] (protocol=0x2, recursive=false): id = 26
+HLE: W PPU[1] Thread (CPUThread)[0x0009c4a8]sys_cond warning: *** condition created [0WÐ„ÿø] (mutex_id=26): id = 27
+TTY: Display resolution: 1280x720 (16:9)
+TTY: Slow texture color format conversion for each texel: format GL_RGBA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+HLE: W PPU[1] Thread (CPUThread)[0x00225050]"/dev_hdd0/game/HCTW00000/USRDIR/worldtexture.tga" opened: fd = 28
+HLE: W PPU[1] Thread (CPUThread)[0x00249034]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 29
+HLE: W PPU[1] Thread (CPUThread)[0x00224f3c]sys_fs warning: cellFsClose(fd=28)
+HLE: W PPU[1] Thread (CPUThread)[0x0024907c]sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x30159970)
+TTY: GL error GL_INVALID_ENUM (0x500)
+TTY: Slow texture color format conversion for each texel: format GL_BGRA -> GL_RGBA, type GL_UNSIGNED_BYTE -> GL_UNSIGNED_INT_8_8_8_8
+RSX: W RSXThreadRSX thread aborted
+RSX: W VBlank threadVBlank thread aborted
+HLE: ! All threads stopped...
+MEM: ! Closing memory...

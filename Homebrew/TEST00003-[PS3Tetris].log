@@ -1,174 +1,82 @@
-[!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/USRDIR/BOOT.BIN'...
-[!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\..\
-[!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/\USRDIR\
-[!]: Initing memory...
-[!]: Memory initialized.
-[W]: Unknown function 0x1f61b3ff in 'cellGcmSys' module
-[E]: TODO: cellGcmDumpGraphicsError
-[W]: Unknown function 0x5f909b17 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc1
-[W]: Unknown function 0x661fe266 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc12
-[W]: Unknown function 0xbb42a9dd in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc13
-[W]: Unknown function 0x8effb7fd in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc2
-[W]: Unknown function 0x1bd633f8 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc3
-[W]: Unknown function 0x688b8ac9 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc38
-[W]: Unknown function 0x7fc034bc in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc4
-[W]: Unknown function 0xc8f3bd09 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetCurrentField
-[W]: Unknown function 0x371674cf in 'cellGcmSys' module
-[E]: TODO: cellGcmGetDisplayBufferByFlipIndex
-[W]: Unknown function 0x63387071 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastFlipTime
-[W]: Unknown function 0x23ae55a3 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastSecondVTime
-[W]: Unknown function 0x21cee035 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetNotifyDataAddress
-[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReport
-[W]: Unknown function 0x9a0159af in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReportDataAddress
-[W]: Unknown function 0xa6b180ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReportDataLocation
-[W]: Unknown function 0x2ad4951b in 'cellGcmSys' module
-[E]: TODO: cellGcmGetTimeStampLocation
-[W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
-[E]: TODO: cellGcmGetVBlankCount
-[W]: Unknown function 0xfce9e764 in 'cellGcmSys' module
-[E]: TODO: cellGcmInitSystemMode
-[W]: Unknown function 0x172c3197 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetDefaultCommandBufferAndSegmentWordSize
-[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetFlipImmediate
-[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
-[E]: TODO: cellGcmSetGraphicsHandler
-[W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetInvalidateTile
-[W]: Unknown function 0x0a862772 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetQueueHandler
-[W]: Unknown function 0xdc494430 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetSecondVHandler
-[W]: Unknown function 0x8bde5ebf in 'cellGcmSys' module
-[E]: TODO: cellGcmSetUserCommand
-[W]: Unknown function 0xffe0160e in 'cellGcmSys' module
-[E]: TODO: cellGcmSetVBlankFrequency
-[W]: Unknown function 0xdf6476bd in 'cellGcmSys' module
-[E]: TODO: cellGcmSetWaitFlipUnsafe
-[W]: Unknown function 0x25b40ab4 in 'cellGcmSys' module
-[E]: TODO: cellGcmSortRemapEaIoAddress
-[W]: Unknown function 0xe44874f3 in 'cellGcmSys' module
-[E]: TODO: cellGcmSysGetLastVBlankTime
-[W]: Unknown function 0x527c6439 in 'cellGcmSys' module
-[E]: TODO: cellGcmTerminate
-[W]: Unknown function 0x068fcbc6 in 'sys_io' module
-[E]: TODO: sys_config_start
-[W]: Unknown function 0x6d367953 in 'sys_io' module
-[E]: TODO: sys_config_stop
-[W]: Unknown function 0x6ae10596 in 'sys_io' module
-[E]: TODO: sys_config_add_service_listener
-[W]: Unknown function 0xf5d9d571 in 'sys_io' module
-[E]: TODO: sys_config_remove_service_listener
-[W]: Unknown function 0x78f058a2 in 'sys_io' module
-[E]: TODO: sys_config_register_service
-[W]: Unknown function 0x5f81900c in 'sys_io' module
-[E]: TODO: sys_config_unregister_service
-[W]: Unknown function 0x20a97ba2 in 'sys_io' module
-[E]: TODO: cellPadLddRegisterController
-[W]: Unknown function 0x3f797dff in 'sys_io' module
-[E]: TODO: cellPadGetRawData
-[W]: Unknown function 0x8b8231e5 in 'sys_io' module
-[E]: TODO: cellPadLddGetPortNo
-[W]: Unknown function 0xbafd6409 in 'sys_io' module
-[E]: TODO: cellPadLddDataInsert
-[W]: Unknown function 0xe442faa8 in 'sys_io' module
-[E]: TODO: cellPadLddUnregisterController
-[W]: Unknown function 0x4cc9b68d in 'sys_io' module
-[E]: TODO: cellPadPeriphGetInfo
-[W]: Unknown function 0x8a00f264 in 'sys_io' module
-[E]: TODO: cellPadPeriphGetData
-[W]: Unknown function 0x2073b7f6 in 'cellAudio' module
-[E]: TODO: cellKbClearBuf
-[W]: Unknown function 0x3dd4a957 in 'sysPrxForUser' module
-[E]: TODO: sys_ppu_thread_register_atexit
-[W]: Unknown function 0x4a071d98 in 'sysPrxForUser' module
-[E]: TODO: sys_interrupt_thread_disestablish
-[W]: Unknown function 0xac6fc404 in 'sysPrxForUser' module
-[E]: TODO: sys_ppu_thread_unregister_atexit
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x00134028]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x15f280, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x001321c0]]: cellGcmSys warning: cellGcmInit(context_addr=0xd0010750,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
-[W : PPU[1] Thread (CPUThread)[0x001321c0]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x001321c0]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
-[! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00134010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x100a4e84, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x001322ec]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x001322a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x001322a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x384000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
-[W : PPU[1] Thread (CPUThread)[0x0012478c]]: *** cellFsOpen(path="/dev_flash/data/font/SCE-PS3-VR-R-LATIN2.TTF"): fd = 11
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 12
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
-[W : PPU[1] Thread (CPUThread)[0x001248f4]]: sys_fs warning: cellFsClose(fd=11)
-[W : PPU[1] Thread (CPUThread)[0x0013a0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
-[E : PPU[1] Thread (CPUThread)[0x0012478c]]: sys_fs error: "8HighScore.txt" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x0013a0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
-[E : PPU[1] Thread (CPUThread)[0x0012478c]]: sys_fs error: "8spu_soundmodule.bin" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x0013a0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
-[W : PPU[1] Thread (CPUThread)[0x000125bc]]: sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=5)
-[W : PPU[1] Thread (CPUThread)[0x000125cc]]: sys_spu warning: sys_raw_spu_create(id_addr=0x10032ad8, attr_addr=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0013a01c]]: sysPrxForUser warning: sys_spu_elf_get_information(elf_img=0x0, entry_addr=0xd00107d0, nseg_addr=0xd00107d4
-[W : PPU[1] Thread (CPUThread)[0x0013a028]]: sysPrxForUser warning: sys_spu_elf_get_segments(elf_img=0x0, segments_addr=0x3010ff80, nseg=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0013a058]]: sysPrxForUser warning: sys_spu_image_import(img=0x100a4e70, src=0x0, type=0x0)
-[W : PPU[1] Thread (CPUThread)[0x0013a040]]: sysPrxForUser warning: sys_raw_spu_image_load(id=0x0, img_addr=0x100a4e70)
-[W : PPU[1] Thread (CPUThread)[0x0013a040]]: RawSPUThread[0]: Write32(SPU_NPC, 0x0)
-[! : PPU[1] Thread (CPUThread)[0x0013a070]]: *** New PPU Thread [Control Thread SPU Sound] (): id = 18
-[W : PPU[1] Thread (CPUThread)[0x00138004]]: cellAudio warning: cellAudioInit()
-[! : Audio Thread]: Audio started
-[W : PPU[1] Thread (CPUThread)[0x0013804c]]: cellAudio warning: cellAudioPortOpen(audioParam_addr=0x100a4d10, portNum_addr=0x100a4d08)
-[W : PPU[1] Thread (CPUThread)[0x0013804c]]: cellAudio warning: *** audio port opened(nChannel=2, nBlock=8, attr=0x1000, level=1.000000): port = 0
-[W : PPU[1] Thread (CPUThread)[0x00138028]]: cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x100a4d30)
-[W : PPU[1] Thread (CPUThread)[0x00138034]]: cellAudio warning: cellAudioPortStart(portNum=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00053e7c]]: RawSPUThread[0]: Write32(SPU_RunCntl, 0x1)
-[W : PPU[1] Thread (CPUThread)[0x00053e80]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x100a4d30)
-[W : PPU[1] Thread (CPUThread)[0x0013a0b8]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 19
-[E : PPU[1] Thread (CPUThread)[0x0012478c]]: sys_fs error: "8TetrisTheme.mp3" not found! flags: 0x00000000
-[W : PPU[1] Thread (CPUThread)[0x0013a0c4]]: sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
-[W : RawSPU[17] Thread (CPUThread)[0x00000000]]: Starting RawSPU...
-[W : PPU[18] Thread (Control Thread SPU Sound)[0x0005380c]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x670)
-[E : RawSPU[17] Thread (CPUThread)[0x00000000]]: SPURecompilerCore::DecodeMemory(): ls_addr = 0
-[W : PPU[18] Thread (Control Thread SPU Sound)[0x00053814]]: RawSPUThread[0]: Write32(SPU_In_MBox, 0x0)
-[! : RSXThread]: RSX thread exit...
-[W : Audio Thread]: Audio aborted
-[!]: Closing memory...
+HLE: ! path: /dev_hdd0/game/
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003//../
+LDR: ! /host_root/ -> 
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003//USRDIR/
+LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\TEST00003//USRDIR/
+LDR: !  
+MEM: ! Initing memory: m_base_addr = 0xe8f2b70000
+MEM: ! Memory initialized.
+LDR: W Unimplemented function '_cellGcmFunc1' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc12' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc13' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc2' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc3' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc38' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc4' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetDefaultCommandBufferAndSegmentWordSize' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetUserCommand' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetWaitFlipUnsafe' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSysGetLastVBlankTime' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmTerminate' in 'cellGcmSys' module
+LDR: W Unimplemented function 'sys_config_start' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_stop' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_add_service_listener' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_remove_service_listener' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_register_service' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_unregister_service' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddRegisterController' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadGetRawData' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddGetPortNo' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddDataInsert' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddUnregisterController' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadPeriphGetInfo' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadPeriphGetData' in 'sys_io' module
+LDR: W Unimplemented function 'cellKbClearBuf' in 'cellAudio' module
+LDR: W Unimplemented function 'sys_ppu_thread_register_atexit' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'sys_interrupt_thread_disestablish' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'sys_ppu_thread_unregister_atexit' in 'sysPrxForUser' module
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+HLE: W PPU[1] Thread (CPUThread)[0x00134028]cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x15f280, userdata=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+HLE: W PPU[1] Thread (CPUThread)[0x001321c0]cellGcmSys warning: cellGcmInit(context_addr=0xd0010750,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
+HLE: W PPU[1] Thread (CPUThread)[0x001321c0]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W PPU[1] Thread (CPUThread)[0x001321c0]cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W PPU[1] Thread (CPUThread)[0x001321c0]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+RSX: ! RSXThreadRSX thread started
+HLE: W PPU[1] Thread (CPUThread)[0x00134010]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x100a4e84, option_addr=0x0, waitForEvent=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x001322ec]cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 10
+HLE: W PPU[1] Thread (CPUThread)[0x0012478c]"/dev_flash/data/font/SCE-PS3-VR-R-LATIN2.TTF" opened: fd = 11
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 12
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 13
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 14
+HLE: W PPU[1] Thread (CPUThread)[0x001248f4]sys_fs warning: cellFsClose(fd=11)
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0c4]sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 15
+HLE: E PPU[1] Thread (CPUThread)[0x0012478c]sys_fs error: "8HighScore.txt" not found! flags: 0x00000000
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0c4]sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 16
+HLE: E PPU[1] Thread (CPUThread)[0x0012478c]sys_fs error: "8spu_soundmodule.bin" not found! flags: 0x00000000
+HLE: W PPU[1] Thread (CPUThread)[0x0013a0c4]sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x3010fc00)
+HLE: W PPU[1] Thread (CPUThread)[0x000125bc]sys_spu warning: sys_spu_initialize(max_usable_spu=6, max_raw_spu=5)
+HLE: W PPU[1] Thread (CPUThread)[0x000125cc]sys_spu warning: sys_raw_spu_create(id_addr=0x10032ad8, attr_addr=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0013a01c]sysPrxForUser warning: sys_spu_elf_get_information(elf_img=0x0, entry_addr=0xd00107d0, nseg_addr=0xd00107d4
+HLE: W PPU[1] Thread (CPUThread)[0x0013a028]sysPrxForUser warning: sys_spu_elf_get_segments(elf_img=0x0, segments_addr=0x3010ff80, nseg=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0013a058]sysPrxForUser warning: sys_spu_image_import(img=0x100a4e70, src=0x0, type=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x0013a040]sysPrxForUser warning: sys_raw_spu_image_load(id=0x0, img_addr=0x100a4e70)

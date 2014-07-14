@@ -1,185 +1,173 @@
-[!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/USRDIR/BOOT.BIN'...
-[!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\..\
-[!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/\USRDIR\
-[!]: Initing memory...
-[!]: Memory initialized.
-[W]: Unknown function 0x1f61b3ff in 'cellGcmSys' module
-[E]: TODO: cellGcmDumpGraphicsError
-[W]: Unknown function 0x5f909b17 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc1
-[W]: Unknown function 0x661fe266 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc12
-[W]: Unknown function 0xbb42a9dd in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc13
-[W]: Unknown function 0x8effb7fd in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc2
-[W]: Unknown function 0x1bd633f8 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc3
-[W]: Unknown function 0x688b8ac9 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc38
-[W]: Unknown function 0x7fc034bc in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc4
-[W]: Unknown function 0xc8f3bd09 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetCurrentField
-[W]: Unknown function 0x371674cf in 'cellGcmSys' module
-[E]: TODO: cellGcmGetDisplayBufferByFlipIndex
-[W]: Unknown function 0x63387071 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastFlipTime
-[W]: Unknown function 0x23ae55a3 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastSecondVTime
-[W]: Unknown function 0x21cee035 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetNotifyDataAddress
-[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReport
-[W]: Unknown function 0x9a0159af in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReportDataAddress
-[W]: Unknown function 0xa6b180ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReportDataLocation
-[W]: Unknown function 0x2ad4951b in 'cellGcmSys' module
-[E]: TODO: cellGcmGetTimeStampLocation
-[W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
-[E]: TODO: cellGcmGetVBlankCount
-[W]: Unknown function 0xfce9e764 in 'cellGcmSys' module
-[E]: TODO: cellGcmInitSystemMode
-[W]: Unknown function 0x172c3197 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetDefaultCommandBufferAndSegmentWordSize
-[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetFlipImmediate
-[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
-[E]: TODO: cellGcmSetGraphicsHandler
-[W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetInvalidateTile
-[W]: Unknown function 0x0a862772 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetQueueHandler
-[W]: Unknown function 0xdc494430 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetSecondVHandler
-[W]: Unknown function 0x8bde5ebf in 'cellGcmSys' module
-[E]: TODO: cellGcmSetUserCommand
-[W]: Unknown function 0xffe0160e in 'cellGcmSys' module
-[E]: TODO: cellGcmSetVBlankFrequency
-[W]: Unknown function 0xdf6476bd in 'cellGcmSys' module
-[E]: TODO: cellGcmSetWaitFlipUnsafe
-[W]: Unknown function 0x25b40ab4 in 'cellGcmSys' module
-[E]: TODO: cellGcmSortRemapEaIoAddress
-[W]: Unknown function 0xe44874f3 in 'cellGcmSys' module
-[E]: TODO: cellGcmSysGetLastVBlankTime
-[W]: Unknown function 0x527c6439 in 'cellGcmSys' module
-[E]: TODO: cellGcmTerminate
-[W]: Unknown function 0xcfdf24bb in 'cellSysutil' module
-[E]: TODO: cellVideoOutDebugSetMonitorType
-[W]: Unknown function 0x8e8bc444 in 'cellSysutil' module
-[E]: TODO: cellVideoOutRegisterCallback
-[W]: Unknown function 0x7871bed4 in 'cellSysutil' module
-[E]: TODO: cellVideoOutUnregisterCallback
-[W]: Unknown function 0x55e425c3 in 'cellSysutil' module
-[E]: TODO: cellVideoOutGetConvertCursorColorInfo
-[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogAbort
-[W]: Unknown function 0x20543730 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogClose
-[W]: Unknown function 0xf81eca25 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogOpen
-[W]: Unknown function 0x94862702 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogProgressBarInc
-[W]: Unknown function 0x62b0f803 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogAbort
-[W]: Unknown function 0x7bc2c8a8 in 'cellSysutil' module
-[E]: TODO: cellMsgDialogProgressBarReset
-[W]: Unknown function 0x9d6af72a in 'cellSysutil' module
-[E]: TODO: cellMsgDialogProgressBarSetMsg
-[W]: Unknown function 0x1d99c3ee in 'cellSysutil' module
-[E]: TODO: cellOskDialogGetInputText
-[W]: Unknown function 0xf3b4b43e in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetInitialInputDevice
-[W]: Unknown function 0x35beade0 in 'cellSysutil' module
-[E]: TODO: cellOskDialogGetSize
-[W]: Unknown function 0x3d1e1931 in 'cellSysutil' module
-[E]: TODO: cellOskDialogUnloadAsync
-[W]: Unknown function 0x41f20828 in 'cellSysutil' module
-[E]: TODO: cellOskDialogDisableDimmer
-[W]: Unknown function 0xb53c54fa in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetKeyLayoutOption
-[W]: Unknown function 0xb6d84526 in 'cellSysutil' module
-[E]: TODO: cellOskDialogAbort
-[W]: Unknown function 0xd3790a86 in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetDeviceMask
-[W]: Unknown function 0x53e39df3 in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetSeparateWindowOption
-[W]: Unknown function 0x7f21c918 in 'cellSysutil' module
-[E]: TODO: cellOskDialogAddSupportLanguage
-[W]: Unknown function 0x7fcfc915 in 'cellSysutil' module
-[E]: TODO: cellOskDialogLoadAsync
-[W]: Unknown function 0xc427890c in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetInitialKeyLayout
-[W]: Unknown function 0xf0ec3ccc in 'cellSysutil' module
-[E]: TODO: cellOskDialogSetLayoutMode
-[W]: Unknown function 0x068fcbc6 in 'sys_io' module
-[E]: TODO: sys_config_start
-[W]: Unknown function 0x6d367953 in 'sys_io' module
-[E]: TODO: sys_config_stop
-[W]: Unknown function 0x6ae10596 in 'sys_io' module
-[E]: TODO: sys_config_add_service_listener
-[W]: Unknown function 0xf5d9d571 in 'sys_io' module
-[E]: TODO: sys_config_remove_service_listener
-[W]: Unknown function 0x78f058a2 in 'sys_io' module
-[E]: TODO: sys_config_register_service
-[W]: Unknown function 0x5f81900c in 'sys_io' module
-[E]: TODO: sys_config_unregister_service
-[W]: Unknown function 0x20a97ba2 in 'sys_io' module
-[E]: TODO: cellPadLddRegisterController
-[W]: Unknown function 0x3f797dff in 'sys_io' module
-[E]: TODO: cellPadGetRawData
-[W]: Unknown function 0x8b8231e5 in 'sys_io' module
-[E]: TODO: cellPadLddGetPortNo
-[W]: Unknown function 0xbafd6409 in 'sys_io' module
-[E]: TODO: cellPadLddDataInsert
-[W]: Unknown function 0xe442faa8 in 'sys_io' module
-[E]: TODO: cellPadLddUnregisterController
-[W]: Unknown function 0x4cc9b68d in 'sys_io' module
-[E]: TODO: cellPadPeriphGetInfo
-[W]: Unknown function 0x8a00f264 in 'sys_io' module
-[E]: TODO: cellPadPeriphGetData
-[W]: Unknown function 0x3dd4a957 in 'sysPrxForUser' module
-[E]: TODO: sys_ppu_thread_register_atexit
-[W]: Unknown function 0x4a071d98 in 'sysPrxForUser' module
-[E]: TODO: sys_interrupt_thread_disestablish
-[W]: Unknown function 0xac6fc404 in 'sysPrxForUser' module
-[E]: TODO: sys_ppu_thread_unregister_atexit
-[W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
-[W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
-[W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
-[W : PPU[1] Thread (CPUThread)[0x000621c0]]: cellGcmSys warning: cellGcmInit(context_addr=0xd0010a90,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
-[W : PPU[1] Thread (CPUThread)[0x000621c0]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x000621c0]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
-[! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00064010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010b20, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
-[W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
-[W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
-[W : PPU[1] Thread (CPUThread)[0x000680dc]]: sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
-[W : PPU[1] Thread (CPUThread)[0x000622ec]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x000622a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x000622a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x384000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x00064088]]: cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x84db0, userdata=0x0)
-[W : PPU[1] Thread (CPUThread)[0x00068004]]: Process warning: sys_process_exit(1)
-[S : PPU[1] Thread (CPUThread)[0x00068004]]: Process finished
-[! : RSXThread]: RSX thread exit...
-[!]: Closing memory...
+HLE: ! path: /dev_hdd0/game/
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON//../
+LDR: ! /host_root/ -> 
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON//USRDIR/
+LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DANCECLON//USRDIR/
+LDR: !  
+MEM: ! Initing memory: m_base_addr = 0x2b0afc0000
+MEM: ! Memory initialized.
+LDR: W Unimplemented function '_cellGcmFunc1' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc12' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc13' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc2' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc3' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc38' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc4' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetDefaultCommandBufferAndSegmentWordSize' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetUserCommand' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetWaitFlipUnsafe' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSysGetLastVBlankTime' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmTerminate' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellVideoOutDebugSetMonitorType' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellVideoOutRegisterCallback' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellVideoOutUnregisterCallback' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellVideoOutGetConvertCursorColorInfo' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellMsgDialogOpen' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellMsgDialogAbort' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogGetInputText' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetInitialInputDevice' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogGetSize' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogUnloadAsync' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogDisableDimmer' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetKeyLayoutOption' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAbort' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetDeviceMask' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetSeparateWindowOption' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogAddSupportLanguage' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogLoadAsync' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetInitialKeyLayout' in 'cellSysutil' module
+LDR: W Unimplemented function 'cellOskDialogSetLayoutMode' in 'cellSysutil' module
+LDR: W Unimplemented function 'sys_config_start' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_stop' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_add_service_listener' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_remove_service_listener' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_register_service' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_unregister_service' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddRegisterController' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadGetRawData' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddGetPortNo' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddDataInsert' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddUnregisterController' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadPeriphGetInfo' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadPeriphGetData' in 'sys_io' module
+LDR: W Unimplemented function 'sys_ppu_thread_register_atexit' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'sys_interrupt_thread_disestablish' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'sys_ppu_thread_unregister_atexit' in 'sysPrxForUser' module
+HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 3
+HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 4
+HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 5
+HLE: W PPU[1] Thread (CPUThread)[0x000621c0]cellGcmSys warning: cellGcmInit(context_addr=0xd0010a90,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
+HLE: W PPU[1] Thread (CPUThread)[0x000621c0]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W PPU[1] Thread (CPUThread)[0x000621c0]cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W PPU[1] Thread (CPUThread)[0x000621c0]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+RSX: ! RSXThreadRSX thread started
+HLE: W PPU[1] Thread (CPUThread)[0x00064010]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010b20, option_addr=0x0, waitForEvent=0x0)
+HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 6
+HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 7
+HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 8
+HLE: W PPU[1] Thread (CPUThread)[0x000680dc]sys_lwmutex warning: *** lwmutex created [] (attribute=0x12): sq_id = 9
+TTY: buffers will be 0x384000 bytes
+HLE: W PPU[1] Thread (CPUThread)[0x000622ec]cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+HLE: W PPU[1] Thread (CPUThread)[0x00064088]cellSysutil warning: cellSysutilRegisterCallback(slot=0, func_addr=0x84db0, userdata=0x0)
+TTY: frag_mem = 0xc0e10000
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadFP not found in buffer!
+RSX: W RSXThreadVP not found in buffer!
+RSX: ! RSXThreadAdd program (0):
+RSX: ! RSXThread*** prog id = 3
+RSX: ! RSXThread*** vp id = 2
+RSX: ! RSXThread*** fp id = 1
+RSX: ! RSXThread*** vp data size = 48
+RSX: ! RSXThread*** fp data size = 32
+RSX: ! RSXThread*** vp shader = 
+#version 330
+
+uniform mat4 scaleOffsetMat = mat4(1.0);
+vec4 dst_reg0 = vec4(0.0f, 0.0f, 0.0f, 1.0f);
+vec4 dst_reg7 = vec4(0.0);
+vec4 dst_reg8 = vec4(0.0);
+layout (location = 0) in vec4 in_pos;
+layout (location = 8) in vec4 in_tc0;
+layout (location = 9) in vec4 in_tc1;
+out vec4 tc0;
+out vec4 tc1;
+
+void func0();
+
+void main()
+{
+	func0();
+	gl_Position = dst_reg0;
+	tc0 = dst_reg7;
+	tc1 = dst_reg8;
+	gl_Position = gl_Position * scaleOffsetMat;
+}
+
+void func0()
+{
+	dst_reg0 = in_pos;
+	dst_reg7 = in_tc0;
+	dst_reg8 = in_tc1;
+}
+
+RSX: ! RSXThread*** fp shader = 
+#version 330
+
+vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
+vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
+uniform sampler2D tex0;
+in vec4 tc0;
+layout (location = 0) out vec4 ocol0;
+
+void main()
+{
+	r0 = texture(tex0, tc0.xy);
+	h0 = r0;
+	ocol0 = h0;
+}
+
+RSX: W RSXThreadNew FBO (1280x720)
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W RSXThreadNV4097_SET_ZMIN_MAX_CONTROL: 110
+RSX: W RSXThreadNV4097_SET_VERTEX_ATTRIB_INPUT_MASK: 309
+RSX: W VBlank threadVBlank thread aborted
+RSX: W RSXThreadRSX thread aborted
+HLE: ! All threads stopped...
+RSX: W GLVertexProgram::Delete(): glDeleteShader(2) avoided
+RSX: W GLShaderProgram::Delete(): glDeleteShader(1) avoided
+MEM: ! Closing memory...

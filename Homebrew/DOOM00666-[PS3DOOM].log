@@ -1,240 +1,184 @@
-[!]: path: /dev_hdd0/game/
-[!]: Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/USRDIR/BOOT.BIN'...
-[!]: Mount info:
-[!]: /dev_hdd0/ -> D:\Emulateurs\Rpcs3\dev_hdd0\
-[!]: /dev_hdd1/ -> D:\Emulateurs\Rpcs3\dev_hdd1\
-[!]: /dev_flash/ -> D:\Emulateurs\Rpcs3\dev_flash\
-[!]: /dev_usb000/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /dev_usb/ -> D:\Emulateurs\Rpcs3\dev_usb000\
-[!]: /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\USRDIR\
-[!]: /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\..\
-[!]: /host_root/ -> 
-[!]: ///resource/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\USRDIR\resource\
-[!]: /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\USRDIR\
-[!]: /app_home/PS3_GAME/USRDIR/media/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\USRDIR\media\
-[!]: /Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\USRDIR\Data\
-[!]: /USRDIR/PS3_GAME/USRDIR/Data/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\USRDIR\Data\
-[!]: /app_home//dev_bdvd/PS3_GAME/USRDIR/data/gos/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\USRDIR\
-[!]: BD/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\USRDIR\
-[!]: //dev_bdvd/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\USRDIR\
-[!]: / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\USRDIR\
-[!]: // -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/\USRDIR\
-[!]: Initing memory...
-[!]: Memory initialized.
-[W]: ElfProgram different load addrs: paddr=0x00090008, vaddr=0x00000000
-[W]: Unknown function 0x068fcbc6 in 'sys_io' module
-[E]: TODO: sys_config_start
-[W]: Unknown function 0x6d367953 in 'sys_io' module
-[E]: TODO: sys_config_stop
-[W]: Unknown function 0x6ae10596 in 'sys_io' module
-[E]: TODO: sys_config_add_service_listener
-[W]: Unknown function 0xf5d9d571 in 'sys_io' module
-[E]: TODO: sys_config_remove_service_listener
-[W]: Unknown function 0x78f058a2 in 'sys_io' module
-[E]: TODO: sys_config_register_service
-[W]: Unknown function 0x5f81900c in 'sys_io' module
-[E]: TODO: sys_config_unregister_service
-[W]: Unknown function 0x20a97ba2 in 'sys_io' module
-[E]: TODO: cellPadLddRegisterController
-[W]: Unknown function 0x3f797dff in 'sys_io' module
-[E]: TODO: cellPadGetRawData
-[W]: Unknown function 0x8b8231e5 in 'sys_io' module
-[E]: TODO: cellPadLddGetPortNo
-[W]: Unknown function 0xbafd6409 in 'sys_io' module
-[E]: TODO: cellPadLddDataInsert
-[W]: Unknown function 0xe442faa8 in 'sys_io' module
-[E]: TODO: cellPadLddUnregisterController
-[W]: Unknown function 0x4cc9b68d in 'sys_io' module
-[E]: TODO: cellPadPeriphGetInfo
-[W]: Unknown function 0x8a00f264 in 'sys_io' module
-[E]: TODO: cellPadPeriphGetData
-[W]: Unknown function 0x1f61b3ff in 'cellGcmSys' module
-[E]: TODO: cellGcmDumpGraphicsError
-[W]: Unknown function 0x5f909b17 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc1
-[W]: Unknown function 0x661fe266 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc12
-[W]: Unknown function 0xbb42a9dd in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc13
-[W]: Unknown function 0x8effb7fd in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc2
-[W]: Unknown function 0x1bd633f8 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc3
-[W]: Unknown function 0x688b8ac9 in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc38
-[W]: Unknown function 0x7fc034bc in 'cellGcmSys' module
-[E]: TODO: _cellGcmFunc4
-[W]: Unknown function 0xc8f3bd09 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetCurrentField
-[W]: Unknown function 0x371674cf in 'cellGcmSys' module
-[E]: TODO: cellGcmGetDisplayBufferByFlipIndex
-[W]: Unknown function 0x63387071 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastFlipTime
-[W]: Unknown function 0x23ae55a3 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetLastSecondVTime
-[W]: Unknown function 0x21cee035 in 'cellGcmSys' module
-[E]: TODO: cellGcmGetNotifyDataAddress
-[W]: Unknown function 0x99d397ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReport
-[W]: Unknown function 0x9a0159af in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReportDataAddress
-[W]: Unknown function 0xa6b180ac in 'cellGcmSys' module
-[E]: TODO: cellGcmGetReportDataLocation
-[W]: Unknown function 0x2ad4951b in 'cellGcmSys' module
-[E]: TODO: cellGcmGetTimeStampLocation
-[W]: Unknown function 0x723bbc7e in 'cellGcmSys' module
-[E]: TODO: cellGcmGetVBlankCount
-[W]: Unknown function 0xfce9e764 in 'cellGcmSys' module
-[E]: TODO: cellGcmInitSystemMode
-[W]: Unknown function 0x172c3197 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetDefaultCommandBufferAndSegmentWordSize
-[W]: Unknown function 0xacee8542 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetFlipImmediate
-[W]: Unknown function 0xd01b570d in 'cellGcmSys' module
-[E]: TODO: cellGcmSetGraphicsHandler
-[W]: Unknown function 0xbd6d60d9 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetInvalidateTile
-[W]: Unknown function 0x0a862772 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetQueueHandler
-[W]: Unknown function 0xdc494430 in 'cellGcmSys' module
-[E]: TODO: cellGcmSetSecondVHandler
-[W]: Unknown function 0x8bde5ebf in 'cellGcmSys' module
-[E]: TODO: cellGcmSetUserCommand
-[W]: Unknown function 0xffe0160e in 'cellGcmSys' module
-[E]: TODO: cellGcmSetVBlankFrequency
-[W]: Unknown function 0xdf6476bd in 'cellGcmSys' module
-[E]: TODO: cellGcmSetWaitFlipUnsafe
-[W]: Unknown function 0x25b40ab4 in 'cellGcmSys' module
-[E]: TODO: cellGcmSortRemapEaIoAddress
-[W]: Unknown function 0xe44874f3 in 'cellGcmSys' module
-[E]: TODO: cellGcmSysGetLastVBlankTime
-[W]: Unknown function 0x527c6439 in 'cellGcmSys' module
-[E]: TODO: cellGcmTerminate
-[W]: Unknown function 0x2073b7f6 in 'cellAudio' module
-[E]: TODO: cellKbClearBuf
-[W]: Unknown function 0x3dd4a957 in 'sysPrxForUser' module
-[E]: TODO: sys_ppu_thread_register_atexit
-[W]: Unknown function 0x4a071d98 in 'sysPrxForUser' module
-[E]: TODO: sys_interrupt_thread_disestablish
-[W]: Unknown function 0xac6fc404 in 'sysPrxForUser' module
-[E]: TODO: sys_ppu_thread_unregister_atexit
-[W : PPU[1] Thread (CPUThread)[0x000761c0]]: cellGcmSys warning: cellGcmInit(context_addr=0xd00109b0,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
-[W : PPU[1] Thread (CPUThread)[0x000761c0]]: cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
-[W : PPU[1] Thread (CPUThread)[0x000761c0]]: cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
-[! : RSXThread]: RSX thread entry
-[W : PPU[1] Thread (CPUThread)[0x00072010]]: cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010a40, option_addr=0x0, waitForEvent=0x0)
-[W : PPU[1] Thread (CPUThread)[0x000762ec]]: cellGcmSys warning: cellGcmSetFlipMode(mode=2)
-[W : PPU[1] Thread (CPUThread)[0x000762a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x0,offset=0x0,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x000762a4]]: cellGcmSys warning: cellGcmSetDisplayBuffer(id=0x1,offset=0x384000,pitch=4,width=1280,height=720)
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/doom.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/doom1.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom1.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom1.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom1.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom1.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom1.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom1.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom1.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_cf/ps3doom/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_cf/ps3doom/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom1.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_sd/ps3doom/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_sd/ps3doom/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom1.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_ms/ps3doom/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_ms/ps3doom/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom1.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/doom2.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/plutonia.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/tnt.wad" not found.
-[W : PPU[1] Thread (CPUThread)[0x0004c150]]: sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/doom1.wad" not found.
-[W : RSXThread]: FP not found in buffer!
-[W : RSXThread]: VP not found in buffer!
-[! : RSXThread]: Add program (0):
-[! : RSXThread]: *** prog id = 3
-[! : RSXThread]: *** vp id = 2
-[! : RSXThread]: *** fp id = 1
-[! : RSXThread]: *** vp data size = 48
-[! : RSXThread]: *** fp data size = 32
-[! : RSXThread]: *** vp shader = 
-#version 330
-
-uniform mat4 scaleOffsetMat = mat4(1.0);
-layout (location = 0) in vec4 in_pos;
-layout (location = 8) in vec4 in_tc0;
-layout (location = 9) in vec4 in_tc1;
-out vec4 tc0;
-out vec4 tc1;
-
-void func0();
-
-void main()
-{
-	gl_Position = vec4(0.0f, 0.0f, 0.0f, 1.0f);
-	func0();
-	gl_Position = gl_Position * scaleOffsetMat;
-}
-
-void func0()
-{
-	gl_Position = in_pos;
-	tc0 = in_tc0;
-	tc1 = in_tc1;
-}
-
-[! : RSXThread]: *** fp shader = 
-#version 330
-
-in vec4 tc0;
-uniform sampler2D tex0;
-vec4 r0 = vec4(0.0, 0.0, 0.0, 0.0);
-vec4 h0 = vec4(0.0, 0.0, 0.0, 0.0);
-layout (location = 0) out vec4 ocol;
-
-void main()
-{
-	r0 = texture(tex0, tc0.xy);
-	h0 = r0;
-	ocol = h0;
-}
-
-[W : RSXThread]: New FBO (1280x720)
-[! : RSXThread]: RSX thread exit...
-[!]: Closing memory...
+HLE: ! path: /dev_hdd0/game/
+LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/USRDIR/BOOT.BIN'...
+LDR: !  
+LDR: ! Mount info:
+LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
+LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
+LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
+LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666/
+LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666//../
+LDR: ! /host_root/ -> 
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666//USRDIR/
+LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666//USRDIR/
+LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\DOOM00666//USRDIR/
+LDR: !  
+MEM: ! Initing memory: m_base_addr = 0x9283f0000
+MEM: ! Memory initialized.
+LDR: W ElfProgram different load addrs: paddr=0x00090008, vaddr=0x00000000
+LDR: W Unimplemented function 'sys_config_start' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_stop' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_add_service_listener' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_remove_service_listener' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_register_service' in 'sys_io' module
+LDR: W Unimplemented function 'sys_config_unregister_service' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddRegisterController' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadGetRawData' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddGetPortNo' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddDataInsert' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadLddUnregisterController' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadPeriphGetInfo' in 'sys_io' module
+LDR: W Unimplemented function 'cellPadPeriphGetData' in 'sys_io' module
+LDR: W Unimplemented function '_cellGcmFunc1' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc12' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc13' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc2' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc3' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc38' in 'cellGcmSys' module
+LDR: W Unimplemented function '_cellGcmFunc4' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetDefaultCommandBufferAndSegmentWordSize' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetUserCommand' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSetWaitFlipUnsafe' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmSysGetLastVBlankTime' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellGcmTerminate' in 'cellGcmSys' module
+LDR: W Unimplemented function 'cellKbClearBuf' in 'cellAudio' module
+LDR: W Unimplemented function 'sys_ppu_thread_register_atexit' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'sys_interrupt_thread_disestablish' in 'sysPrxForUser' module
+LDR: W Unimplemented function 'sys_ppu_thread_unregister_atexit' in 'sysPrxForUser' module
+TTY: I_InitGraphics: Calling init_ps3_screen...
+HLE: W PPU[1] Thread (CPUThread)[0x000761c0]cellGcmSys warning: cellGcmInit(context_addr=0xd00109b0,cmdSize=0x10000,ioSize=0x100000,ioAddress=0x30200000)
+HLE: W PPU[1] Thread (CPUThread)[0x000761c0]cellGcmSys warning: *** local memory(addr=0xc0000000, size=0xf900000)
+HLE: W PPU[1] Thread (CPUThread)[0x000761c0]cellGcmSys warning: cellGcmInit(): 256MB io address space used
+HLE: W PPU[1] Thread (CPUThread)[0x000761c0]cellGcmSys warning: cellGcmMapEaIoAddress(ea=0x30200000, io=0x0, size=0x100000)
+RSX: ! RSXThreadRSX thread started
+HLE: W PPU[1] Thread (CPUThread)[0x00072010]cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0xd0010a48, option_addr=0x0, waitForEvent=0x0)
+TTY: init_ps3_screen: buffers will be 0x384000 bytes
+HLE: W PPU[1] Thread (CPUThread)[0x000762ec]cellGcmSys warning: cellGcmSetFlipMode(mode=2)
+TTY: I_InitGraphics: Done, target resolution is 1280x720.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb000/ps3doom/doom1.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb001/ps3doom/doom1.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb002/ps3doom/doom1.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb003/ps3doom/doom1.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb004/ps3doom/doom1.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb005/ps3doom/doom1.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb006/ps3doom/doom1.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_usb007/ps3doom/doom1.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_cf/ps3doom/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_cf/ps3doom/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_cf/ps3doom/doom1.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_sd/ps3doom/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_sd/ps3doom/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_sd/ps3doom/doom1.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_ms/ps3doom/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_ms/ps3doom/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_ms/ps3doom/doom1.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/doom2.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/plutonia.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/tnt.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/doom.wad" not found.
+HLE: W PPU[1] Thread (CPUThread)[0x0004add8]sys_fs warning: cellFsStat: "/dev_hdd0/game/DOOM00666/USRDIR/doom1.wad" not found.
+TTY:                      DOOM for PLAYSTATION 3 Startup v1.9                     
+TTY: V_Init: allocate screens.TTY: 
+TTY: M_LoadDefaults: Load system defaults.TTY: 
+HLE: E PPU[1] Thread (CPUThread)[0x0004a93c]sys_fs error: "" not found! flags: 0x00000000
+TTY: Z_Init: Init zone memory allocation daemon. TTY: 
+TTY: W_Init: Init WADfiles.TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x0004a93c]"/dev_usb000/ps3doom/doom.wad" opened: fd = 3
+TTY:         adding /dev_usb000/ps3doom/doom.wad
+TTY:         retail version. (The Ultimate DOOM)TTY: 
+TTY: M_Init: Init miscellaneous info.TTY: 
+TTY: R_Init: Init DOOM refresh daemonTTY: 
+TTY: R_InitDataTTY: 
+TTY: InitTexturesTTY: 
+TTY: .TTY: .TTY: .TTY: .TTY: .TTY: InitFlatsTTY: 
+TTY: InitSpritesTTY: 
+TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: .TTY: InitColormapsTTY: 
+TTY: R_InitPointToAngleTTY: 
+TTY: R_InitTablesTTY: 
+TTY: R_SetViewSizeTTY: 
+TTY: R_InitPlanesTTY: 
+TTY: R_InitLightTablesTTY: 
+TTY: R_InitSkyMapTTY: 
+TTY: R_InitTranslationTablesTTY: 
+TTY: 
+TTY: P_Init: Init Playloop state.TTY: 
+TTY: P_InitSwitchListTTY: 
+TTY: P_InitPicAnimsTTY: 
+TTY: R_InitSpritesTTY: 
+TTY: R_InitSpriteDefsTTY: 
+TTY: R_InitSprites completedTTY: 
+TTY: P_Init completed.TTY: 
+TTY: I_Init: Setting up machine state.TTY: 
+HLE: W PPU[1] Thread (CPUThread)[0x00078004]cellAudio warning: cellAudioInit()
+HLE: ! Audio ThreadAudio thread started
+TTY: I_InitSound: audioInit returns 0.
+HLE: W PPU[1] Thread (CPUThread)[0x0007804c]cellAudio warning: cellAudioPortOpen(audioParam_addr=0xd0010960, portNum_addr=0xd0010940)
+HLE: W PPU[1] Thread (CPUThread)[0x0007804c]cellAudio warning: *** audio port opened(nChannel=2, nBlock=8, attr=0x0, level=1.000000): port = 0
+TTY: I_InitSound: audioPortOpen returns 0.
+             Port number is 0.
+HLE: W PPU[1] Thread (CPUThread)[0x00078028]cellAudio warning: cellAudioGetPortConfig(portNum=0x0, portConfig_addr=0x10049288)
+TTY: I_InitSound: audioGetPortConfig returns 0.
+              readIndex     : 0x30016000
+              status        : 1
+              channelCount  : 2
+              numBlocks     : 8
+              portSize      : 16384
+              audioDataStart: 0x32600000
+HLE: W PPU[1] Thread (CPUThread)[0x00078034]cellAudio warning: cellAudioPortStart(portNum=0x0)
+TTY: I_InitSound: audioPortStart returns 0.
+HLE: W PPU[1] Thread (CPUThread)[0x0007a0b8]sys_lwmutex warning: *** lwmutex created [] (attribute=0x22): sq_id = 4
+PPU: ! PPU[1] Thread (CPUThread)[0x0007a070]*** New PPU Thread [PS3DOOM Sound FX mixer] (flags=0x1, entry=0x97238): id = 5
+TTY: I_InitSound: sys_ppu_thread_create returned 0.
+PPU: ! PPU[1] Thread (CPUThread)[0x0007a070]*** New PPU Thread [PS3DOOM 35Hz timer] (flags=0x1, entry=0x972a0): id = 6
+TTY: I_StartupTimer: sys_ppu_thread_create returned 0.
+TTY: D_CheckNetGame: Checking network game status.TTY: 
+TTY: startskill 2  deathmatch: 0  startmap: 1  startepisode: 1
+TTY: player 1 of 1 (1 nodes)
+TTY: S_Init: Setting up sound.TTY: 
+TTY: S_Init: default sfx volume TTY: 15TTY: 
+TTY: HU_Init: Setting up heads up display.TTY: 
+TTY: ST_Init: Init status bar.TTY: 
+RSX: W RSXThreadRSX thread aborted
+HLE: W Audio ThreadAudio thread aborted
+RSX: W VBlank threadVBlank thread aborted
+HLE: ! All threads stopped...
+MEM: ! Closing memory...
