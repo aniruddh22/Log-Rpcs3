@@ -1,44 +1,175 @@
 HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
 LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01424/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
-LDR: ! /dev_hdd0/ -> D:\Emulateurs\Rpcs3/dev_hdd0/
-LDR: ! /dev_hdd1/ -> D:\Emulateurs\Rpcs3/dev_hdd1/
-LDR: ! /dev_flash/ -> D:\Emulateurs\Rpcs3/dev_flash/
-LDR: ! /dev_usb000/ -> D:\Emulateurs\Rpcs3/dev_usb000/
-LDR: ! /dev_usb/ -> D:\Emulateurs\Rpcs3/dev_usb000/
+LDR: ! /dev_hdd0/ -> ./dev_hdd0/
+LDR: ! /dev_hdd1/ -> ./dev_hdd1/
+LDR: ! /dev_flash/ -> ./dev_flash/
+LDR: ! /dev_usb000/ -> ./dev_usb000/
+LDR: ! /dev_usb/ -> ./dev_usb000/
 LDR: ! /app_home/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01424/
 LDR: ! /dev_bdvd/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01424//../
 LDR: ! /host_root/ -> 
-LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01424//USRDIR/
 LDR: ! /app_home/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01424//USRDIR/
-LDR: ! /dev_flash2/ -> D:\Emulateurs\Rpcs3/dev_flash2/
+LDR: ! /dev_flash2/ -> ./dev_flash2/
 LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01424//USRDIR/
+LDR: ! //dev_hdd0/ -> ./dev_hdd0/
+LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEB01424//USRDIR/
 LDR: !  
-MEM: ! Initing memory: m_base_addr = 0x1fea250000
+LDR: ! Title: Lone Survivor
+LDR: ! Serial: NPEB01424
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0x967a20000
 MEM: ! Memory initialized.
+LDR: ! Imported function 'cellPadInit' in 'sys_io' module
+LDR: ! Imported function 'cellPadEnd' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetPortSetting' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetData' in 'sys_io' module
+LDR: ! Imported function 'cellPadGetInfo2' in 'sys_io' module
+LDR: ! Imported function 'cellPadSetActDirect' in 'sys_io' module
+LDR: ! Imported function 'cellFsClose' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpendir' in 'sys_fs' module
+LDR: ! Imported function 'cellFsRead' in 'sys_fs' module
+LDR: ! Imported function 'cellFsOpen' in 'sys_fs' module
+LDR: ! Imported function 'cellFsStat' in 'sys_fs' module
+LDR: ! Imported function 'cellFsGetDirectoryEntries' in 'sys_fs' module
+LDR: ! Imported function 'cellFsLseek' in 'sys_fs' module
+LDR: ! Imported function 'cellFsWrite' in 'sys_fs' module
+LDR: ! Imported function 'cellFsClosedir' in 'sys_fs' module
+LDR: ! Imported function 'cellGcmGetTiledPitchSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmAddressToOffset' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmBindTile' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetTileInfo' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetConfiguration' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmInitBody' in 'cellGcmSys' module
+LDR: ! Imported function '_cellGcmFunc15' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDefaultCommandWordSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetDefaultSegmentWordSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmSetDefaultFifoSize' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGcmGetControlRegister' in 'cellGcmSys' module
+LDR: ! Imported function 'cellGameContentPermit' in 'cellGame' module
+LDR: ! Imported function 'cellGameContentErrorDialog' in 'cellGame' module
+LDR: ! Imported function 'cellGameDataCheck' in 'cellGame' module
+LDR: ! Imported function 'cellGameBootCheck' in 'cellGame' module
+LDR: ! Imported function 'cellSysutilUnregisterCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilCheckCallback' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataFixedLoad2' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataFixedSave2' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogUnloadAsync' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilGetSystemParamInt' in 'cellSysutil' module
+LDR: ! Imported function 'cellMsgDialogOpen2' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogLoadAsync' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataAutoSave2' in 'cellSysutil' module
+LDR: ! Imported function 'cellSysutilRegisterCallback' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogSetKeyLayoutOption' in 'cellSysutil' module
+LDR: ! Imported function 'cellVideoOutGetResolution' in 'cellSysutil' module
 LDR: W Unimplemented function 'cellOskDialogSetLayoutMode' in 'cellSysutil' module
+LDR: ! Imported function 'cellSaveDataAutoLoad2' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutConfigure' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetDeviceInfo' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetSoundAvailability' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetNumberOfDevice' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetConfiguration' in 'cellSysutil' module
+LDR: ! Imported function 'cellAudioOutGetState' in 'cellSysutil' module
+LDR: ! Imported function 'cellNetCtlNetStartDialogLoadAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlNetStartDialogUnloadAsync' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlTerm' in 'cellNetCtl' module
+LDR: ! Imported function 'cellNetCtlInit' in 'cellNetCtl' module
+LDR: ! Imported function 'cellSysmoduleUnloadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleLoadModule' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleInitialize' in 'cellSysmodule' module
+LDR: ! Imported function 'cellSysmoduleFinalize' in 'cellSysmodule' module
+LDR: ! Imported function 'cellRtcGetCurrentClockLocalTime' in 'cellRtc' module
 LDR: W Unimplemented function 'UTF32stoUTF8s' in 'cellL10n' module
-LDR: W Unimplemented function 'sceNpScoreGetRankingByNpId' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpScoreRecordScore' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpScoreDestroyTitleCtx' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpScoreInit' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerUnregisterCallback' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerGetContentRatingFlag' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpScoreCreateTransactionCtx' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpScoreTerm' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpScoreCreateTitleCtx' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpScoreDestroyTransactionCtx' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerRegisterCallback' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpScoreAbortTransaction' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpScoreGetRankingByRange' in 'sceNp' module
-LDR: W Unimplemented function 'sceNpManagerGetNpId' in 'sceNp' module
+LDR: ! Imported function 'cellAudioInit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortClose' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStop' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioGetPortConfig' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortStart' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioQuit' in 'cellAudio' module
+LDR: ! Imported function 'cellAudioPortOpen' in 'cellAudio' module
+LDR: ! Imported function 'cellSpursEventFlagDetachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursInitializeWithAttribute2' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursEventFlagWait' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursDetachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursCreateTaskset' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursEventFlagInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursEventFlagAttachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursAttributeInitialize' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursJoinTaskset' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursShutdownTaskset' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursAttachLv2EventQueue' in 'cellSpurs' module
+LDR: ! Imported function 'cellSpursCreateTask' in 'cellSpurs' module
+LDR: ! Imported function '_cellSpursSendSignal' in 'cellSpurs' module
+LDR: ! Imported function 'sys_lwmutex_lock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_unlock' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_create' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_process_atexitspawn' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_create' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_get_id' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_register_library' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_initialize_tls' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_time_get_system_time' in 'sysPrxForUser' module
+LDR: ! Imported function '_sys_process_at_Exitspawn' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_prx_exitspawn_with_level' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_ppu_thread_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_lwmutex_destroy' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_spu_image_close' in 'sysPrxForUser' module
+LDR: ! Imported function 'sys_process_exit' in 'sysPrxForUser' module
+LDR: ! Imported function 'cellRescGcmSurface2RescSrc' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetWaitFlip' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetDsts' in 'cellResc' module
+LDR: ! Imported function 'cellRescAdjustAspectRatio' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetDisplayMode' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetConvertAndFlip' in 'cellResc' module
+LDR: ! Imported function 'cellRescExit' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetFlipHandler' in 'cellResc' module
+LDR: ! Imported function 'cellRescInit' in 'cellResc' module
+LDR: ! Imported function 'cellRescGetBufferSize' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetSrc' in 'cellResc' module
+LDR: ! Imported function 'cellRescSetBufferAddress' in 'cellResc' module
+LDR: ! Imported function 'cellRescVideoOutResolutionId2RescBufferMode' in 'cellResc' module
+LDR: ! Imported function 'sceNpScoreGetRankingByNpId' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreRecordScore' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreDestroyTitleCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreInit' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerUnregisterCallback' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetContentRatingFlag' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreCreateTransactionCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreTerm' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetStatus' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreCreateTitleCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreDestroyTransactionCtx' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerRegisterCallback' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreAbortTransaction' in 'sceNp' module
+LDR: ! Imported function 'sceNpDrmIsAvailable2' in 'sceNp' module
+LDR: ! Imported function 'sceNpScoreGetRankingByRange' in 'sceNp' module
+LDR: ! Imported function 'sceNpManagerGetNpId' in 'sceNp' module
 LDR: W Unimplemented function 'sceNp2Init' in 'sceNp2' module
 LDR: W Unimplemented function 'sceNp2Term' in 'sceNp2' module
 LDR: W Unknown module 'sceNpTus'
+LDR: ! Imported function 'sceNpTusCreateTransactionCtx' in 'sceNpTus' module
+LDR: ! Imported function 'sceNpTusTerm' in 'sceNpTus' module
+LDR: ! Imported function 'sceNpTusDestroyTitleCtx' in 'sceNpTus' module
+LDR: ! Imported function 'sceNpTusDestroyTransactionCtx' in 'sceNpTus' module
+LDR: ! Imported function 'sceNpTusCreateTitleCtx' in 'sceNpTus' module
+LDR: ! Imported function 'sceNpTusSetData' in 'sceNpTus' module
+LDR: ! Imported function 'sceNpTusGetData' in 'sceNpTus' module
+LDR: ! Imported function 'sceNpTusInit' in 'sceNpTus' module
+LDR: ! Imported function 'sceNpTrophyRegisterContext' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyCreateHandle' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyGetRequiredDiskSpace' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyDestroyContext' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyInit' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyAbortHandle' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyDestroyHandle' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyUnlockTrophy' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyTerm' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyGetTrophyUnlockState' in 'sceNpTrophy' module
+LDR: ! Imported function 'sceNpTrophyCreateContext' in 'sceNpTrophy' module
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 3
 HLE: W {PPU[1] Thread (CPUThread)[0x00139c68]} memory warning: sys_memory_get_user_memory_size(mem_info_addr=0xd0010c04)
 HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: *** lwmutex created [_lc_mtx] (attribute=0x12): sq_id = 4
@@ -80,10 +211,6 @@ HLE: W {PPU[1] Thread (CPUThread)[0x00216040]} cellGcmSys warning: cellGcmMapEaI
 RSX: ! {RSXThread} RSX thread started
 HLE: W {PPU[1] Thread (CPUThread)[0x0021e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_RESC)
 HLE: W {PPU[1] Thread (CPUThread)[0x00300064]} cellResc warning: cellRescInit(initConfig_addr=0xd0010b04)
-HLE: W {PPU[1] Thread (CPUThread)[0x00300064]} cellGcmSys warning: cellGcmGetTiledPitchSize(size=2880)
-HLE: W {PPU[1] Thread (CPUThread)[0x00300064]} cellGcmSys warning: cellGcmGetTiledPitchSize(size=2880)
-HLE: W {PPU[1] Thread (CPUThread)[0x00300064]} cellGcmSys warning: cellGcmGetTiledPitchSize(size=5120)
-HLE: W {PPU[1] Thread (CPUThread)[0x00300064]} cellGcmSys warning: cellGcmGetTiledPitchSize(size=7680)
 HLE: W {PPU[1] Thread (CPUThread)[0x00300034]} cellResc warning: cellRescSetDisplayMode(displayMode=4)
 HLE: W {PPU[1] Thread (CPUThread)[0x00300034]} cellSysutil warning: cellVideoOutConfigure(videoOut=0, config_addr=0x30016000, option_addr=0x0, waitForEvent=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00300034]} cellGcmSys warning: cellGcmSetFlipMode(mode=2)
@@ -99,10 +226,10 @@ HLE: W {PPU[1] Thread (CPUThread)[0x0011e3ec]} sys_mutex warning: *** mutex crea
 HLE: W {PPU[1] Thread (CPUThread)[0x0021e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP)
 HLE: W {PPU[1] Thread (CPUThread)[0x0021e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP2)
 HLE: W {PPU[1] Thread (CPUThread)[0x0021e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_NETCTL)
-HLE: E {PPU[1] Thread (CPUThread)[0x0021c028]} cellNetCtl error: Unimplemented function: cellNetCtlInit
+HLE: E {PPU[1] Thread (CPUThread)[0x0021c028]} cellNetCtl TODO: cellNetCtlInit
 HLE: W {PPU[1] Thread (CPUThread)[0x0021e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_L10N)
 HLE: E {PPU[1] Thread (CPUThread)[0x00304004]} TODO: sceNp2Init
-HLE: E {PPU[1] Thread (CPUThread)[0x00302088]} TODO: sceNpManagerRegisterCallback
+HLE: E {PPU[1] Thread (CPUThread)[0x00302088]} sceNp TODO: sceNpManagerRegisterCallback
 HLE: W {PPU[1] Thread (CPUThread)[0x0021e010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_SYSUTIL_NP_TROPHY)
 HLE: W {PPU[1] Thread (CPUThread)[0x0030807c]} sceNpTrophy warning: sceNpTrophyCreateContext(context_addr=0x291a34, commID_addr=0x1d2bb8, commSign_addr=0x1d2c44, options=0x0)
 HLE: W {PPU[1] Thread (CPUThread)[0x00308010]} sceNpTrophy warning: sceNpTrophyCreateHandle(handle_addr=0xd0010b28)
@@ -110,7 +237,9 @@ HLE: W {PPU[1] Thread (CPUThread)[0x002fe034]} sys_lwmutex warning: *** lwmutex 
 PPU: ! {PPU[1] Thread (CPUThread)[0x002fe01c]} *** New PPU Thread [3e200030] (flags=0x1, entry=0x223ee8): id = 31
 HLE: W {PPU[31] Thread (3e200030)[0x0030801c]} sceNpTrophy warning: sceNpTrophyGetRequiredDiskSpace(context=0, handle=0, reqspace_addr=0x291a38, options=0x0)
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} sceNpTrophy warning: sceNpTrophyRegisterContext(context=0, handle=0, statusCb_addr=0x2235f0, arg_addr=0x0, options=0x1)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROPCONF.SFM')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\ICON0.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\ICON0_02.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\ICON0_04.PNG')
@@ -120,6 +249,7 @@ HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateu
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP003.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP004.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP005.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP006.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP007.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP008.PNG')
@@ -135,6 +265,7 @@ HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateu
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP018.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP019.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP020.PNG')
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP021.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP022.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP023.PNG')
@@ -151,5 +282,9 @@ HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateu
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP034.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP035.PNG')
 HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROP036.PNG')
-HLE: W {PPU[31] Thread (3e200030)[0x00308004]} vfsLocalFile::Create('D:\Emulateurs\Rpcs3\dev_hdd0\home\00000001\trophy\NPWR04948_00\TROPUSR.DAT')
-HLE: W {PPU[1] Thread (CPUThread)[0x0011efa8]} sysPrxForUser warning: sys_ppu_thread_join(thread_id=31, vptr_addr=0xd00107f0)
+RSX: W {RSXThread} TODO: NV4097_SET_WINDOW_OFFSET: x=0, y=0
+G: E {PPU[31] Thread (3e200030)[0x0011f46c]} Exception: Access violation: addr = 0x28 (last_syscall=0x0 (Unknown func id: 0x00000000))
+RSX: W {VBlank thread} VBlank thread aborted
+RSX: W {RSXThread} RSX thread aborted
+HLE: ! All threads stopped...
+MEM: ! Closing memory...

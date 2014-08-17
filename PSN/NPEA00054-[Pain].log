@@ -1,4 +1,6 @@
 HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
 LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
@@ -16,7 +18,10 @@ LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\NPEA00054//USRDIR/
 LDR: !  
-MEM: ! Initing memory: m_base_addr = 0xc8112f0000
+LDR: ! Title: PAIN
+LDR: ! Serial: NPEA00054
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0x6cc5240000
 MEM: ! Memory initialized.
 LDR: ! Function 'cellAANAddData' hooked (addr=0x20b344)
 LDR: ! Function 'cellSurMixerGetAANHandle' hooked (addr=0x20b3a8)
@@ -601,10 +606,10 @@ HLE: W {PPU[1] Thread (CPUThread)[0x01417028]} cellSpurs warning: cellSpursIniti
 TTY: ===MemPool MainMem Info === 225443840 bytes available Before InitGameGraphics (215.00 meg)
 HLE: W {PPU[1] Thread (CPUThread)[0x014030a0]} cellSysutil warning: cellVideoOutGetNumberOfDevice(videoOut=0)
 HLE: W {PPU[1] Thread (CPUThread)[0x01403034]} cellSysutil warning: cellVideoOutGetDeviceInfo(videoOut=0, deviceIndex=0, info_addr=0xd0010930)
-HLE: W {PPU[1] Thread (CPUThread)[0x01403130]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x9014e528)
+HLE: W {PPU[1] Thread (CPUThread)[0x01403130]} cellSysutil warning: cellVideoOutGetResolutionAvailability(videoOut=0, resolutionId=0x81, option_addr=0x0, aspect=0x0, option=0x998fe538)
 HLE: W {PPU[1] Thread (CPUThread)[0x01401010]} cellSysmodule warning: cellSysmoduleLoadModule(CELL_SYSMODULE_AVCONF_EXT)
 HLE: E {PPU[1] Thread (CPUThread)[0x0142d004]} TODO: cellVideoOutGetScreenSize
 HLE: W {PPU[1] Thread (CPUThread)[0x01401004]} cellSysmodule warning: cellSysmoduleUnloadModule(CELL_SYSMODULE_AVCONF_EXT)
-G: E {PPU[1] Thread (CPUThread)[0x00171048]} Exception: Access violation: addr = 0x2c00000
+G: E {PPU[1] Thread (CPUThread)[0x00171048]} Exception: Access violation: addr = 0x2c00000 (last_syscall=0x0 (Unknown func id: 0x00000000))
 HLE: ! All threads stopped...
 MEM: ! Closing memory...

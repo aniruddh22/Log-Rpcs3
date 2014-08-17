@@ -1,4 +1,6 @@
 HLE: ! path: /dev_hdd0/game/
+HLE: W No pause.bin found, Auto Pause will not work.
+HLE: W No pause.bin found, Auto Pause will not work.
 LDR: ! Loading 'D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00875-[3D DOT GAME HEROES]/PS3_GAME/USRDIR/BOOT.BIN'...
 LDR: !  
 LDR: ! Mount info:
@@ -16,7 +18,10 @@ LDR: ! /app_home/Game/PS3_GAME/USRDIR/ -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES
 LDR: ! //dev_hdd0/ -> ./dev_hdd0/
 LDR: ! / -> D:\Emulateurs\Rpcs3\dev_hdd0\game\BLES00875-[3D DOT GAME HEROES]/PS3_GAME//USRDIR/
 LDR: !  
-MEM: ! Initing memory: m_base_addr = 0x6df7bc0000
+LDR: ! Title: 3D DOT GAME HEROES
+LDR: ! Serial: BLES00875
+LDR: !  
+MEM: ! Initializing memory: m_base_addr = 0xe3a21c0000
 MEM: ! Memory initialized.
 LDR: ! Imported function 'cellSysmoduleUnloadModule' in 'cellSysmodule' module
 LDR: ! Imported function 'cellSysmoduleLoadModule' in 'cellSysmodule' module
@@ -151,7 +156,7 @@ LDR: ! Imported function 'cellFsFstat' in 'sys_fs' module
 LDR: ! Imported function 'cellFsClosedir' in 'sys_fs' module
 LDR: ! Imported function 'cellFsRmdir' in 'sys_fs' module
 LDR: ! Imported function 'cellFsUnlink' in 'sys_fs' module
-LDR: W Unimplemented function 'cellFsFsync' in 'sys_fs' module
+LDR: ! Imported function 'cellFsFsync' in 'sys_fs' module
 LDR: ! Imported function 'cellFsSdataOpen' in 'sys_fs' module
 LDR: ! Imported function '_cellSpursLFQueueInitialize' in 'cellSpurs' module
 LDR: ! Imported function 'cellSpursAttributeSetNamePrefix' in 'cellSpurs' module
@@ -351,7 +356,7 @@ HLE: W {PPU[1] Thread (CPUThread)[0x02d230e8]} sys_lwmutex warning: sys_lwmutex_
 HLE: W {PPU[1] Thread (CPUThread)[0x02d230e8]} sys_lwmutex warning: sys_lwmutex_destroy(lwmutex_addr=0x2cf4bb8)
 HLE: W {PPU[1] Thread (CPUThread)[0x02d23118]} Process warning: sys_process_exit(0)
 HLE: S {PPU[1] Thread (CPUThread)[0x02d23118]} Process finished
-RSX: W {RSXThread} RSX thread aborted
 RSX: W {VBlank thread} VBlank thread aborted
+RSX: W {RSXThread} RSX thread aborted
 HLE: ! All threads stopped...
 MEM: ! Closing memory...
